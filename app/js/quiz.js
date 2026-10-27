@@ -627,18 +627,7 @@
           </div>
 
           <!-- Question Stem -->
-          <div class="space-y-2">
-            ${q.passage_ref ? `
-              <div class="flex items-center justify-between gap-2 bg-accent/10 border border-accent/20 px-3 py-1.5 rounded-xl">
-                <span class="text-xs font-mono font-bold text-accent flex items-center gap-1.5">
-                  <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
-                  課文定位：${q.passage_ref}
-                </span>
-                <button class="btn-passage-trigger text-xs font-bold text-accent hover:underline flex items-center gap-1">
-                  查看該段 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-                </button>
-              </div>
-            ` : ''}
+          <div>
             <h3 class="text-base sm:text-lg font-bold text-primary leading-snug">
               ${q.question}
             </h3>
@@ -708,15 +697,9 @@
         });
       });
 
-      // Card Passage Triggers
+      // Card Passage Trigger
       document.getElementById('btn-card-passage')?.addEventListener('click', () => {
         this.openPassage();
-      });
-
-      container.querySelectorAll('.btn-passage-trigger').forEach(btn => {
-        btn.addEventListener('click', () => {
-          this.openPassage();
-        });
       });
 
       document.getElementById('btn-shuffle-quick')?.addEventListener('click', () => {

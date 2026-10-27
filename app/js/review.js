@@ -124,7 +124,6 @@
                   <!-- Question Stem -->
                   <div>
                     <h4 class="text-sm font-bold text-primary leading-snug">${q.question || q.title}</h4>
-                    ${q.passage_ref ? `<span class="text-[11px] text-accent font-mono block mt-0.5">定位：${q.passage_ref}</span>` : ''}
                   </div>
 
                   <!-- Comparison Badges -->
