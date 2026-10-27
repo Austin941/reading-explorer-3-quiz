@@ -1,11 +1,9 @@
 /**
- * Mobile-First Multiple Choice Quiz Engine (手機載體極致優化版)
- * - Thumb-zone Ergonomics (底端大拇指快捷列)
- * - iOS-Style Bottom Sheet for Reading Passage (課文滑動底端抽屜)
- * - Quick Jump Grid Sheet (全題號九宮格跳題抽屜)
- * - Swipe Gestures (左右滑動切換題目)
- * - Mobile Haptic Feedback (震動反饋) & Synthetic Audio
- * - 120 Total Questions with Instant Detailed Chinese Explanations
+ * Dedicated Multiple Choice Quiz Engine (手機載體與極速跳轉重構版)
+ * - Redesigned Question Navigator: Grouped by Unit, Quick Filters, Status Grid
+ * - Root-level Bottom Sheet Architecture (100% reliable positioning)
+ * - Automatic Paragraph Highlighting in Reading Passage
+ * - Ergonomic Single-Hand Thumb Bar & Swipe Gestures
  */
 
 (function (window) {
@@ -16,12 +14,13 @@
   let currentFilterCat = 'all';
   let currentFilterUnit = 'all';
   let isRetestMode = false;
+  let jumpInnerFilter = 'all'; // 'all', 'unanswered', 'wrong', 'grouped'
 
-  // Touch gesture state
+  // Touch gesture tracking
   let touchStartX = 0;
   let touchStartY = 0;
 
-  // Sound synthesis
+  // Sound synthesis via Web Audio API
   let audioCtx = null;
   function playSound(type) {
     if (!window.SOUND_ENABLED) return;
@@ -61,7 +60,7 @@
     } catch (e) {}
   }
 
-  // Haptic feedback for mobile
+  // Haptic feedback
   function vibrate(pattern) {
     if ('vibrate' in navigator) {
       try {
@@ -85,6 +84,7 @@
       this.container = document.getElementById(containerId);
       allQuestions = window.QUIZ_DATA.mcq_questions || [];
       this.applyFilters();
+      this.bindGlobalControls();
       this.render();
       this.setupTouchGestures();
     },
@@ -115,6 +115,7 @@
       currentFilterCat = cat;
       this.applyFilters();
       this.render();
+      this.updateBottomBar();
     },
 
     setUnitFilter(unit) {
@@ -122,6 +123,7 @@
       currentFilterUnit = unit;
       this.applyFilters();
       this.render();
+      this.updateBottomBar();
     },
 
     shuffle() {
@@ -129,6 +131,7 @@
       currentIndex = 0;
       userAnswers = {};
       this.renderCurrentQuestion();
+      this.updateBottomBar();
       vibrate(20);
     },
 
@@ -138,6 +141,93 @@
       currentIndex = 0;
       userAnswers = {};
       this.render();
+      this.updateBottomBar();
+    },
+
+    // Bind Root-Level Bottom Sheets & Global Bottom Bar
+    bindGlobalControls() {
+      const barPrev = document.getElementById('bar-prev');
+      const barNext = document.getElementById('bar-next');
+      const barJump = document.getElementById('bar-open-jump');
+      const barPassage = document.getElementById('bar-open-passage');
+
+      const jumpSheet = document.getElementById('jump-sheet');
+      const jumpOverlay = document.getElementById('jump-overlay');
+      const jumpClose = document.getElementById('sheet-jump-close');
+
+      const passageSheet = document.getElementById('passage-sheet');
+      const passageOverlay = document.getElementById('passage-overlay');
+      const passageClose = document.getElementById('sheet-passage-close');
+
+      // Prev / Next
+      barPrev?.addEventListener('click', () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          this.renderCurrentQuestion();
+          this.updateBottomBar();
+          vibrate(15);
+        }
+      });
+
+      barNext?.addEventListener('click', () => {
+        if (currentIndex < filteredQuestions.length - 1) {
+          currentIndex++;
+          this.renderCurrentQuestion();
+          this.updateBottomBar();
+          vibrate(15);
+        } else {
+          this.showSummaryModal();
+        }
+      });
+
+      // Quick Jump Sheet Triggers
+      const openJump = () => {
+        vibrate(15);
+        this.renderJumpSheetContent();
+        jumpSheet?.classList.add('open');
+        jumpOverlay?.classList.add('open');
+      };
+
+      const closeJump = () => {
+        jumpSheet?.classList.remove('open');
+        jumpOverlay?.classList.remove('open');
+      };
+
+      barJump?.addEventListener('click', openJump);
+      jumpClose?.addEventListener('click', closeJump);
+      jumpOverlay?.addEventListener('click', closeJump);
+
+      // Quick Jump Filter Listeners
+      const filterBtns = ['all', 'unanswered', 'wrong', 'grouped'];
+      filterBtns.forEach(f => {
+        document.getElementById(`jump-filter-${f}`)?.addEventListener('click', (e) => {
+          jumpInnerFilter = f;
+          filterBtns.forEach(other => {
+            const btn = document.getElementById(`jump-filter-${other}`);
+            if (other === f) btn?.classList.add('active');
+            else btn?.classList.remove('active');
+          });
+          vibrate(10);
+          this.renderJumpSheetContent();
+        });
+      });
+
+      // Reading Passage Sheet Triggers
+      const openPassage = () => {
+        vibrate(15);
+        this.renderPassageContent();
+        passageSheet?.classList.add('open');
+        passageOverlay?.classList.add('open');
+      };
+
+      const closePassage = () => {
+        passageSheet?.classList.remove('open');
+        passageOverlay?.classList.remove('open');
+      };
+
+      barPassage?.addEventListener('click', openPassage);
+      passageClose?.addEventListener('click', closePassage);
+      passageOverlay?.addEventListener('click', closePassage);
     },
 
     setupTouchGestures() {
@@ -150,24 +240,22 @@
       }, { passive: true });
 
       el.addEventListener('touchend', (e) => {
-        // If bottom sheets are open, do not trigger swipe
+        // Ignore swipe if sheets are open
         if (document.getElementById('passage-sheet')?.classList.contains('open') ||
             document.getElementById('jump-sheet')?.classList.contains('open')) {
           return;
         }
 
-        const touchEndX = e.changedTouches[0].screenX;
-        const touchEndY = e.changedTouches[0].screenY;
-        const dx = touchEndX - touchStartX;
-        const dy = touchEndY - touchStartY;
+        const dx = e.changedTouches[0].screenX - touchStartX;
+        const dy = e.changedTouches[0].screenY - touchStartY;
 
-        // Check if primarily horizontal swipe
-        if (Math.abs(dx) > 60 && Math.abs(dy) < 50) {
+        if (Math.abs(dx) > 65 && Math.abs(dy) < 55) {
           if (dx < 0) {
             // Swipe Left -> Next
             if (currentIndex < filteredQuestions.length - 1) {
               currentIndex++;
               this.renderCurrentQuestion();
+              this.updateBottomBar();
               vibrate(15);
             }
           } else {
@@ -175,6 +263,7 @@
             if (currentIndex > 0) {
               currentIndex--;
               this.renderCurrentQuestion();
+              this.updateBottomBar();
               vibrate(15);
             }
           }
@@ -182,27 +271,230 @@
       }, { passive: true });
     },
 
+    updateBottomBar() {
+      const barPrev = document.getElementById('bar-prev');
+      const barNext = document.getElementById('bar-next');
+      const barLabel = document.getElementById('bar-index-label');
+      const total = filteredQuestions.length;
+
+      if (barLabel) barLabel.textContent = `${currentIndex + 1} / ${total}`;
+      if (barPrev) barPrev.disabled = currentIndex === 0;
+      if (barNext) {
+        if (currentIndex === total - 1) {
+          barNext.innerHTML = `<i data-lucide="award" class="w-6 h-6"></i>`;
+        } else {
+          barNext.innerHTML = `<i data-lucide="chevron-right" class="w-6 h-6"></i>`;
+        }
+      }
+      if (window.lucide) window.lucide.createIcons();
+    },
+
+    // Redesigned Quick Jump Sheet Content
+    renderJumpSheetContent() {
+      const container = document.getElementById('sheet-jump-content');
+      const countBadge = document.getElementById('jump-sheet-count');
+      const statCorrect = document.getElementById('stat-correct-count');
+      const statWrong = document.getElementById('stat-wrong-count');
+      const statUnanswered = document.getElementById('stat-unanswered-count');
+      const statAccuracy = document.getElementById('stat-accuracy-label');
+      if (!container) return;
+
+      const total = filteredQuestions.length;
+      if (countBadge) countBadge.textContent = `${total} 題`;
+
+      // Calculate Stats
+      let correct = 0;
+      let wrong = 0;
+      let unanswered = 0;
+
+      filteredQuestions.forEach(q => {
+        const uAns = userAnswers[q.id];
+        if (uAns === undefined) unanswered++;
+        else if (uAns === q.answer) correct++;
+        else wrong++;
+      });
+
+      const answeredTotal = correct + wrong;
+      const accRate = answeredTotal > 0 ? Math.round((correct / answeredTotal) * 100) : 0;
+
+      if (statCorrect) statCorrect.textContent = correct;
+      if (statWrong) statWrong.textContent = wrong;
+      if (statUnanswered) statUnanswered.textContent = unanswered;
+      if (statAccuracy) statAccuracy.textContent = `正確率: ${accRate}%`;
+
+      // Filter questions based on jumpInnerFilter
+      let displayQuestions = filteredQuestions.map((q, idx) => ({ ...q, originalIndex: idx }));
+
+      if (jumpInnerFilter === 'unanswered') {
+        displayQuestions = displayQuestions.filter(q => userAnswers[q.id] === undefined);
+      } else if (jumpInnerFilter === 'wrong') {
+        displayQuestions = displayQuestions.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== q.answer);
+      }
+
+      if (displayQuestions.length === 0) {
+        container.innerHTML = `
+          <div class="card p-8 text-center space-y-2">
+            <i data-lucide="check" class="w-8 h-8 mx-auto text-success"></i>
+            <h4 class="font-bold text-sm text-primary">目前無符合條件的題目</h4>
+            <p class="text-xs text-secondary">請點選上方「全部題號」檢視所有題目。</p>
+          </div>
+        `;
+        if (window.lucide) window.lucide.createIcons();
+        return;
+      }
+
+      // Mode: Grouped by Unit
+      if (jumpInnerFilter === 'grouped') {
+        // Group by unitTitle
+        const groups = {};
+        displayQuestions.forEach(q => {
+          const key = q.unitTitle || '其他題目';
+          if (!groups[key]) groups[key] = [];
+          groups[key].push(q);
+        });
+
+        let groupedHtml = '';
+        for (const [title, items] of Object.entries(groups)) {
+          groupedHtml += `
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs font-bold text-primary px-1">
+                <span>📘 ${title}</span>
+                <span class="text-secondary font-mono">${items.length} 題</span>
+              </div>
+              <div class="grid grid-cols-5 sm:grid-cols-6 gap-2">
+                ${items.map(item => this.buildJumpCell(item)).join('')}
+              </div>
+            </div>
+          `;
+        }
+        container.innerHTML = groupedHtml;
+      } else {
+        // Compact Grid Mode
+        container.innerHTML = `
+          <div class="grid grid-cols-5 sm:grid-cols-6 gap-2">
+            ${displayQuestions.map(item => this.buildJumpCell(item)).join('')}
+          </div>
+        `;
+      }
+
+      // Bind cell click to jump immediately
+      container.querySelectorAll('[data-jump-index]').forEach(cell => {
+        cell.addEventListener('click', () => {
+          const targetIdx = parseInt(cell.getAttribute('data-jump-index'), 10);
+          currentIndex = targetIdx;
+
+          // Close sheet
+          document.getElementById('jump-sheet')?.classList.remove('open');
+          document.getElementById('jump-overlay')?.classList.remove('open');
+
+          this.renderCurrentQuestion();
+          this.updateBottomBar();
+          vibrate(20);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+
+      if (window.lucide) window.lucide.createIcons();
+    },
+
+    buildJumpCell(item) {
+      const idx = item.originalIndex;
+      const userAns = userAnswers[item.id];
+      const isCurrent = idx === currentIndex;
+
+      let stateClass = '';
+      let statusIndicator = `<span class="text-[9px] text-tertiary">未答</span>`;
+
+      if (isCurrent) {
+        stateClass = 'active-q';
+        statusIndicator = `<span class="text-[9px] font-bold text-accent">目前</span>`;
+      } else if (userAns !== undefined) {
+        if (userAns === item.answer) {
+          stateClass = 'is-correct';
+          statusIndicator = `<span class="text-[9px] font-bold text-success">✓ 對</span>`;
+        } else {
+          stateClass = 'is-wrong';
+          statusIndicator = `<span class="text-[9px] font-bold text-danger">✗ 錯</span>`;
+        }
+      }
+
+      return `
+        <div data-jump-index="${idx}" class="jump-cell ${stateClass}">
+          <span class="font-bold text-sm font-mono leading-none">${idx + 1}</span>
+          <div class="mt-1">${statusIndicator}</div>
+        </div>
+      `;
+    },
+
+    // Reading Passage Content with Paragraph Highlighting
+    renderPassageContent() {
+      const container = document.getElementById('sheet-passage-body');
+      const titleEl = document.getElementById('sheet-passage-title');
+      if (!container) return;
+
+      const currentQ = filteredQuestions[currentIndex];
+      const targetUnit = currentQ ? window.QUIZ_DATA.units.find(u => u.id === currentQ.unitId) : window.QUIZ_DATA.units[0];
+
+      if (titleEl && targetUnit) titleEl.textContent = `${targetUnit.unit}: ${targetUnit.title}`;
+
+      // Check if current question references a specific paragraph
+      let targetPara = '';
+      if (currentQ?.passage_ref) {
+        const match = currentQ.passage_ref.match(/Paragraph\s+([A-G])/i);
+        if (match) targetPara = match[1].toUpperCase();
+      }
+
+      const parasHtml = targetUnit.passage.map(p => {
+        let text = p.text;
+        targetUnit.red_words.forEach(rw => {
+          const reg = new RegExp(`\\b(${rw.word}|${rw.word}s|${rw.word}ed|${rw.word}ing)\\b`, 'gi');
+          text = text.replace(reg, (match) => {
+            return `<span class="red-word-tag">${match}</span>`;
+          });
+        });
+
+        const isRef = p.para.toUpperCase() === targetPara;
+
+        return `
+          <div id="para-${p.para}" class="space-y-1.5 ${isRef ? 'highlight-para' : ''}">
+            <div class="flex items-center gap-2">
+              <span class="font-mono text-xs font-bold text-accent px-1.5 py-0.5 rounded bg-accent-light">[Paragraph ${p.para}]</span>
+              ${isRef ? '<span class="badge badge-amber text-[10px]">📍 本題出處段落</span>' : ''}
+            </div>
+            <p class="text-sm text-secondary leading-relaxed">${text}</p>
+          </div>
+        `;
+      }).join('');
+
+      container.innerHTML = parasHtml;
+
+      // Auto-scroll to highlighted paragraph
+      if (targetPara) {
+        setTimeout(() => {
+          const paraEl = document.getElementById(`para-${targetPara}`);
+          if (paraEl) paraEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 150);
+      }
+    },
+
     render() {
       if (!this.container) return;
 
-      const currentQ = filteredQuestions[currentIndex];
-      const unitObj = currentQ ? window.QUIZ_DATA.units.find(u => u.id === currentQ.unitId) : null;
-
       this.container.innerHTML = `
-        <div class="space-y-4 pb-28">
+        <div class="space-y-4">
           <!-- Mobile Horizontal Scrollable Category Pills -->
           <div class="scroll-pills -mx-2 px-2">
             <button data-cat="all" class="pill-btn ${currentFilterCat === 'all' && !isRetestMode ? 'active' : ''}">
-              🌟 全部 (${allQuestions.length})
+              🌟 全部題目 (${allQuestions.length})
             </button>
             <button data-cat="reading" class="pill-btn ${currentFilterCat === 'reading' ? 'active' : ''}">
-              📖 課文閱讀 (39)
+              📖 課文閱讀理解 (39)
             </button>
             <button data-cat="vocab_red" class="pill-btn ${currentFilterCat === 'vocab_red' ? 'active' : ''}">
-              ⚡ 紅色單字 (40)
+              ⚡ 紅色核心單字 (40)
             </button>
             <button data-cat="vocab_book" class="pill-btn ${currentFilterCat === 'vocab_book' ? 'active' : ''}">
-              📝 課本練習 (41)
+              📝 課本練習題 (41)
             </button>
           </div>
 
@@ -231,77 +523,19 @@
             </button>
           </div>
 
-          <!-- Retest Mode Indicator if active -->
+          <!-- Retest Notice -->
           ${isRetestMode ? `
             <div class="card p-3 bg-danger-bg border border-danger/30 flex items-center justify-between text-xs text-danger font-bold">
               <span class="flex items-center gap-1.5">
                 <i data-lucide="zap" class="w-4 h-4"></i>
-                錯題集中消滅模式 (${filteredQuestions.length} 題)
+                錯題消滅模式 (${filteredQuestions.length} 題)
               </span>
-              <button id="btn-exit-retest" class="text-xs text-primary underline">返回全部</button>
+              <button id="btn-exit-retest" class="text-xs text-primary underline">退出重測</button>
             </div>
           ` : ''}
 
-          <!-- Main Question Area -->
+          <!-- Question View Card Container -->
           <div id="mcq-card-container"></div>
-        </div>
-
-        <!-- Ergonomic Fixed Bottom Action Bar (大拇指底部操作列) -->
-        <div class="bottom-bar glass-bottom border-t border-subtle px-4 py-2.5 flex items-center justify-between gap-2 max-w-lg mx-auto sm:max-w-xl md:max-w-2xl">
-          <button id="bar-prev" class="btn btn-ghost p-2 rounded-full w-11 h-11 shrink-0" ${currentIndex === 0 ? 'disabled' : ''}>
-            <i data-lucide="chevron-left" class="w-6 h-6"></i>
-          </button>
-
-          <!-- Middle Thumb Actions: Quick Jump & Reading Passage -->
-          <div class="flex items-center gap-2">
-            <button id="bar-open-jump" class="btn btn-secondary px-3 py-1.5 text-xs font-mono font-bold">
-              <i data-lucide="grid" class="w-3.5 h-3.5"></i>
-              <span id="bar-index-label">${currentIndex + 1} / ${filteredQuestions.length}</span>
-            </button>
-
-            <button id="bar-open-passage" class="btn btn-ghost border border-subtle px-3 py-1.5 text-xs font-bold text-primary">
-              <i data-lucide="book-open" class="w-3.5 h-3.5 text-accent"></i>
-              對照課文
-            </button>
-          </div>
-
-          <button id="bar-next" class="btn btn-primary p-2 rounded-full w-11 h-11 shrink-0">
-            <i data-lucide="chevron-right" class="w-6 h-6"></i>
-          </button>
-        </div>
-
-        <!-- iOS Bottom Sheet: Reading Passage (課文底端抽屜) -->
-        <div id="passage-overlay" class="sheet-overlay"></div>
-        <div id="passage-sheet" class="bottom-sheet">
-          <div class="sheet-drag-handle"></div>
-          <div class="px-5 py-3 border-b border-subtle flex items-center justify-between shrink-0">
-            <div>
-              <span class="badge badge-blue text-[10px] mb-0.5">課文對照</span>
-              <h4 id="sheet-passage-title" class="font-bold text-sm text-primary">
-                ${unitObj ? `${unitObj.unit}: ${unitObj.title}` : '課文原文'}
-              </h4>
-            </div>
-            <button id="sheet-passage-close" class="btn btn-ghost p-1.5 rounded-full text-secondary">
-              <i data-lucide="x" class="w-5 h-5"></i>
-            </button>
-          </div>
-          <div id="sheet-passage-body" class="p-5 overflow-y-auto space-y-4 text-sm leading-relaxed text-primary"></div>
-        </div>
-
-        <!-- iOS Bottom Sheet: Quick Jump Grid (題號導航抽屜) -->
-        <div id="jump-overlay" class="sheet-overlay"></div>
-        <div id="jump-sheet" class="bottom-sheet">
-          <div class="sheet-drag-handle"></div>
-          <div class="px-5 py-3 border-b border-subtle flex items-center justify-between shrink-0">
-            <div class="flex items-center gap-2">
-              <h4 class="font-bold text-base text-primary">題目快速跳轉</h4>
-              <span class="text-xs text-secondary font-mono">共 ${filteredQuestions.length} 題</span>
-            </div>
-            <button id="sheet-jump-close" class="btn btn-ghost p-1.5 rounded-full text-secondary">
-              <i data-lucide="x" class="w-5 h-5"></i>
-            </button>
-          </div>
-          <div id="sheet-jump-grid" class="p-5 overflow-y-auto grid grid-cols-5 sm:grid-cols-6 gap-2.5 max-h-[60vh]"></div>
         </div>
       `;
 
@@ -320,137 +554,20 @@
         });
       });
 
-      // Bottom Bar Navigation Listeners
-      document.getElementById('bar-prev')?.addEventListener('click', () => {
-        if (currentIndex > 0) {
-          currentIndex--;
-          this.renderCurrentQuestion();
-          vibrate(15);
-        }
-      });
-
-      document.getElementById('bar-next')?.addEventListener('click', () => {
-        if (currentIndex < filteredQuestions.length - 1) {
-          currentIndex++;
-          this.renderCurrentQuestion();
-          vibrate(15);
-        } else {
-          this.showSummaryModal();
-        }
-      });
-
-      // Bottom Sheet Triggers
-      const passageSheet = document.getElementById('passage-sheet');
-      const passageOverlay = document.getElementById('passage-overlay');
-      const jumpSheet = document.getElementById('jump-sheet');
-      const jumpOverlay = document.getElementById('jump-overlay');
-
-      const openPassage = () => {
-        vibrate(15);
-        this.renderPassageContent(unitObj);
-        passageSheet?.classList.add('open');
-        passageOverlay?.classList.add('open');
-      };
-
-      const closePassage = () => {
-        passageSheet?.classList.remove('open');
-        passageOverlay?.classList.remove('open');
-      };
-
-      const openJump = () => {
-        vibrate(15);
-        this.renderJumpGrid();
-        jumpSheet?.classList.add('open');
-        jumpOverlay?.classList.add('open');
-      };
-
-      const closeJump = () => {
-        jumpSheet?.classList.remove('open');
-        jumpOverlay?.classList.remove('open');
-      };
-
-      document.getElementById('bar-open-passage')?.addEventListener('click', openPassage);
-      document.getElementById('sheet-passage-close')?.addEventListener('click', closePassage);
-      passageOverlay?.addEventListener('click', closePassage);
-
-      document.getElementById('bar-open-jump')?.addEventListener('click', openJump);
-      document.getElementById('sheet-jump-close')?.addEventListener('click', closeJump);
-      jumpOverlay?.addEventListener('click', closeJump);
-
       document.getElementById('btn-exit-retest')?.addEventListener('click', () => {
         isRetestMode = false;
         this.applyFilters();
         this.render();
+        this.updateBottomBar();
       });
 
       this.renderCurrentQuestion();
+      this.updateBottomBar();
       if (window.lucide) window.lucide.createIcons();
-    },
-
-    renderPassageContent(unitObj) {
-      const container = document.getElementById('sheet-passage-body');
-      if (!container) return;
-
-      const targetUnit = unitObj || window.QUIZ_DATA.units[0];
-      const titleEl = document.getElementById('sheet-passage-title');
-      if (titleEl) titleEl.textContent = `${targetUnit.unit}: ${targetUnit.title}`;
-
-      const parasHtml = targetUnit.passage.map(p => {
-        let text = p.text;
-        targetUnit.red_words.forEach(rw => {
-          const reg = new RegExp(`\\b(${rw.word}|${rw.word}s|${rw.word}ed|${rw.word}ing)\\b`, 'gi');
-          text = text.replace(reg, (match) => {
-            return `<span class="red-word-tag">${match}</span>`;
-          });
-        });
-        return `
-          <div class="space-y-1">
-            <span class="font-mono text-xs font-bold text-accent px-1.5 py-0.5 rounded bg-accent-light">[Paragraph ${p.para}]</span>
-            <p class="text-sm text-secondary leading-relaxed">${text}</p>
-          </div>
-        `;
-      }).join('');
-
-      container.innerHTML = parasHtml;
-    },
-
-    renderJumpGrid() {
-      const grid = document.getElementById('sheet-jump-grid');
-      if (!grid) return;
-
-      grid.innerHTML = filteredQuestions.map((item, idx) => {
-        const userAns = userAnswers[item.id];
-        let stateClass = 'bg-elevated border-subtle text-secondary';
-        if (idx === currentIndex) {
-          stateClass = 'ring-2 ring-accent font-bold text-accent bg-accent-light';
-        } else if (userAns !== undefined) {
-          stateClass = userAns === item.answer 
-            ? 'bg-success-bg border-success text-success font-bold' 
-            : 'bg-danger-bg border-danger text-danger font-bold';
-        }
-
-        return `
-          <button data-jump="${idx}" class="p-3 rounded-xl border flex flex-col items-center justify-center text-xs ${stateClass} transition-all active:scale-95">
-            <span class="font-bold text-sm">${idx + 1}</span>
-            <span class="text-[10px] font-mono opacity-80">${item.category === 'vocab_red' ? '單字' : '閱讀'}</span>
-          </button>
-        `;
-      }).join('');
-
-      grid.querySelectorAll('[data-jump]').forEach(btn => {
-        btn.addEventListener('click', () => {
-          currentIndex = parseInt(btn.getAttribute('data-jump'), 10);
-          document.getElementById('jump-sheet')?.classList.remove('open');
-          document.getElementById('jump-overlay')?.classList.remove('open');
-          this.renderCurrentQuestion();
-          vibrate(15);
-        });
-      });
     },
 
     renderCurrentQuestion() {
       const container = document.getElementById('mcq-card-container');
-      const indexLabel = document.getElementById('bar-index-label');
       if (!container) return;
 
       if (filteredQuestions.length === 0) {
@@ -471,23 +588,24 @@
       const isAnswered = selectedKey !== undefined;
       const isCorrect = selectedKey === q.answer;
 
-      if (indexLabel) indexLabel.textContent = `${currentIndex + 1} / ${total}`;
-
       let catBadgeClass = 'badge-blue';
       if (q.category === 'vocab_red') catBadgeClass = 'badge-red';
       else if (q.category === 'vocab_book') catBadgeClass = 'badge-amber';
 
       container.innerHTML = `
-        <div class="card p-5 sm:p-7 space-y-5 shadow-sm border border-subtle">
-          <!-- Card Header -->
+        <div class="card p-5 sm:p-7 space-y-5 shadow-sm border border-subtle animate-fade-in">
+          <!-- Card Top Bar -->
           <div class="flex items-center justify-between text-xs font-bold text-secondary">
             <div class="flex items-center gap-1.5 flex-wrap">
               <span class="badge ${catBadgeClass}">${q.category_zh}</span>
               <span class="badge badge-blue font-mono">${q.unitTitle.split(':')[0]}</span>
             </div>
-            <button id="btn-shuffle-quick" class="btn btn-ghost p-1.5 text-secondary" title="隨機洗牌">
-              <i data-lucide="shuffle" class="w-4 h-4"></i>
-            </button>
+            
+            <div class="flex items-center gap-1">
+              <button id="btn-shuffle-quick" class="btn btn-ghost p-1.5 text-secondary" title="隨機洗牌題目">
+                <i data-lucide="shuffle" class="w-4 h-4"></i>
+              </button>
+            </div>
           </div>
 
           <!-- Progress Bar -->
@@ -503,7 +621,7 @@
             </h3>
           </div>
 
-          <!-- Touch Options (Tactile, min-height 54px for thumb tapping) -->
+          <!-- 4-Choice Options -->
           <div class="space-y-2.5 pt-1">
             ${q.options.map(opt => {
               let stateClass = '';
@@ -520,19 +638,19 @@
                   <span class="w-7 h-7 rounded-full border border-current flex items-center justify-center text-xs font-bold shrink-0">
                     ${opt.key.toUpperCase()}
                   </span>
-                  <span class="flex-1 text-sm sm:text-base">${opt.text}</span>
+                  <span class="flex-1 text-sm sm:text-base leading-snug">${opt.text}</span>
                 </button>
               `;
             }).join('')}
           </div>
 
-          <!-- Instant Feedback & Chinese Explanation -->
+          <!-- Instant Detailed Explanation -->
           ${isAnswered ? `
             <div class="p-4 rounded-xl ${isCorrect ? 'bg-success-bg border-success/30' : 'bg-danger-bg border-danger/30'} border space-y-2.5 animate-fade-in">
               <div class="flex items-center justify-between">
                 <div class="flex items-center gap-1.5">
                   <span class="badge ${isCorrect ? 'badge-green' : 'badge-red'} font-bold">
-                    ${isCorrect ? '✓ 正確' : '✗ 錯誤'}
+                    ${isCorrect ? '✓ 作答正確！' : '✗ 答錯了'}
                   </span>
                   <span class="text-xs font-mono font-bold text-primary">正解：(${q.answer.toUpperCase()})</span>
                 </div>
@@ -543,8 +661,8 @@
                 </button>
               </div>
 
-              <div class="text-xs text-primary leading-relaxed whitespace-pre-line bg-elevated/70 p-3 rounded-lg border border-subtle">
-                <strong class="text-accent block mb-0.5">💡 詳解剖析：</strong>
+              <div class="text-xs text-primary leading-relaxed whitespace-pre-line bg-elevated/80 p-3 rounded-lg border border-subtle">
+                <strong class="text-accent block mb-0.5">💡 繁體中文詳解剖析：</strong>
                 ${q.explanation || '本題考查課文重點或單字之精確定義。'}
               </div>
 
@@ -575,18 +693,6 @@
         pronounce(q.question);
       });
 
-      // Update bottom bar prev/next state
-      const barPrev = document.getElementById('bar-prev');
-      const barNext = document.getElementById('bar-next');
-      if (barPrev) barPrev.disabled = currentIndex === 0;
-      if (barNext) {
-        if (currentIndex === total - 1) {
-          barNext.innerHTML = `<i data-lucide="award" class="w-6 h-6"></i>`;
-        } else {
-          barNext.innerHTML = `<i data-lucide="chevron-right" class="w-6 h-6"></i>`;
-        }
-      }
-
       if (window.lucide) window.lucide.createIcons();
     },
 
@@ -611,6 +717,7 @@
       }
 
       this.renderCurrentQuestion();
+      this.updateBottomBar();
     },
 
     showSummaryModal() {
@@ -636,7 +743,7 @@
           </div>
 
           <div>
-            <h3 class="text-xl font-bold text-primary">🎉 刷題完成！成績結算</h3>
+            <h3 class="text-xl font-bold text-primary">🎉 刷題完成！成績結算報告</h3>
             <p class="text-xs text-secondary mt-1">
               總題數：${total} 題 · 答對：<span class="text-success font-bold">${correct} 題</span> · 答錯：<span class="text-danger font-bold">${wrong} 題</span>
             </p>

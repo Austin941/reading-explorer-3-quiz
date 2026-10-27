@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="theme-color" content="#f2f2f7" />
   
-  <title>Reading Explorer 3 (3rd ed.) · 課本選擇題刷題系統 (手機優化版)</title>
+  <title>Reading Explorer 3 · 課本選擇題刷題系統 (手機極速跳題版)</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -49,8 +49,8 @@
 <body class="selection:bg-blue-500/20">
 
   <!-- Mobile Ergonomic Sticky Navigation Bar -->
-  <header class="sticky top-0 z-50 glass">
-    <div class="max-w-4xl mx-auto px-3 sm:px-4 h-14 flex items-center justify-between gap-2">
+  <header class="sticky top-0 z-40 glass">
+    <div class="max-w-3xl mx-auto px-3 sm:px-4 h-14 flex items-center justify-between gap-2">
       
       <!-- Brand & View Switcher -->
       <div class="flex items-center gap-1.5 p-0.5 rounded-full bg-elevated border border-subtle">
@@ -100,10 +100,96 @@
   </header>
 
   <!-- Main Content Viewport -->
-  <main class="flex-1 max-w-2xl w-full mx-auto px-3 sm:px-4 pt-3 pb-8">
+  <main class="flex-1 max-w-2xl w-full mx-auto px-3 sm:px-4 pt-3 pb-28">
     <div id="view-quiz"></div>
     <div id="view-review" class="hidden"></div>
   </main>
+
+  <!-- Global Fixed Bottom Thumb Bar (Direct body child, guaranteed stable) -->
+  <div id="global-bottom-bar" class="bottom-bar glass-bottom border-t border-subtle px-4 py-2.5 flex items-center justify-between gap-2 max-w-md mx-auto sm:max-w-lg md:max-w-xl">
+    <button id="bar-prev" class="btn btn-ghost p-2 rounded-full w-11 h-11 shrink-0" title="上一題">
+      <i data-lucide="chevron-left" class="w-6 h-6"></i>
+    </button>
+
+    <!-- Center Thumb Actions -->
+    <div class="flex items-center gap-2">
+      <!-- Quick Jump Button -->
+      <button id="bar-open-jump" class="btn btn-secondary px-3.5 py-1.5 text-xs font-mono font-bold flex items-center gap-1.5 shadow-sm active:scale-95" title="點擊展開快速跳題面板">
+        <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
+        <span id="bar-index-label">1 / 120</span>
+      </button>
+
+      <!-- Reading Passage Button -->
+      <button id="bar-open-passage" class="btn btn-ghost border border-subtle px-3 py-1.5 text-xs font-bold text-primary active:scale-95" title="點擊展開課文對照">
+        <i data-lucide="book-open" class="w-3.5 h-3.5 text-accent"></i>
+        對照課文
+      </button>
+    </div>
+
+    <button id="bar-next" class="btn btn-primary p-2 rounded-full w-11 h-11 shrink-0" title="下一題">
+      <i data-lucide="chevron-right" class="w-6 h-6"></i>
+    </button>
+  </div>
+
+  <!-- Redesigned iOS Bottom Sheet: Quick Jump Navigator (全功能題號總覽跳轉) -->
+  <div id="jump-overlay" class="sheet-overlay"></div>
+  <div id="jump-sheet" class="bottom-sheet">
+    <div class="sheet-drag-handle"></div>
+    
+    <!-- Jump Sheet Header -->
+    <div class="px-5 py-3 border-b border-subtle flex items-center justify-between shrink-0">
+      <div>
+        <div class="flex items-center gap-2">
+          <h4 class="font-bold text-base text-primary">題目快速跳轉</h4>
+          <span id="jump-sheet-count" class="badge badge-blue font-mono">120 題</span>
+        </div>
+        <p class="text-[11px] text-secondary mt-0.5">點擊任意題號即可直達該題</p>
+      </div>
+      <button id="sheet-jump-close" class="btn btn-ghost p-1.5 rounded-full text-secondary" title="關閉">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Quick Stats & Filter Chips inside Jump Drawer -->
+    <div class="px-5 pt-3 pb-2 border-b border-subtle space-y-2.5 shrink-0 bg-elevated/50">
+      <!-- Legend & Counters -->
+      <div class="flex items-center justify-between text-xs font-semibold text-secondary">
+        <div class="flex items-center gap-3">
+          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-success"></span> 正確: <b id="stat-correct-count" class="text-success">0</b></span>
+          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-danger"></span> 錯誤: <b id="stat-wrong-count" class="text-danger">0</b></span>
+          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-border-subtle"></span> 未答: <b id="stat-unanswered-count">120</b></span>
+        </div>
+        <span id="stat-accuracy-label" class="font-bold text-primary">正確率: 0%</span>
+      </div>
+
+      <!-- Quick Filter Pills inside sheet -->
+      <div class="scroll-pills -mx-2 px-2">
+        <button id="jump-filter-all" class="pill-btn active">全部題號</button>
+        <button id="jump-filter-unanswered" class="pill-btn">只看未作答</button>
+        <button id="jump-filter-wrong" class="pill-btn text-danger">只看錯題</button>
+        <button id="jump-filter-grouped" class="pill-btn">依單元分組</button>
+      </div>
+    </div>
+
+    <!-- Scrollable Jump Content Viewport -->
+    <div id="sheet-jump-content" class="p-5 overflow-y-auto space-y-4 max-h-[62vh]"></div>
+  </div>
+
+  <!-- iOS Bottom Sheet: Reading Passage (課文底端抽屜) -->
+  <div id="passage-overlay" class="sheet-overlay"></div>
+  <div id="passage-sheet" class="bottom-sheet">
+    <div class="sheet-drag-handle"></div>
+    <div class="px-5 py-3 border-b border-subtle flex items-center justify-between shrink-0">
+      <div>
+        <span class="badge badge-blue text-[10px] mb-0.5">課文對照</span>
+        <h4 id="sheet-passage-title" class="font-bold text-sm text-primary">課文原文</h4>
+      </div>
+      <button id="sheet-passage-close" class="btn btn-ghost p-1.5 rounded-full text-secondary" title="關閉">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+    <div id="sheet-passage-body" class="p-5 overflow-y-auto space-y-4 text-sm leading-relaxed text-primary max-h-[65vh]"></div>
+  </div>
 
   <!-- Firebase Configuration Modal -->
   <div id="firebase-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 hidden">

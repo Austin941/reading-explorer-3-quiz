@@ -1,15 +1,16 @@
 /**
- * Main Application Controller (課本選擇題刷題系統)
- * - Focused on Multiple Choice Practice & Mistake Review
+ * Main Application Controller (手機載體與極速跳轉版)
+ * - View Switching between MCQ Quiz & Mistake Review
+ * - Dynamic Global Bottom Bar Display Control
  * - Theme Switcher & Sound Toggle
- * - Google Sign-In & Firebase Config
+ * - Google Sign-In & Firebase Sync
  */
 
 (function (window) {
   window.SOUND_ENABLED = true;
 
   const App = {
-    currentView: 'quiz', // 'quiz' or 'review'
+    currentView: 'quiz',
 
     init() {
       this.initTheme();
@@ -98,8 +99,6 @@
           userBox?.classList.remove('hidden');
           const av = document.getElementById('user-avatar');
           if (av) av.src = user.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=0071e3&color=fff`;
-          const nm = document.getElementById('user-name');
-          if (nm) nm.textContent = user.name;
         } else {
           btnLogin?.classList.remove('hidden');
           userBox?.classList.add('hidden');
@@ -118,8 +117,6 @@
         userBox?.classList.remove('hidden');
         const av = document.getElementById('user-avatar');
         if (av) av.src = initialUser.photoURL;
-        const nm = document.getElementById('user-name');
-        if (nm) nm.textContent = initialUser.name;
       }
     },
 
@@ -144,42 +141,42 @@
         }
       });
 
-      // Toggle Views
+      // Toggle View Divs
       const views = ['quiz', 'review'];
       views.forEach(v => {
         const el = document.getElementById(`view-${v}`);
         if (el) {
           if (v === viewName) {
             el.classList.remove('hidden');
-            el.classList.add('animate-fade-in');
           } else {
             el.classList.add('hidden');
-            el.classList.remove('animate-fade-in');
           }
         }
       });
+
+      // Bottom bar is only visible in quiz view
+      const bottomBar = document.getElementById('global-bottom-bar');
+      if (bottomBar) {
+        if (viewName === 'quiz') {
+          bottomBar.classList.remove('hidden');
+          bottomBar.style.display = 'flex';
+        } else {
+          bottomBar.classList.add('hidden');
+          bottomBar.style.display = 'none';
+        }
+      }
 
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
 
     updateStatsDisplay() {
-      const progress = window.Auth.getProgress();
       const mistakes = window.Auth.getMistakes();
-
       const unmastered = Object.values(mistakes).filter(m => !m.mastered).length;
-      const accuracy = progress.totalAnswered > 0 
-        ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) 
-        : 100;
 
       const badgeMistakes = document.getElementById('nav-mistake-badge');
       if (badgeMistakes) {
         badgeMistakes.textContent = unmastered;
         badgeMistakes.className = unmastered > 0 ? 'badge badge-red font-mono' : 'hidden';
-      }
-
-      const accBadge = document.getElementById('header-accuracy-badge');
-      if (accBadge) {
-        accBadge.textContent = `${accuracy}% 正確率 (${progress.totalAnswered} 題)`;
       }
     },
 
