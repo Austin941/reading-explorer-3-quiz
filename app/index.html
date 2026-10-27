@@ -105,29 +105,24 @@
     <div id="view-review" class="hidden"></div>
   </main>
 
-  <!-- Global Fixed Bottom Thumb Bar (Direct body child, guaranteed stable) -->
-  <div id="global-bottom-bar" class="bottom-bar glass-bottom border-t border-subtle px-4 py-2.5 flex items-center justify-between gap-2 max-w-md mx-auto sm:max-w-lg md:max-w-xl">
-    <button id="bar-prev" class="btn btn-ghost p-2 rounded-full w-11 h-11 shrink-0" title="上一題">
-      <i data-lucide="chevron-left" class="w-6 h-6"></i>
+  <!-- Global Fixed Bottom Thumb Bar (下方只保留換題及第幾題) -->
+  <div id="global-bottom-bar" class="bottom-bar glass-bottom border-t border-subtle px-4 py-2.5 flex items-center justify-between gap-3 max-w-md mx-auto sm:max-w-lg md:max-w-xl">
+    <!-- 上一題換題按鈕 -->
+    <button id="bar-prev" class="btn btn-ghost h-11 px-3 sm:px-4 rounded-2xl flex items-center gap-1 font-bold text-sm text-secondary disabled:opacity-30 disabled:pointer-events-none active:scale-95 shrink-0" title="上一題">
+      <i data-lucide="chevron-left" class="w-5 h-5"></i>
+      <span class="text-xs font-semibold">上一題</span>
     </button>
 
-    <!-- Center Thumb Actions -->
-    <div class="flex items-center gap-2">
-      <!-- Quick Jump Button -->
-      <button id="bar-open-jump" class="btn btn-secondary px-3.5 py-1.5 text-xs font-mono font-bold flex items-center gap-1.5 shadow-sm active:scale-95" title="點擊展開快速跳題面板">
-        <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
-        <span id="bar-index-label">1 / 120</span>
-      </button>
+    <!-- 中央第幾題按鈕（點擊展開題目跳轉面板） -->
+    <button id="bar-open-jump" class="btn btn-secondary h-11 px-4 rounded-2xl flex items-center justify-center gap-1.5 font-bold text-sm text-primary border border-subtle shadow-sm active:scale-95 transition-all flex-1 max-w-[210px]" title="點擊展開題目跳轉面板">
+      <i data-lucide="layout-grid" class="w-4 h-4 text-accent"></i>
+      <span id="bar-index-label" class="font-mono text-sm whitespace-nowrap">第 1 / 120 題</span>
+    </button>
 
-      <!-- Reading Passage Button -->
-      <button id="bar-open-passage" class="btn btn-ghost border border-subtle px-3 py-1.5 text-xs font-bold text-primary active:scale-95" title="點擊展開課文對照">
-        <i data-lucide="book-open" class="w-3.5 h-3.5 text-accent"></i>
-        對照課文
-      </button>
-    </div>
-
-    <button id="bar-next" class="btn btn-primary p-2 rounded-full w-11 h-11 shrink-0" title="下一題">
-      <i data-lucide="chevron-right" class="w-6 h-6"></i>
+    <!-- 下一題換題按鈕 -->
+    <button id="bar-next" class="btn btn-primary h-11 px-3 sm:px-4 rounded-2xl flex items-center gap-1 font-bold text-sm shadow-md active:scale-95 shrink-0" title="下一題">
+      <span id="bar-next-text" class="text-xs font-semibold">下一題</span>
+      <i id="bar-next-icon" data-lucide="chevron-right" class="w-5 h-5"></i>
     </button>
   </div>
 

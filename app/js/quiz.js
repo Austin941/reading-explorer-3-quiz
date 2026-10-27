@@ -155,9 +155,8 @@
       const jumpOverlay = document.getElementById('jump-overlay');
       const jumpClose = document.getElementById('sheet-jump-close');
 
-      const passageSheet = document.getElementById('passage-sheet');
-      const passageOverlay = document.getElementById('passage-overlay');
       const passageClose = document.getElementById('sheet-passage-close');
+      const passageOverlay = document.getElementById('passage-overlay');
 
       // Prev / Next
       barPrev?.addEventListener('click', () => {
@@ -212,22 +211,26 @@
         });
       });
 
-      // Reading Passage Sheet Triggers
-      const openPassage = () => {
-        vibrate(15);
-        this.renderPassageContent();
-        passageSheet?.classList.add('open');
-        passageOverlay?.classList.add('open');
-      };
+      // Reading Passage Sheet Triggers (Global or fallback)
+      barPassage?.addEventListener('click', () => this.openPassage());
+      passageClose?.addEventListener('click', () => this.closePassage());
+      passageOverlay?.addEventListener('click', () => this.closePassage());
+    },
 
-      const closePassage = () => {
-        passageSheet?.classList.remove('open');
-        passageOverlay?.classList.remove('open');
-      };
+    openPassage() {
+      vibrate(15);
+      this.renderPassageContent();
+      const passageSheet = document.getElementById('passage-sheet');
+      const passageOverlay = document.getElementById('passage-overlay');
+      passageSheet?.classList.add('open');
+      passageOverlay?.classList.add('open');
+    },
 
-      barPassage?.addEventListener('click', openPassage);
-      passageClose?.addEventListener('click', closePassage);
-      passageOverlay?.addEventListener('click', closePassage);
+    closePassage() {
+      const passageSheet = document.getElementById('passage-sheet');
+      const passageOverlay = document.getElementById('passage-overlay');
+      passageSheet?.classList.remove('open');
+      passageOverlay?.classList.remove('open');
     },
 
     setupTouchGestures() {
@@ -275,15 +278,19 @@
       const barPrev = document.getElementById('bar-prev');
       const barNext = document.getElementById('bar-next');
       const barLabel = document.getElementById('bar-index-label');
+      const nextText = document.getElementById('bar-next-text');
+      const nextIcon = document.getElementById('bar-next-icon');
       const total = filteredQuestions.length;
 
-      if (barLabel) barLabel.textContent = `${currentIndex + 1} / ${total}`;
+      if (barLabel) barLabel.textContent = `第 ${currentIndex + 1} / ${total} 題`;
       if (barPrev) barPrev.disabled = currentIndex === 0;
       if (barNext) {
         if (currentIndex === total - 1) {
-          barNext.innerHTML = `<i data-lucide="award" class="w-6 h-6"></i>`;
+          if (nextText) nextText.textContent = '看結算';
+          if (nextIcon) nextIcon.setAttribute('data-lucide', 'award');
         } else {
-          barNext.innerHTML = `<i data-lucide="chevron-right" class="w-6 h-6"></i>`;
+          if (nextText) nextText.textContent = '下一題';
+          if (nextIcon) nextIcon.setAttribute('data-lucide', 'chevron-right');
         }
       }
       if (window.lucide) window.lucide.createIcons();
@@ -601,7 +608,13 @@
               <span class="badge badge-blue font-mono">${q.unitTitle.split(':')[0]}</span>
             </div>
             
-            <div class="flex items-center gap-1">
+            <div class="flex items-center gap-1.5">
+              <!-- 對照課文按鈕 -->
+              <button id="btn-card-passage" class="btn btn-secondary text-xs px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center gap-1.5 font-bold text-primary border border-subtle hover:border-accent hover:text-accent shadow-sm active:scale-95 transition-all" title="展開課文對照">
+                <i data-lucide="book-open" class="w-3.5 h-3.5 text-accent"></i>
+                <span>對照課文</span>
+              </button>
+
               <button id="btn-shuffle-quick" class="btn btn-ghost p-1.5 text-secondary" title="隨機洗牌題目">
                 <i data-lucide="shuffle" class="w-4 h-4"></i>
               </button>
@@ -614,8 +627,18 @@
           </div>
 
           <!-- Question Stem -->
-          <div class="space-y-1.5">
-            ${q.passage_ref ? `<span class="text-xs font-mono font-bold text-accent block">📍 課文定位：${q.passage_ref}</span>` : ''}
+          <div class="space-y-2">
+            ${q.passage_ref ? `
+              <div class="flex items-center justify-between gap-2 bg-accent/10 border border-accent/20 px-3 py-1.5 rounded-xl">
+                <span class="text-xs font-mono font-bold text-accent flex items-center gap-1.5">
+                  <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+                  課文定位：${q.passage_ref}
+                </span>
+                <button class="btn-passage-trigger text-xs font-bold text-accent hover:underline flex items-center gap-1">
+                  查看該段 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                </button>
+              </div>
+            ` : ''}
             <h3 class="text-base sm:text-lg font-bold text-primary leading-snug">
               ${q.question}
             </h3>
@@ -682,6 +705,17 @@
         btn.addEventListener('click', () => {
           const key = btn.getAttribute('data-key');
           this.handleOptionSelect(q, key);
+        });
+      });
+
+      // Card Passage Triggers
+      document.getElementById('btn-card-passage')?.addEventListener('click', () => {
+        this.openPassage();
+      });
+
+      container.querySelectorAll('.btn-passage-trigger').forEach(btn => {
+        btn.addEventListener('click', () => {
+          this.openPassage();
         });
       });
 
