@@ -1,5 +1,8 @@
-# Ignore massive PDF files and local scratch scripts
+# Ignore massive textbook PDF
+National Geographic Learning's Reading Explorer 3*.pdf
 *.pdf
+!Reading_Explorer_3_Ch1_Ch2_題庫全集與詳解.pdf
+!app/Reading_Explorer_3_Ch1_Ch2_題庫全集與詳解.pdf
 .system_generated/
 scratch/
 .DS_Store
