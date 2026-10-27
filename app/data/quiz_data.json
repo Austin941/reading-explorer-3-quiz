@@ -1,22 +1,4 @@
 {
-  "chapters": [
-    {
-      "id": "ch1",
-      "name": "Chapter 1: Sports & Champions",
-      "units": [
-        "u1a",
-        "u1b"
-      ]
-    },
-    {
-      "id": "ch2",
-      "name": "Chapter 2: Beauty & Appearance",
-      "units": [
-        "u2a",
-        "u2b"
-      ]
-    }
-  ],
   "units": [
     {
       "id": "u1a",
@@ -2720,6 +2702,3788 @@
           ]
         }
       ]
+    }
+  ],
+  "mcq_questions": [
+    {
+      "id": "u1a_rc_1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "GIST / 主旨題",
+      "question": "What is this passage mainly about?",
+      "options": [
+        {
+          "key": "a",
+          "text": "the history of soccer"
+        },
+        {
+          "key": "b",
+          "text": "the popularity of soccer"
+        },
+        {
+          "key": "c",
+          "text": "different soccer teams"
+        },
+        {
+          "key": "d",
+          "text": "how the World Cup began"
+        }
+      ],
+      "answer": "b",
+      "explanation": "全文核心探討足球為何能成為全世界最受歡迎的運動（Paragraph B-C 提到向心力、跨國球星、財富吸引力與規則裝備簡單），以及足球在非洲的狂熱受歡迎程度與正面社會影響（Paragraph D-G）。故答案選 (b)。",
+      "passage_ref": "Paragraph B-C & E-G"
+    },
+    {
+      "id": "u1a_rc_2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "DETAIL / 細節題",
+      "question": "In paragraph B, which of these is NOT given as a possible reason for soccer’s popularity?",
+      "options": [
+        {
+          "key": "a",
+          "text": "the team spirit among players and fans"
+        },
+        {
+          "key": "b",
+          "text": "famous players from different countries"
+        },
+        {
+          "key": "c",
+          "text": "the number of soccer games shown on TV"
+        },
+        {
+          "key": "d",
+          "text": "the possibility of making a lot of money"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Paragraph B 列舉了三個原因：(1) camaraderie (team spirit) 團隊情誼向心力、(2) international quality (players from many different nations) 跨國明星球員、(3) promise of great wealth (millions of euros) 賺取豐厚財富的機會。課文並未提及「電視轉播足球比賽的數量 (games shown on TV)」，故選 (c)。",
+      "passage_ref": "Paragraph B"
+    },
+    {
+      "id": "u1a_rc_3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "INFERENCE / 推論題",
+      "question": "What aspect of soccer is the author referring to by 'It’s a simple game' in paragraph C?",
+      "options": [
+        {
+          "key": "a",
+          "text": "The rules are easy for people to understand."
+        },
+        {
+          "key": "b",
+          "text": "You can play it anywhere with anything."
+        },
+        {
+          "key": "c",
+          "text": "You don’t need much talent to play soccer."
+        },
+        {
+          "key": "d",
+          "text": "There are only a few versions of soccer."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Paragraph C 接續作者所言：「It can be played anywhere with anything—a ball, a can, or even some bags tied together. And anyone can play it... You just need a flat space and a ball.」，說明只要有一塊空地和任何東西當球就能隨處踢球，對應選項 (b)。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u1a_rc_4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "REFERENCE / 代名詞指涉題",
+      "question": "What does 'some' refer to in the last line of paragraph E?",
+      "options": [
+        {
+          "key": "a",
+          "text": "poor boys"
+        },
+        {
+          "key": "b",
+          "text": "cities and towns"
+        },
+        {
+          "key": "c",
+          "text": "soccer academies"
+        },
+        {
+          "key": "d",
+          "text": "national teams"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph E 倒數幾句提到：「...thousands of soccer academies now recruit boys from poorer cities and towns to play the game... Their dream is to play for the national team or to join one of the big clubs in Europe someday. For some, the dream comes true.」「some」在此指代前面這些「來自貧困城鎮的男孩（poor boys）」。故選 (a)。",
+      "passage_ref": "Paragraph E"
+    },
+    {
+      "id": "u1a_rc_5",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "MAIN IDEA / 段落主旨題",
+      "question": "What is the main idea of the last paragraph?",
+      "options": [
+        {
+          "key": "a",
+          "text": "More schools in Africa are opening soccer clubs."
+        },
+        {
+          "key": "b",
+          "text": "Soccer helps people get better grades in school."
+        },
+        {
+          "key": "c",
+          "text": "Older soccer players are passing on their skills to younger ones."
+        },
+        {
+          "key": "d",
+          "text": "Soccer helps develop young people as members of society."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Paragraph G 說明足球受到非洲家長與老師歡迎的原因：能讓年輕人遠離麻煩並留在學校。老師 Abubakari 指出：「We’re trying our best to help young people and to make them responsible in society. Soccer helps us do this.」，強調足球培養年輕人成為對社會負責的成員。故選 (d)。",
+      "passage_ref": "Paragraph G"
+    },
+    {
+      "id": "u1a_rc_b1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "MATCHING / 國家配對題",
+      "question": "This is where the first games of soccer were played in Africa.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Britain"
+        },
+        {
+          "key": "b",
+          "text": "China"
+        },
+        {
+          "key": "c",
+          "text": "Ghana"
+        },
+        {
+          "key": "d",
+          "text": "Ivory Coast"
+        },
+        {
+          "key": "e",
+          "text": "South Africa"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Paragraph E 明確寫道：「Early matches were first played in the South African cities of Cape Town and Port Elizabeth in 1862.」",
+      "passage_ref": "Paragraph E"
+    },
+    {
+      "id": "u1a_rc_b2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "MATCHING / 國家配對題",
+      "question": "A very early form of soccer was played here.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Britain"
+        },
+        {
+          "key": "b",
+          "text": "China"
+        },
+        {
+          "key": "c",
+          "text": "Ghana"
+        },
+        {
+          "key": "d",
+          "text": "Ivory Coast"
+        },
+        {
+          "key": "e",
+          "text": "South Africa"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Paragraph A 提到：「...began as far back as 2500 b.c.e. with the Chinese game of cuju.」中國古代的蹴鞠是極早期的踢球形式。",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u1a_rc_b3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "MATCHING / 國家配對題",
+      "question": "This is where the soccer we know today originated.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Britain"
+        },
+        {
+          "key": "b",
+          "text": "China"
+        },
+        {
+          "key": "c",
+          "text": "Ghana"
+        },
+        {
+          "key": "d",
+          "text": "Ivory Coast"
+        },
+        {
+          "key": "e",
+          "text": "South Africa"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph A 提到：「However, the sport we know today originated in Britain. In the 1840s, England’s Football Association established a set of rules...」",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u1a_rc_b4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: A Love for Soccer",
+      "type": "MATCHING / 國家配對題",
+      "question": "Some soccer clubs here allow boys to join only if they go to school.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Britain"
+        },
+        {
+          "key": "b",
+          "text": "China"
+        },
+        {
+          "key": "c",
+          "text": "Ghana"
+        },
+        {
+          "key": "d",
+          "text": "Ivory Coast"
+        },
+        {
+          "key": "e",
+          "text": "South Africa"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Paragraph G 引述迦納青年俱樂部老師 Abubakari 的話：「Most clubs in Tamale, Ghana, don’t allow boys to play if they don’t go to school.」",
+      "passage_ref": "Paragraph G"
+    },
+    {
+      "id": "u1b_rc_1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "GIST / 主旨題",
+      "question": "What is this reading mainly about?",
+      "options": [
+        {
+          "key": "a",
+          "text": "how to qualify for the Olympics"
+        },
+        {
+          "key": "b",
+          "text": "factors that make someone a super athlete"
+        },
+        {
+          "key": "c",
+          "text": "the different muscle types of a super athlete"
+        },
+        {
+          "key": "d",
+          "text": "the size of a super athlete"
+        }
+      ],
+      "answer": "b",
+      "explanation": "第一段開門見山指出：「In reality, a combination of biological, environmental, and psychological factors, as well as training and practice, all go into making a super athlete.」，全文逐一解析生理基因、肌肉纖維、身型比例、高海拔環境、重複訓練與心理調適等全方位的要素。故選 (b)。",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u1b_rc_2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "INFERENCE / 推論題",
+      "question": "Having a lot of slow-twitch muscle fibers is particularly important for ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "long-distance cyclists"
+        },
+        {
+          "key": "b",
+          "text": "table-tennis players"
+        },
+        {
+          "key": "c",
+          "text": "divers"
+        },
+        {
+          "key": "d",
+          "text": "weightlifters"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph C 指出慢肌纖維（slow-twitch muscle fibers）能高效產生能量並抵抗長時間疲勞，是馬拉松跑者等耐力型選手的核心優勢；選項中只有「長距離自行車選手 (long-distance cyclists)」屬於同類的長途耐力運動。快肌則是舉重選手所需。故選 (a)。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u1b_rc_3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "DETAIL / 細節題",
+      "question": "When lactate builds up in their muscles, people feel ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "strength"
+        },
+        {
+          "key": "b",
+          "text": "energy"
+        },
+        {
+          "key": "c",
+          "text": "pain"
+        },
+        {
+          "key": "d",
+          "text": "dizziness"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Paragraph C 指出：「...it's common to experience tiredness, muscle pain, and difficulty breathing. These feelings are caused when the muscles produce high amounts of a substance called lactate and can’t remove it quickly enough.」，因此乳酸堆積會引發肌肉酸痛 (pain)。故選 (c)。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u1b_rc_4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "MAIN IDEA / 段落主旨題",
+      "question": "What is the main idea of paragraph F?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Genes are an important part of athletic success."
+        },
+        {
+          "key": "b",
+          "text": "Marathon runners must train hard to succeed."
+        },
+        {
+          "key": "c",
+          "text": "Divers must train to be successful."
+        },
+        {
+          "key": "d",
+          "text": "Success in sports comes from a lot of practice."
+        }
+      ],
+      "answer": "d",
+      "explanation": "Paragraph F 的主題句為：「Although genes, environment, and even culture play a part in becoming an elite athlete, training and practice are needed to succeed.」，隨後舉馬拉松、舉重、體操及跳水為例，說明重複練習千百次以形成反射神經的重要性。故選 (d)。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u1b_rc_5",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "INFERENCE / 觀點推論題",
+      "question": "What statement would diver Greg Louganis probably agree with?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Athletes cannot perform well unless they are under pressure."
+        },
+        {
+          "key": "b",
+          "text": "It’s important to practice and train hard, but not take things too seriously."
+        },
+        {
+          "key": "c",
+          "text": "A professional athlete should think carefully about each movement."
+        },
+        {
+          "key": "d",
+          "text": "It’s important to joke with your teammates before you perform any sport."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Paragraph G 中跳水傳奇 Greg Louganis 指出大多數選手腦中雜念太多（think too much / too much in their heads），他的調適之道是幽默感（humor），心想如果跳不好媽媽大概會稱讚激起的水花很美，代表他雖然刻苦訓練但不會把得失看得過度沉重嚴肅 (not take things too seriously)。故選 (b)。",
+      "passage_ref": "Paragraph G"
+    },
+    {
+      "id": "u1b_rc_b1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "CLASSIFYING / 韋氏圖分類題",
+      "question": "According to the passage, is 'training' especially important for marathon runners, gymnasts, or both?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Marathon runners"
+        },
+        {
+          "key": "b",
+          "text": "Gymnasts"
+        },
+        {
+          "key": "c",
+          "text": "Both"
+        }
+      ],
+      "answer": "c",
+      "explanation": "課文 Paragraph F 說明所有頂尖運動員（不論馬拉松、舉重或體操）都必須經歷極大負荷的刻苦訓練才能成功。故歸類為「Both」。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u1b_rc_b2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "CLASSIFYING / 韋氏圖分類題",
+      "question": "According to the passage, is 'slow-twitch muscles' especially important for marathon runners, gymnasts, or both?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Marathon runners"
+        },
+        {
+          "key": "b",
+          "text": "Gymnasts"
+        },
+        {
+          "key": "c",
+          "text": "Both"
+        }
+      ],
+      "answer": "a",
+      "explanation": "課文 Paragraph C 指出：「The legs of an elite marathon runner... might contain up to 90 percent slow-twitch muscle fibers.」，慢肌纖維能有效抗疲勞，專屬於馬拉松長跑選手。故選「Marathon runners」。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u1b_rc_b3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "CLASSIFYING / 韋氏圖分類題",
+      "question": "According to the passage, is 'practicing repeated motions' especially important for marathon runners, gymnasts, or both?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Marathon runners"
+        },
+        {
+          "key": "b",
+          "text": "Gymnasts"
+        },
+        {
+          "key": "c",
+          "text": "Both"
+        }
+      ],
+      "answer": "b",
+      "explanation": "課文 Paragraph F 指出：「Weightlifters and gymnasts perfect their skills by repeating the same motions again and again until they become automatic.」，體操選手靠重複相同動作直至自動化。故選「Gymnasts」。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u1b_rc_b4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "CLASSIFYING / 韋氏圖分類題",
+      "question": "According to the passage, is 'small body size' especially important for marathon runners, gymnasts, or both?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Marathon runners"
+        },
+        {
+          "key": "b",
+          "text": "Gymnasts"
+        },
+        {
+          "key": "c",
+          "text": "Both"
+        }
+      ],
+      "answer": "b",
+      "explanation": "課文 Paragraph D 指出：「For both male and female gymnasts, though, a smaller size and body weight mean they can move with greater ease, and are less likely to suffer damage...」。故選「Gymnasts」。",
+      "passage_ref": "Paragraph D"
+    },
+    {
+      "id": "u1b_rc_b5",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "CLASSIFYING / 韋氏圖分類題",
+      "question": "According to the passage, is 'psychological health' especially important for marathon runners, gymnasts, or both?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Marathon runners"
+        },
+        {
+          "key": "b",
+          "text": "Gymnasts"
+        },
+        {
+          "key": "c",
+          "text": "Both"
+        }
+      ],
+      "answer": "c",
+      "explanation": "課文 Paragraph F 心理學家 Sean McCann 指出運動員必須承擔繁重訓練負荷、管理焦慮與調整目標，心理健康對所有頂尖選手都是必須的。故歸類為「Both」。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u1b_rc_b6",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: What Makes an Olympic Champion?",
+      "type": "CLASSIFYING / 韋氏圖分類題",
+      "question": "According to the passage, is 'ability to control fatigue and keep moving for a long time' especially important for marathon runners, gymnasts, or both?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Marathon runners"
+        },
+        {
+          "key": "b",
+          "text": "Gymnasts"
+        },
+        {
+          "key": "c",
+          "text": "Both"
+        }
+      ],
+      "answer": "a",
+      "explanation": "課文 Paragraph C 及 F 皆強調馬拉松選手的核心能力在於「control fatigue and keep moving for long periods of time」。故選「Marathon runners」。",
+      "passage_ref": "Paragraph C & F"
+    },
+    {
+      "id": "u2a_rc_1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "GIST / 主旨題",
+      "question": "What is this reading mainly about?",
+      "options": [
+        {
+          "key": "a",
+          "text": "different ideas about beauty"
+        },
+        {
+          "key": "b",
+          "text": "the history of beauty"
+        },
+        {
+          "key": "c",
+          "text": "the world’s most beautiful people"
+        },
+        {
+          "key": "d",
+          "text": "how beauty is power"
+        }
+      ],
+      "answer": "a",
+      "explanation": "文章從埃及、馬雅、法國的審美歷史，探討生物演化論所認為的對稱健康標準，以及文化人類學揭示的跨文化審美主觀差異，核心主題在於「對美的不同觀點與定義（different ideas about beauty）」。故選 (a)。",
+      "passage_ref": "Whole Passage"
+    },
+    {
+      "id": "u2a_rc_2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "DETAIL / 細節題",
+      "question": "The ancient Maya hung balls between children’s eyes ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "as a form of jewelry"
+        },
+        {
+          "key": "b",
+          "text": "to differentiate boys from girls"
+        },
+        {
+          "key": "c",
+          "text": "because they thought crossed eyes were beautiful"
+        },
+        {
+          "key": "d",
+          "text": "to add an attractive “third” eye"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Paragraph A 明確指出：「the ancient Maya of Central America considered crossed eyes beautiful, and hung little balls between children’s eyes to develop this look.」，因為馬雅人認為鬥雞眼是美的象徵。故選 (c)。",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u2a_rc_3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "DETAIL / 細節題",
+      "question": "In paragraph C, the babies in the study ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "were shown photos of attractive students"
+        },
+        {
+          "key": "b",
+          "text": "were entered into a beauty contest"
+        },
+        {
+          "key": "c",
+          "text": "were rated for their beauty"
+        },
+        {
+          "key": "d",
+          "text": "were able to tell attractive from unattractive faces"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Paragraph C 描述研究指出六個月大的嬰兒看漂亮面孔的時間長於不吸引人的面孔（spent more time looking at the attractive faces than the unattractive ones），顯示小嬰兒已經具備分辨吸引人與不吸引人面貌的能力。故選 (d)。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u2a_rc_4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "VOCABULARY / 字彙替換題",
+      "question": "In the second sentence of paragraph E, 'predominantly' can be replaced with ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "hardly"
+        },
+        {
+          "key": "b",
+          "text": "mainly"
+        },
+        {
+          "key": "c",
+          "text": "exactly"
+        },
+        {
+          "key": "d",
+          "text": "probably"
+        }
+      ],
+      "answer": "b",
+      "explanation": "predominantly 意為「主要地、佔優勢地」，同義詞為 mainly 或 mostly。故選 (b)。",
+      "passage_ref": "Paragraph E"
+    },
+    {
+      "id": "u2a_rc_5",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "DETAIL / 細節題",
+      "question": "What determines the beauty of a Huli man in Papua New Guinea?",
+      "options": [
+        {
+          "key": "a",
+          "text": "how young he is"
+        },
+        {
+          "key": "b",
+          "text": "his colorful makeup"
+        },
+        {
+          "key": "c",
+          "text": "his strength"
+        },
+        {
+          "key": "d",
+          "text": "the size of his mask"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Paragraph F 指出巴布亞紐幾內亞的 Huli 男性盛裝並彩繪面部：「The more colorful a man is, the more masculine—and attractive—he is considered.」，顏色越鮮艷的彩繪越有吸引力。故選 (b)。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u2a_rc_b1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "SCANNING / 段落資訊配對題",
+      "question": "Which paragraph contains 'an argument that culture plays a part in perceptions of beauty'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "b",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "c",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "d",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "e",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "f",
+          "text": "Paragraph F"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Paragraph E 引述人類學家 Brace 的論述，指出文化期待改變人類偏好，秘魯原住民審美與西方雜誌的標準大不相同。故對應 Paragraph E。",
+      "passage_ref": "Paragraph E"
+    },
+    {
+      "id": "u2a_rc_b2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "SCANNING / 段落資訊配對題",
+      "question": "Which paragraph contains 'an explanation of how some standards of beauty might be universal'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "b",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "c",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "d",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "e",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "f",
+          "text": "Paragraph F"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Paragraph D 解釋大眼、光潔皮膚、飽滿嘴唇與寬肩是普世視為健康與基因優良的指標，是人類天性的一部分。故對應 Paragraph D。",
+      "passage_ref": "Paragraph D"
+    },
+    {
+      "id": "u2a_rc_b3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "SCANNING / 段落資訊配對題",
+      "question": "Which paragraph contains 'a definition of beauty'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "b",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "c",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "d",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "e",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "f",
+          "text": "Paragraph F"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Paragraph C 引述心理學家給予的美的定義：「Beauty is health. It’s a billboard saying, I’m healthy...」。故對應 Paragraph C。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u2a_rc_b4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "SCANNING / 段落資訊配對題",
+      "question": "Which paragraph contains 'a reference to the beauty-care industry'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "b",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "c",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "d",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "e",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "f",
+          "text": "Paragraph F"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Paragraph B 提及每年創造數十億美元產值的美妝、減肥、護膚護髮、健身俱樂部與整型產業。故對應 Paragraph B。",
+      "passage_ref": "Paragraph B"
+    },
+    {
+      "id": "u2a_rc_b5",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "SCANNING / 段落資訊配對題",
+      "question": "Which paragraph contains 'an example of a culture where men wear makeup'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "b",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "c",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "d",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "e",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "f",
+          "text": "Paragraph F"
+        }
+      ],
+      "answer": "f",
+      "explanation": "Paragraph F 詳細舉出巴布亞紐幾內亞的 Huli 部落男性梳理長髮並塗抹彩繪面容作為美的展示。故對應 Paragraph F。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u2a_rc_b6",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: What is Beauty?",
+      "type": "SCANNING / 段落資訊配對題",
+      "question": "Which paragraph contains 'a time frame'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "b",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "c",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "d",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "e",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "f",
+          "text": "Paragraph F"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph A 明確列出了歷史時間跨度：「dating back over 4,000 years」、「In 18th-century France」。故對應 Paragraph A。",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u2b_rc_1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "GIST / 主旨題",
+      "question": "What is this reading mainly about?",
+      "options": [
+        {
+          "key": "a",
+          "text": "the skin’s role in our overall health"
+        },
+        {
+          "key": "b",
+          "text": "the ways people change the appearance of their skin"
+        },
+        {
+          "key": "c",
+          "text": "the different reasons people get tattoos"
+        },
+        {
+          "key": "d",
+          "text": "cultural ceremonies that involve skin tattooing"
+        }
+      ],
+      "answer": "b",
+      "explanation": "全文探討人類跨越歷史與文化，透過各種方式改變皮膚的外觀（包括膚色美白與助曬、刺青紋身、劃痕疤痕印記以及指甲花彩繪），以展現階級、身分認同與美感。故選 (b)。",
+      "passage_ref": "Whole Passage"
+    },
+    {
+      "id": "u2b_rc_2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "INFERENCE / 推論題",
+      "question": "What can we infer about the tattoos of the Maori?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only men get facial tattoos."
+        },
+        {
+          "key": "b",
+          "text": "Members of the same family have similar facial tattoos."
+        },
+        {
+          "key": "c",
+          "text": "No one gets their entire face tattooed anymore."
+        },
+        {
+          "key": "d",
+          "text": "Both men and women get facial tattoos but never body tattoos."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Paragraph C 提到紐西蘭毛利人的全臉刺青仍然被用來辨識佩戴者屬於哪一個特定家族（used to identify the wearer as a member of a certain family），由此可推論同家族成員具有相同或相似的圖騰特徵。故選 (b)。",
+      "passage_ref": "Paragraph C"
+    },
+    {
+      "id": "u2b_rc_3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "DETAIL / 細節題",
+      "question": "Why are tattoos disapproved of in Japanese society?",
+      "options": [
+        {
+          "key": "a",
+          "text": "They are often associated with crime."
+        },
+        {
+          "key": "b",
+          "text": "They often have political messages."
+        },
+        {
+          "key": "c",
+          "text": "They look unattractive."
+        },
+        {
+          "key": "d",
+          "text": "They can only be made illegally."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph D 指出刺青在19世紀曾遭日本官方禁止，至今日本社會仍將刺青與罪犯及黑道黑手黨（yakuza / Japanese mafia）強烈聯想在一起。故選 (a)。",
+      "passage_ref": "Paragraph D"
+    },
+    {
+      "id": "u2b_rc_4",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "REFERENCE / 代名詞指涉題",
+      "question": "In the last sentence of paragraph E, what does 'these' refer to?",
+      "options": [
+        {
+          "key": "a",
+          "text": "cuts"
+        },
+        {
+          "key": "b",
+          "text": "customs"
+        },
+        {
+          "key": "c",
+          "text": "males"
+        },
+        {
+          "key": "d",
+          "text": "celebrations"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph E 前一句提到：「In Australia, among some native peoples, cuts are made on the skin of both men and women when they reach age 16 or 17. Without these...」，「these」指的就是這些割在皮膚上的刀痕（cuts）。故選 (a)。",
+      "passage_ref": "Paragraph E"
+    },
+    {
+      "id": "u2b_rc_5",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "DETAIL / 細節反向題",
+      "question": "What is NOT true about henna designs?",
+      "options": [
+        {
+          "key": "a",
+          "text": "They are used to celebrate religious holidays."
+        },
+        {
+          "key": "b",
+          "text": "Women decorate their skin with them."
+        },
+        {
+          "key": "c",
+          "text": "They are permanent."
+        },
+        {
+          "key": "d",
+          "text": "They are made with plants."
+        }
+      ],
+      "answer": "c",
+      "explanation": "Paragraph F 明確指出並非所有皮膚印記都是永久的：「Not all skin markings are permanent, though... The henna coloring, which comes from a plant, fades and disappears over time.」指甲花彩繪會隨時間褪色消逝，並非永久性的。故選 (c)。",
+      "passage_ref": "Paragraph F"
+    },
+    {
+      "id": "u2b_rc_b1",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "SHORT ANSWER / 簡答題",
+      "question": "Skin is '… by far the body’s largest organ.' How big is it, exactly?",
+      "options": [
+        {
+          "key": "a",
+          "text": "about 1.9 square meters"
+        },
+        {
+          "key": "b",
+          "text": "about 19 square meters"
+        },
+        {
+          "key": "c",
+          "text": "about 0.9 square meters"
+        },
+        {
+          "key": "d",
+          "text": "about 9.1 square meters"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph A 第一句指明：「...it would cover an area of about 1.9 square meters.」",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u2b_rc_b2",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "SHORT ANSWER / 簡答題",
+      "question": "Skin 'protects us from a variety of external forces.' What is ONE example of an external force mentioned in the passage?",
+      "options": [
+        {
+          "key": "a",
+          "text": "extremes of temperature"
+        },
+        {
+          "key": "b",
+          "text": "high blood pressure"
+        },
+        {
+          "key": "c",
+          "text": "lack of sleep"
+        },
+        {
+          "key": "d",
+          "text": "loud noise"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph A 提到皮膚防禦的外力包含：extremes of temperature（極端氣溫）、damaging sunlight（有害陽光）、harmful chemicals（有害化學物質）與 dangerous infections（危險感染）。故選 (a)。",
+      "passage_ref": "Paragraph A"
+    },
+    {
+      "id": "u2b_rc_b3",
+      "category": "reading",
+      "category_zh": "課文閱讀測驗 (題組)",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: Skin: The Body's Canvas",
+      "type": "SHORT ANSWER / 簡答題",
+      "question": "“In recent years in many industrialized nations, tattooing … [has] been gaining in popularity.” What is the name of the expert who gives an opinion about this?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Chris Rainier"
+        },
+        {
+          "key": "b",
+          "text": "Peter Alegi"
+        },
+        {
+          "key": "c",
+          "text": "Sean McCann"
+        },
+        {
+          "key": "d",
+          "text": "Greg Louganis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Paragraph G 指出攝影師與民俗研究專家 Chris Rainier 在其著作《Ancient Marks》中探討了現代人追求身體印記以尋求與傳統文化根源連結的觀點。故選 (a)。",
+      "passage_ref": "Paragraph G"
+    },
+    {
+      "id": "u1a_vp_a1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "In 1991, FIFA [recruited / established] the Women’s World Cup.",
+      "options": [
+        {
+          "key": "a",
+          "text": "recruited"
+        },
+        {
+          "key": "b",
+          "text": "established"
+        },
+        {
+          "key": "c",
+          "text": "competitor"
+        },
+        {
+          "key": "d",
+          "text": "recruit"
+        }
+      ],
+      "answer": "b",
+      "explanation": "establish 意為創立、創辦（國際賽事或組織）。",
+      "passage_ref": "establish"
+    },
+    {
+      "id": "u1a_vp_a2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "In the final of that tournament, striker Michelle Anne Akers led the United States to [victory / unity] over Norway.",
+      "options": [
+        {
+          "key": "a",
+          "text": "victory"
+        },
+        {
+          "key": "b",
+          "text": "unity"
+        },
+        {
+          "key": "c",
+          "text": "recruit"
+        },
+        {
+          "key": "d",
+          "text": "universal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "lead someone to victory 代表「帶領…取得勝利」。",
+      "passage_ref": "victory"
+    },
+    {
+      "id": "u1a_vp_a3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Four years later, Norway [defeated / established] Germany in the final.",
+      "options": [
+        {
+          "key": "a",
+          "text": "defeated"
+        },
+        {
+          "key": "b",
+          "text": "established"
+        },
+        {
+          "key": "c",
+          "text": "universal"
+        },
+        {
+          "key": "d",
+          "text": "recruit"
+        }
+      ],
+      "answer": "a",
+      "explanation": "defeat 代表擊敗對手。",
+      "passage_ref": "defeat"
+    },
+    {
+      "id": "u1a_vp_a4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Then, in 1996, [competitors / unity] from eight countries played in the first-ever women’s soccer event at the Olympics.",
+      "options": [
+        {
+          "key": "a",
+          "text": "competitors"
+        },
+        {
+          "key": "b",
+          "text": "unity"
+        },
+        {
+          "key": "c",
+          "text": "competitor"
+        },
+        {
+          "key": "d",
+          "text": "universal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "competitors 指參賽選手或球員。",
+      "passage_ref": "competitor"
+    },
+    {
+      "id": "u1a_vp_a5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Top players with a [recruit / passion] for the sport are responsible for helping make women’s soccer hugely popular today.",
+      "options": [
+        {
+          "key": "a",
+          "text": "recruit"
+        },
+        {
+          "key": "b",
+          "text": "passion"
+        },
+        {
+          "key": "c",
+          "text": "universal"
+        },
+        {
+          "key": "d",
+          "text": "unique"
+        }
+      ],
+      "answer": "b",
+      "explanation": "passion for the sport 意為「對運動的熱情」。",
+      "passage_ref": "passion"
+    },
+    {
+      "id": "u1a_vp_a6",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Top players with a passion for the sport are [universal / responsible] for helping make women’s soccer hugely popular today.",
+      "options": [
+        {
+          "key": "a",
+          "text": "universal"
+        },
+        {
+          "key": "b",
+          "text": "responsible"
+        },
+        {
+          "key": "c",
+          "text": "victory"
+        },
+        {
+          "key": "d",
+          "text": "defeat"
+        }
+      ],
+      "answer": "b",
+      "explanation": "be responsible for 代表「對…有功勞/負責」。",
+      "passage_ref": "responsible"
+    },
+    {
+      "id": "u1a_vp_b1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "If you recruit someone to an organization, you want them to ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "join"
+        },
+        {
+          "key": "b",
+          "text": "organize"
+        },
+        {
+          "key": "c",
+          "text": "competitor"
+        },
+        {
+          "key": "d",
+          "text": "universal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "recruit 意思是招募新成員加入組織 (join)。",
+      "passage_ref": "recruit"
+    },
+    {
+      "id": "u1a_vp_b2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "Something that is unique is ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "not as good as others"
+        },
+        {
+          "key": "b",
+          "text": "the only one of its kind"
+        },
+        {
+          "key": "c",
+          "text": "recruit"
+        },
+        {
+          "key": "d",
+          "text": "victory"
+        }
+      ],
+      "answer": "b",
+      "explanation": "unique 意思是獨特的、獨一無二的 (the only one of its kind)。",
+      "passage_ref": "unique"
+    },
+    {
+      "id": "u1a_vp_b3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "If something is universal, it relates to ______ in the world.",
+      "options": [
+        {
+          "key": "a",
+          "text": "few people"
+        },
+        {
+          "key": "b",
+          "text": "all people"
+        },
+        {
+          "key": "c",
+          "text": "universal"
+        },
+        {
+          "key": "d",
+          "text": "defeat"
+        }
+      ],
+      "answer": "b",
+      "explanation": "universal 意為普遍的、全球性的，與全世界所有的人相關 (all people)。",
+      "passage_ref": "universal"
+    },
+    {
+      "id": "u1a_vp_b4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "When there is unity, people ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "act together"
+        },
+        {
+          "key": "b",
+          "text": "go separate ways"
+        },
+        {
+          "key": "c",
+          "text": "recruit"
+        },
+        {
+          "key": "d",
+          "text": "unity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "unity 意為團結一致，眾人齊心採取行動 (act together)。",
+      "passage_ref": "unity"
+    },
+    {
+      "id": "u1b_vp_a1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "In 2013, an [elite / automatic] swimmer named Diana Nyad became the first person to swim from Cuba to Florida without using a shark cage.",
+      "options": [
+        {
+          "key": "a",
+          "text": "elite"
+        },
+        {
+          "key": "b",
+          "text": "automatic"
+        },
+        {
+          "key": "c",
+          "text": "psychological"
+        },
+        {
+          "key": "d",
+          "text": "genetic"
+        }
+      ],
+      "answer": "a",
+      "explanation": "elite swimmer 代表頂尖、傑出的游泳健將。",
+      "passage_ref": "elite"
+    },
+    {
+      "id": "u1b_vp_a2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "The swim [required / enhanced] Nyad to be in the water for nearly 53 hours.",
+      "options": [
+        {
+          "key": "a",
+          "text": "required"
+        },
+        {
+          "key": "b",
+          "text": "enhanced"
+        },
+        {
+          "key": "c",
+          "text": "enhance"
+        },
+        {
+          "key": "d",
+          "text": "adjust"
+        }
+      ],
+      "answer": "a",
+      "explanation": "require someone to do something 代表「需要/要求某人做出…」。",
+      "passage_ref": "require"
+    },
+    {
+      "id": "u1b_vp_a3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Some suggested this equipment [enhanced / differentiated] her performance, though Nyad claimed it actually slowed her down.",
+      "options": [
+        {
+          "key": "a",
+          "text": "enhanced"
+        },
+        {
+          "key": "b",
+          "text": "differentiated"
+        },
+        {
+          "key": "c",
+          "text": "generate"
+        },
+        {
+          "key": "d",
+          "text": "psychological"
+        }
+      ],
+      "answer": "a",
+      "explanation": "enhance performance 代表「提升表現/戰力」。",
+      "passage_ref": "enhance"
+    },
+    {
+      "id": "u1b_vp_a4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "What [differentiated / adjusted] this successful attempt from Nyad’s four previous attempts?",
+      "options": [
+        {
+          "key": "a",
+          "text": "differentiated"
+        },
+        {
+          "key": "b",
+          "text": "adjusted"
+        },
+        {
+          "key": "c",
+          "text": "automatic"
+        },
+        {
+          "key": "d",
+          "text": "psychological"
+        }
+      ],
+      "answer": "a",
+      "explanation": "differentiate A from B 意為「將 A 與 B 區分開來/使 A 與 B 有所不同」。",
+      "passage_ref": "differentiate"
+    },
+    {
+      "id": "u1b_vp_a5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Importantly, the [adjustments / champions] she made to her equipment helped.",
+      "options": [
+        {
+          "key": "a",
+          "text": "adjustments"
+        },
+        {
+          "key": "b",
+          "text": "champions"
+        },
+        {
+          "key": "c",
+          "text": "adjust"
+        },
+        {
+          "key": "d",
+          "text": "generate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "make adjustments to... 意為「對…進行微調改善」。",
+      "passage_ref": "adjust"
+    },
+    {
+      "id": "u1b_vp_a6",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Nyad’s mental determination, since her struggle was just as much [psychological / genetic] as physical.",
+      "options": [
+        {
+          "key": "a",
+          "text": "psychological"
+        },
+        {
+          "key": "b",
+          "text": "genetic"
+        },
+        {
+          "key": "c",
+          "text": "adjust"
+        },
+        {
+          "key": "d",
+          "text": "elite"
+        }
+      ],
+      "answer": "a",
+      "explanation": "psychological 與 physical (肉體生理) 相對，指心理精神上的挑戰。",
+      "passage_ref": "psychological"
+    },
+    {
+      "id": "u1b_vp_b1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "MATCHING",
+      "question": "Match the definition to the word: 'the winner of a competition'",
+      "options": [
+        {
+          "key": "a",
+          "text": "champion"
+        },
+        {
+          "key": "b",
+          "text": "generate"
+        },
+        {
+          "key": "c",
+          "text": "genetic"
+        },
+        {
+          "key": "d",
+          "text": "adjust"
+        },
+        {
+          "key": "e",
+          "text": "automatic"
+        }
+      ],
+      "answer": "a",
+      "explanation": "champion 意為冠軍、比賽勝利者。",
+      "passage_ref": "champion"
+    },
+    {
+      "id": "u1b_vp_b2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "MATCHING",
+      "question": "Match the definition to the word: 'to produce or cause something to begin'",
+      "options": [
+        {
+          "key": "a",
+          "text": "champion"
+        },
+        {
+          "key": "b",
+          "text": "generate"
+        },
+        {
+          "key": "c",
+          "text": "genetic"
+        },
+        {
+          "key": "d",
+          "text": "adjust"
+        },
+        {
+          "key": "e",
+          "text": "automatic"
+        }
+      ],
+      "answer": "b",
+      "explanation": "generate 意為產生、生成、引發。",
+      "passage_ref": "generate"
+    },
+    {
+      "id": "u1b_vp_b3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "MATCHING",
+      "question": "Match the definition to the word: 'relating to your DNA'",
+      "options": [
+        {
+          "key": "a",
+          "text": "champion"
+        },
+        {
+          "key": "b",
+          "text": "generate"
+        },
+        {
+          "key": "c",
+          "text": "genetic"
+        },
+        {
+          "key": "d",
+          "text": "adjust"
+        },
+        {
+          "key": "e",
+          "text": "automatic"
+        }
+      ],
+      "answer": "c",
+      "explanation": "genetic 意為基因的、遺傳學的。",
+      "passage_ref": "genetic"
+    },
+    {
+      "id": "u1b_vp_b4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "MATCHING",
+      "question": "Match the definition to the word: 'to move or change something slightly'",
+      "options": [
+        {
+          "key": "a",
+          "text": "champion"
+        },
+        {
+          "key": "b",
+          "text": "generate"
+        },
+        {
+          "key": "c",
+          "text": "genetic"
+        },
+        {
+          "key": "d",
+          "text": "adjust"
+        },
+        {
+          "key": "e",
+          "text": "automatic"
+        }
+      ],
+      "answer": "d",
+      "explanation": "adjust 意為調節、微調改變。",
+      "passage_ref": "adjust"
+    },
+    {
+      "id": "u1b_vp_b5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 課本單字實戰",
+      "type": "MATCHING",
+      "question": "Match the definition to the word: 'happening without thought'",
+      "options": [
+        {
+          "key": "a",
+          "text": "champion"
+        },
+        {
+          "key": "b",
+          "text": "generate"
+        },
+        {
+          "key": "c",
+          "text": "genetic"
+        },
+        {
+          "key": "d",
+          "text": "adjust"
+        },
+        {
+          "key": "e",
+          "text": "automatic"
+        }
+      ],
+      "answer": "e",
+      "explanation": "automatic 意為自動發生的、未經大腦有意識思考的反射動作。",
+      "passage_ref": "automatic"
+    },
+    {
+      "id": "u2a_vp_a1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Throughout her career she refused to [conform / devote] to business practices that she saw as destructive to the environment.",
+      "options": [
+        {
+          "key": "a",
+          "text": "conform"
+        },
+        {
+          "key": "b",
+          "text": "devote"
+        },
+        {
+          "key": "c",
+          "text": "notion"
+        },
+        {
+          "key": "d",
+          "text": "associate with"
+        }
+      ],
+      "answer": "a",
+      "explanation": "conform to 意為「遵從、隨波逐流符合常規」。",
+      "passage_ref": "conform"
+    },
+    {
+      "id": "u2a_vp_a2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Roddick believed in the [notion / feature] that “business can and must be a force for positive social change.”",
+      "options": [
+        {
+          "key": "a",
+          "text": "notion"
+        },
+        {
+          "key": "b",
+          "text": "feature"
+        },
+        {
+          "key": "c",
+          "text": "subjective"
+        },
+        {
+          "key": "d",
+          "text": "devote"
+        }
+      ],
+      "answer": "a",
+      "explanation": "notion 意為「概念、觀念」。",
+      "passage_ref": "notion"
+    },
+    {
+      "id": "u2a_vp_a3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "These beliefs meant her company [devoted / subjective] time and money to raising awareness of the need to protect the environment.",
+      "options": [
+        {
+          "key": "a",
+          "text": "devoted"
+        },
+        {
+          "key": "b",
+          "text": "subjective"
+        },
+        {
+          "key": "c",
+          "text": "notion"
+        },
+        {
+          "key": "d",
+          "text": "devote"
+        }
+      ],
+      "answer": "a",
+      "explanation": "devote time and money 代表「投入、奉獻時間與金錢」。",
+      "passage_ref": "devote"
+    },
+    {
+      "id": "u2a_vp_a4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "She supported developing countries, and created more environmentally friendly beauty products for [consumers / gender] to buy.",
+      "options": [
+        {
+          "key": "a",
+          "text": "consumers"
+        },
+        {
+          "key": "b",
+          "text": "gender"
+        },
+        {
+          "key": "c",
+          "text": "feature"
+        },
+        {
+          "key": "d",
+          "text": "desire"
+        }
+      ],
+      "answer": "a",
+      "explanation": "consumers 指購買產品的「消費者」。",
+      "passage_ref": "consumer"
+    },
+    {
+      "id": "u2a_vp_a5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "While Roddick is most closely [associated with / uniform] The Body Shop, she also started a charity.",
+      "options": [
+        {
+          "key": "a",
+          "text": "associated with"
+        },
+        {
+          "key": "b",
+          "text": "uniform"
+        },
+        {
+          "key": "c",
+          "text": "devote"
+        },
+        {
+          "key": "d",
+          "text": "feature"
+        }
+      ],
+      "answer": "a",
+      "explanation": "be associated with 代表「與…產生聯想/緊密相連」。",
+      "passage_ref": "associate with"
+    },
+    {
+      "id": "u2a_vp_b1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "People don’t have [uniform / desire] ideas on what beauty is; opinions vary greatly.",
+      "options": [
+        {
+          "key": "a",
+          "text": "uniform"
+        },
+        {
+          "key": "b",
+          "text": "desire"
+        },
+        {
+          "key": "c",
+          "text": "feature"
+        },
+        {
+          "key": "d",
+          "text": "conform"
+        }
+      ],
+      "answer": "a",
+      "explanation": "uniform ideas 意為「一致的、標準劃一的想法」。",
+      "passage_ref": "uniform"
+    },
+    {
+      "id": "u2a_vp_b2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Nowadays, many people of both [genders / notions] buy and use cosmetics.",
+      "options": [
+        {
+          "key": "a",
+          "text": "genders"
+        },
+        {
+          "key": "b",
+          "text": "notions"
+        },
+        {
+          "key": "c",
+          "text": "consumer"
+        },
+        {
+          "key": "d",
+          "text": "desire"
+        }
+      ],
+      "answer": "a",
+      "explanation": "both genders 指「兩種性別（男女雙方）」。",
+      "passage_ref": "gender"
+    },
+    {
+      "id": "u2a_vp_b3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "People use makeup to enhance their [features / desires]—for example, by using blush to make their cheeks look pinker.",
+      "options": [
+        {
+          "key": "a",
+          "text": "features"
+        },
+        {
+          "key": "b",
+          "text": "desires"
+        },
+        {
+          "key": "c",
+          "text": "subjective"
+        },
+        {
+          "key": "d",
+          "text": "notion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "facial features 指「面部特徵/五官容貌」。",
+      "passage_ref": "feature"
+    },
+    {
+      "id": "u2a_vp_b4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Our ideas about beauty are highly [subjective / uniform]; what one person finds attractive may be unattractive to another.",
+      "options": [
+        {
+          "key": "a",
+          "text": "subjective"
+        },
+        {
+          "key": "b",
+          "text": "uniform"
+        },
+        {
+          "key": "c",
+          "text": "desire"
+        },
+        {
+          "key": "d",
+          "text": "associate with"
+        }
+      ],
+      "answer": "a",
+      "explanation": "subjective 意為「主觀的」，見仁見智。後面說明一人視為美、他人未必贊同。",
+      "passage_ref": "subjective"
+    },
+    {
+      "id": "u2a_vp_b5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "The [desire / notion] to look young has led to a boom in sales of anti-aging products.",
+      "options": [
+        {
+          "key": "a",
+          "text": "desire"
+        },
+        {
+          "key": "b",
+          "text": "notion"
+        },
+        {
+          "key": "c",
+          "text": "subjective"
+        },
+        {
+          "key": "d",
+          "text": "associate with"
+        }
+      ],
+      "answer": "a",
+      "explanation": "the desire to look young 意為「想要保持年輕的渴望」。",
+      "passage_ref": "desire"
+    },
+    {
+      "id": "u2b_vp_a1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Tattooing was traditionally a(n) [crucial / external] part of life for members of the Iban tribe.",
+      "options": [
+        {
+          "key": "a",
+          "text": "crucial"
+        },
+        {
+          "key": "b",
+          "text": "external"
+        },
+        {
+          "key": "c",
+          "text": "status"
+        },
+        {
+          "key": "d",
+          "text": "protective"
+        }
+      ],
+      "answer": "a",
+      "explanation": "a crucial part 意為「至關重要的部分」。",
+      "passage_ref": "crucial"
+    },
+    {
+      "id": "u2b_vp_a2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "It was believed to have [protective / permanent] powers—defending the Iban people from harm and disease.",
+      "options": [
+        {
+          "key": "a",
+          "text": "protective"
+        },
+        {
+          "key": "b",
+          "text": "permanent"
+        },
+        {
+          "key": "c",
+          "text": "fade"
+        },
+        {
+          "key": "d",
+          "text": "crucial"
+        }
+      ],
+      "answer": "a",
+      "explanation": "protective powers 意為「防禦、保護性的力量」。",
+      "passage_ref": "protective"
+    },
+    {
+      "id": "u2b_vp_a3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "The dyes were [permanent / mature] and could not be removed.",
+      "options": [
+        {
+          "key": "a",
+          "text": "permanent"
+        },
+        {
+          "key": "b",
+          "text": "mature"
+        },
+        {
+          "key": "c",
+          "text": "leisure"
+        },
+        {
+          "key": "d",
+          "text": "status"
+        }
+      ],
+      "answer": "a",
+      "explanation": "permanent 意為永久的，無法洗除。",
+      "passage_ref": "permanent"
+    },
+    {
+      "id": "u2b_vp_a4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Newly done Iban tattoos look dark, but they gradually [fade / sector] somewhat from sunlight.",
+      "options": [
+        {
+          "key": "a",
+          "text": "fade"
+        },
+        {
+          "key": "b",
+          "text": "sector"
+        },
+        {
+          "key": "c",
+          "text": "criminal"
+        },
+        {
+          "key": "d",
+          "text": "mature"
+        }
+      ],
+      "answer": "a",
+      "explanation": "fade 意為褪色、顏色淡化。",
+      "passage_ref": "fade"
+    },
+    {
+      "id": "u2b_vp_a5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "CLOZE",
+      "question": "Today, for a growing [sector / criminal] of Iban society, Western tattoos are more popular than traditional designs.",
+      "options": [
+        {
+          "key": "a",
+          "text": "sector"
+        },
+        {
+          "key": "b",
+          "text": "criminal"
+        },
+        {
+          "key": "c",
+          "text": "crucial"
+        },
+        {
+          "key": "d",
+          "text": "external"
+        }
+      ],
+      "answer": "a",
+      "explanation": "a growing sector of society 代表「社會中越來越大的某一部分族群」。",
+      "passage_ref": "sector"
+    },
+    {
+      "id": "u2b_vp_b1",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "A criminal is a person who ______ the law.",
+      "options": [
+        {
+          "key": "a",
+          "text": "follows"
+        },
+        {
+          "key": "b",
+          "text": "breaks"
+        },
+        {
+          "key": "c",
+          "text": "criminal"
+        },
+        {
+          "key": "d",
+          "text": "leisure"
+        }
+      ],
+      "answer": "b",
+      "explanation": "criminal 意為罪犯，指違犯法律的人 (breaks the law)。",
+      "passage_ref": "criminal"
+    },
+    {
+      "id": "u2b_vp_b2",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "A leisure activity is one you enjoy doing when you ______ working.",
+      "options": [
+        {
+          "key": "a",
+          "text": "are"
+        },
+        {
+          "key": "b",
+          "text": "are not"
+        },
+        {
+          "key": "c",
+          "text": "external"
+        },
+        {
+          "key": "d",
+          "text": "sector"
+        }
+      ],
+      "answer": "b",
+      "explanation": "leisure 意為休閒閒暇，即不在工作時 (are not working)。",
+      "passage_ref": "leisure"
+    },
+    {
+      "id": "u2b_vp_b3",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "Something external is on the ______.",
+      "options": [
+        {
+          "key": "a",
+          "text": "inside, not the outside"
+        },
+        {
+          "key": "b",
+          "text": "outside, not the inside"
+        },
+        {
+          "key": "c",
+          "text": "protective"
+        },
+        {
+          "key": "d",
+          "text": "fade"
+        }
+      ],
+      "answer": "b",
+      "explanation": "external 意為外在的、外部的 (on the outside)。",
+      "passage_ref": "external"
+    },
+    {
+      "id": "u2b_vp_b4",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "You are more likely to describe a ______ as mature.",
+      "options": [
+        {
+          "key": "a",
+          "text": "two-year-old"
+        },
+        {
+          "key": "b",
+          "text": "30-year-old"
+        },
+        {
+          "key": "c",
+          "text": "mature"
+        },
+        {
+          "key": "d",
+          "text": "sector"
+        }
+      ],
+      "answer": "b",
+      "explanation": "mature 意為心智或生理發育成熟的，指30歲成年人而非2歲幼童。",
+      "passage_ref": "mature"
+    },
+    {
+      "id": "u2b_vp_b5",
+      "category": "vocab_book",
+      "category_zh": "課本單字練習",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 課本單字實戰",
+      "type": "DEFINITION",
+      "question": "A person’s status relates to their ______ in society.",
+      "options": [
+        {
+          "key": "a",
+          "text": "rank or position"
+        },
+        {
+          "key": "b",
+          "text": "health and diet"
+        },
+        {
+          "key": "c",
+          "text": "crucial"
+        },
+        {
+          "key": "d",
+          "text": "mature"
+        }
+      ],
+      "answer": "a",
+      "explanation": "status 意為社會地位、身分階級 (rank or position)。",
+      "passage_ref": "status"
+    },
+    {
+      "id": "mcq_red_u1a_w1",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「establish」(verb /ɪˈstæblɪʃ/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "建立、設立、制定 — to start or create an organization, system, or set of rules"
+        },
+        {
+          "key": "b",
+          "text": "獨特的、獨一無二的 — being the only existing one of its type or special in some way"
+        },
+        {
+          "key": "c",
+          "text": "部門、領域、某部分族群 — one of the areas into which the economic activity or population of a country is divided"
+        },
+        {
+          "key": "d",
+          "text": "奉獻、投入（時間或精力） — to give all of something, especially your time, effort, or love, or yourself, to something you believe in"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【establish】(verb) /ɪˈstæblɪʃ/\n中文釋義：建立、設立、制定\n英英釋義：to start or create an organization, system, or set of rules\n課文例句：\"In the 1840s, England’s Football Association established a set of rules, and the modern game was born.\"",
+      "passage_ref": "Unit 1A 課文原句: In the 1840s, England’s Football Association established a set of rules, and the modern game was born."
+    },
+    {
+      "id": "mcq_red_u1a_w2",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「victory」(noun /ˈvɪktəri/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "奉獻、投入（時間或精力） — to give all of something, especially your time, effort, or love, or yourself, to something you believe in"
+        },
+        {
+          "key": "b",
+          "text": "熱情、強烈熱愛 — a very powerful feeling, or strong enthusiasm for an activity"
+        },
+        {
+          "key": "c",
+          "text": "失敗、戰敗；擊敗 — failure to win a competition; or to win against someone in a fight or game"
+        },
+        {
+          "key": "d",
+          "text": "勝利、獲勝 — success in winning a game, competition, election, or war"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【victory】(noun) /ˈvɪktəri/\n中文釋義：勝利、獲勝\n英英釋義：success in winning a game, competition, election, or war\n課文例句：\"Their win is your victory, and their loss is your defeat.\"",
+      "passage_ref": "Unit 1A 課文原句: Their win is your victory, and their loss is your defeat."
+    },
+    {
+      "id": "mcq_red_u1a_w3",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「defeat」(noun / verb /dɪˈfiːt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "心理的、精神上的 — relating to the human mind and feelings"
+        },
+        {
+          "key": "b",
+          "text": "觀念、看法、信念 — a belief or idea"
+        },
+        {
+          "key": "c",
+          "text": "失敗、戰敗；擊敗 — failure to win a competition; or to win against someone in a fight or game"
+        },
+        {
+          "key": "d",
+          "text": "外部的、外在的 — of, on, for, or coming from the outside"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【defeat】(noun / verb) /dɪˈfiːt/\n中文釋義：失敗、戰敗；擊敗\n英英釋義：failure to win a competition; or to win against someone in a fight or game\n課文例句：\"Their win is your victory, and their loss is your defeat.\"",
+      "passage_ref": "Unit 1A 課文原句: Their win is your victory, and their loss is your defeat."
+    },
+    {
+      "id": "mcq_red_u1a_w4",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「universal」(adjective /ˌjuːnɪˈvɜːrsl/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "精英的、頂尖的 — the richest, most powerful, best-educated, or best-trained group in a society"
+        },
+        {
+          "key": "b",
+          "text": "熱情、強烈熱愛 — a very powerful feeling, or strong enthusiasm for an activity"
+        },
+        {
+          "key": "c",
+          "text": "競爭者、參賽選手 — a person, team, or company that is competing with others"
+        },
+        {
+          "key": "d",
+          "text": "普遍的、全體的、全世界的 — existing everywhere or involving everyone in the world"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【universal】(adjective) /ˌjuːnɪˈvɜːrsl/\n中文釋義：普遍的、全體的、全世界的\n英英釋義：existing everywhere or involving everyone in the world\n課文例句：\"Ultimately, the main reason for its universal appeal may be this: It’s a simple game.\"",
+      "passage_ref": "Unit 1A 課文原句: Ultimately, the main reason for its universal appeal may be this: It’s a simple game."
+    },
+    {
+      "id": "mcq_red_u1a_w5",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「unique」(adjective /juˈniːk/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "區分、使不同、辨別 — to show or find the difference between things that are compared"
+        },
+        {
+          "key": "b",
+          "text": "獨特的、獨一無二的 — being the only existing one of its type or special in some way"
+        },
+        {
+          "key": "c",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "d",
+          "text": "至關重要的、關鍵性的 — extremely important or necessary"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【unique】(adjective) /juˈniːk/\n中文釋義：獨特的、獨一無二的\n英英釋義：being the only existing one of its type or special in some way\n課文例句：\"It is this unique simplicity that makes soccer the most popular sport in Africa.\"",
+      "passage_ref": "Unit 1A 課文原句: It is this unique simplicity that makes soccer the most popular sport in Africa."
+    },
+    {
+      "id": "mcq_red_u1a_w6",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「recruit」(verb /rɪˈkruːt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "招募、吸收（新成員） — to find new people to join a company, an organization, or a team"
+        },
+        {
+          "key": "b",
+          "text": "負責任的、有擔當的 — having good judgment and the ability to act correctly and make decisions on your own"
+        },
+        {
+          "key": "c",
+          "text": "心理的、精神上的 — relating to the human mind and feelings"
+        },
+        {
+          "key": "d",
+          "text": "勝利、獲勝 — success in winning a game, competition, election, or war"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【recruit】(verb) /rɪˈkruːt/\n中文釋義：招募、吸收（新成員）\n英英釋義：to find new people to join a company, an organization, or a team\n課文例句：\"Thousands of soccer academies now recruit boys from poorer cities and towns to play the game.\"",
+      "passage_ref": "Unit 1A 課文原句: Thousands of soccer academies now recruit boys from poorer cities and towns to play the game."
+    },
+    {
+      "id": "mcq_red_u1a_w7",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「competitor」(noun /kəmˈpetɪtər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "熱情、強烈熱愛 — a very powerful feeling, or strong enthusiasm for an activity"
+        },
+        {
+          "key": "b",
+          "text": "成熟、長成；發育成熟的 — to become more developed mentally and emotionally and behave like an adult"
+        },
+        {
+          "key": "c",
+          "text": "奉獻、投入（時間或精力） — to give all of something, especially your time, effort, or love, or yourself, to something you believe in"
+        },
+        {
+          "key": "d",
+          "text": "競爭者、參賽選手 — a person, team, or company that is competing with others"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【competitor】(noun) /kəmˈpetɪtər/\n中文釋義：競爭者、參賽選手\n英英釋義：a person, team, or company that is competing with others\n課文例句：\"Many learn to play in their bare feet, and they are tough, creative competitors.\"",
+      "passage_ref": "Unit 1A 課文原句: Many learn to play in their bare feet, and they are tough, creative competitors."
+    },
+    {
+      "id": "mcq_red_u1a_w8",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「passion」(noun /ˈpæʃn/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "外部的、外在的 — of, on, for, or coming from the outside"
+        },
+        {
+          "key": "b",
+          "text": "熱情、強烈熱愛 — a very powerful feeling, or strong enthusiasm for an activity"
+        },
+        {
+          "key": "c",
+          "text": "負責任的、有擔當的 — having good judgment and the ability to act correctly and make decisions on your own"
+        },
+        {
+          "key": "d",
+          "text": "競爭者、參賽選手 — a person, team, or company that is competing with others"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【passion】(noun) /ˈpæʃn/\n中文釋義：熱情、強烈熱愛\n英英釋義：a very powerful feeling, or strong enthusiasm for an activity\n課文例句：\"Soccer is the passion of everyone here.\"",
+      "passage_ref": "Unit 1A 課文原句: Soccer is the passion of everyone here."
+    },
+    {
+      "id": "mcq_red_u1a_w9",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「unity」(noun /ˈjuːnəti/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "觀念、看法、信念 — a belief or idea"
+        },
+        {
+          "key": "b",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "c",
+          "text": "順從、遵從、符合 — to behave according to the usual standards of behavior that are expected by a group or society"
+        },
+        {
+          "key": "d",
+          "text": "負責任的、有擔當的 — having good judgment and the ability to act correctly and make decisions on your own"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【unity】(noun) /ˈjuːnəti/\n中文釋義：團結、一致\n英英釋義：the state of being joined together or in agreement\n課文例句：\"The national team has become a symbol of unity and has helped to promote peace throughout the country.\"",
+      "passage_ref": "Unit 1A 課文原句: The national team has become a symbol of unity and has helped to promote peace throughout the country."
+    },
+    {
+      "id": "mcq_red_u1a_w10",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1a",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「responsible」(adjective /rɪˈspɑːnsəbl/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "產生、生成、引起 — to cause something to exist or produce energy in a particular form"
+        },
+        {
+          "key": "b",
+          "text": "心理的、精神上的 — relating to the human mind and feelings"
+        },
+        {
+          "key": "c",
+          "text": "冠軍、優勝者 — someone or something that has won a competition"
+        },
+        {
+          "key": "d",
+          "text": "負責任的、有擔當的 — having good judgment and the ability to act correctly and make decisions on your own"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【responsible】(adjective) /rɪˈspɑːnsəbl/\n中文釋義：負責任的、有擔當的\n英英釋義：having good judgment and the ability to act correctly and make decisions on your own\n課文例句：\"We’re trying our best to help young people and to make them responsible in society.\"",
+      "passage_ref": "Unit 1A 課文原句: We’re trying our best to help young people and to make them responsible in society."
+    },
+    {
+      "id": "mcq_red_u1b_w1",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「champion」(noun /ˈtʃæmpiən/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "冠軍、優勝者 — someone or something that has won a competition"
+        },
+        {
+          "key": "b",
+          "text": "部門、領域、某部分族群 — one of the areas into which the economic activity or population of a country is divided"
+        },
+        {
+          "key": "c",
+          "text": "與…產生聯想、聯繫 — to connect someone or something in your mind with someone or something else"
+        },
+        {
+          "key": "d",
+          "text": "褪色、逐漸消失 — to lose color, brightness, or strength gradually"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【champion】(noun) /ˈtʃæmpiən/\n中文釋義：冠軍、優勝者\n英英釋義：someone or something that has won a competition\n課文例句：\"How does a person become an Olympic champion—someone capable of winning the gold?\"",
+      "passage_ref": "Unit 1B 課文原句: How does a person become an Olympic champion—someone capable of winning the gold?"
+    },
+    {
+      "id": "mcq_red_u1b_w2",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「psychological」(adjective /ˌsaɪkəˈlɑːdʒɪkl/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "心理的、精神上的 — relating to the human mind and feelings"
+        },
+        {
+          "key": "b",
+          "text": "產生、生成、引起 — to cause something to exist or produce energy in a particular form"
+        },
+        {
+          "key": "c",
+          "text": "地位、身分、狀態 — an accepted or official position, especially in a social group"
+        },
+        {
+          "key": "d",
+          "text": "普遍的、全體的、全世界的 — existing everywhere or involving everyone in the world"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【psychological】(adjective) /ˌsaɪkəˈlɑːdʒɪkl/\n中文釋義：心理的、精神上的\n英英釋義：relating to the human mind and feelings\n課文例句：\"A combination of biological, environmental, and psychological factors go into making a super athlete.\"",
+      "passage_ref": "Unit 1B 課文原句: A combination of biological, environmental, and psychological factors go into making a super athlete."
+    },
+    {
+      "id": "mcq_red_u1b_w3",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「elite」(adjective / noun /eɪˈliːt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "褪色、逐漸消失 — to lose color, brightness, or strength gradually"
+        },
+        {
+          "key": "b",
+          "text": "消費者、顧客 — a person who buys goods or services for their own use"
+        },
+        {
+          "key": "c",
+          "text": "精英的、頂尖的 — the richest, most powerful, best-educated, or best-trained group in a society"
+        },
+        {
+          "key": "d",
+          "text": "與…產生聯想、聯繫 — to connect someone or something in your mind with someone or something else"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【elite】(adjective / noun) /eɪˈliːt/\n中文釋義：精英的、頂尖的\n英英釋義：the richest, most powerful, best-educated, or best-trained group in a society\n課文例句：\"Perhaps the most important factor involved in becoming an elite athlete is genetic.\"",
+      "passage_ref": "Unit 1B 課文原句: Perhaps the most important factor involved in becoming an elite athlete is genetic."
+    },
+    {
+      "id": "mcq_red_u1b_w4",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「genetic」(adjective /dʒəˈnetɪk/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "基因的、遺傳的 — belonging or relating to genes (= parts of the DNA in cells) received from parents"
+        },
+        {
+          "key": "b",
+          "text": "部門、領域、某部分族群 — one of the areas into which the economic activity or population of a country is divided"
+        },
+        {
+          "key": "c",
+          "text": "永久的、持久的 — lasting for a long time or forever"
+        },
+        {
+          "key": "d",
+          "text": "主觀的 — influenced by personal opinions and feelings rather than facts"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【genetic】(adjective) /dʒəˈnetɪk/\n中文釋義：基因的、遺傳的\n英英釋義：belonging or relating to genes (= parts of the DNA in cells) received from parents\n課文例句：\"Perhaps the most important factor involved in becoming an elite athlete is genetic.\"",
+      "passage_ref": "Unit 1B 課文原句: Perhaps the most important factor involved in becoming an elite athlete is genetic."
+    },
+    {
+      "id": "mcq_red_u1b_w5",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「differentiate」(verb /ˌdɪfəˈrenʃieɪt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "區分、使不同、辨別 — to show or find the difference between things that are compared"
+        },
+        {
+          "key": "b",
+          "text": "招募、吸收（新成員） — to find new people to join a company, an organization, or a team"
+        },
+        {
+          "key": "c",
+          "text": "順從、遵從、符合 — to behave according to the usual standards of behavior that are expected by a group or society"
+        },
+        {
+          "key": "d",
+          "text": "獨特的、獨一無二的 — being the only existing one of its type or special in some way"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【differentiate】(verb) /ˌdɪfəˈrenʃieɪt/\n中文釋義：區分、使不同、辨別\n英英釋義：to show or find the difference between things that are compared\n課文例句：\"Most Olympic competitors are equipped with physical characteristics that differentiate them from the average person.\"",
+      "passage_ref": "Unit 1B 課文原句: Most Olympic competitors are equipped with physical characteristics that differentiate them from the average person."
+    },
+    {
+      "id": "mcq_red_u1b_w6",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「require」(verb /rɪˈkwaɪər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "罪犯；犯法的 — someone who commits a crime"
+        },
+        {
+          "key": "b",
+          "text": "順從、遵從、符合 — to behave according to the usual standards of behavior that are expected by a group or society"
+        },
+        {
+          "key": "c",
+          "text": "需要、要求 — to need something or make something necessary"
+        },
+        {
+          "key": "d",
+          "text": "普遍的、全體的、全世界的 — existing everywhere or involving everyone in the world"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【require】(verb) /rɪˈkwaɪər/\n中文釋義：需要、要求\n英英釋義：to need something or make something necessary\n課文例句：\"Training this way requires an athlete to be not only physically fit but psychologically healthy as well.\"",
+      "passage_ref": "Unit 1B 課文原句: Training this way requires an athlete to be not only physically fit but psychologically healthy as well."
+    },
+    {
+      "id": "mcq_red_u1b_w7",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「generate」(verb /ˈdʒenəreɪt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "主觀的 — influenced by personal opinions and feelings rather than facts"
+        },
+        {
+          "key": "b",
+          "text": "負責任的、有擔當的 — having good judgment and the ability to act correctly and make decisions on your own"
+        },
+        {
+          "key": "c",
+          "text": "消費者、顧客 — a person who buys goods or services for their own use"
+        },
+        {
+          "key": "d",
+          "text": "產生、生成、引起 — to cause something to exist or produce energy in a particular form"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【generate】(verb) /ˈdʒenəreɪt/\n中文釋義：產生、生成、引起\n英英釋義：to cause something to exist or produce energy in a particular form\n課文例句：\"These generate energy efficiently and enable an athlete to control fatigue.\"",
+      "passage_ref": "Unit 1B 課文原句: These generate energy efficiently and enable an athlete to control fatigue."
+    },
+    {
+      "id": "mcq_red_u1b_w8",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「enhance」(verb /ɪnˈhæns/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "永久的、持久的 — lasting for a long time or forever"
+        },
+        {
+          "key": "b",
+          "text": "區分、使不同、辨別 — to show or find the difference between things that are compared"
+        },
+        {
+          "key": "c",
+          "text": "消費者、顧客 — a person who buys goods or services for their own use"
+        },
+        {
+          "key": "d",
+          "text": "增強、提高、提升 — to improve the quality, amount, or strength of something"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【enhance】(verb) /ɪnˈhæns/\n中文釋義：增強、提高、提升\n英英釋義：to improve the quality, amount, or strength of something\n課文例句：\"Some athletes’ abilities are naturally enhanced by their environment.\"",
+      "passage_ref": "Unit 1B 課文原句: Some athletes’ abilities are naturally enhanced by their environment."
+    },
+    {
+      "id": "mcq_red_u1b_w9",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「automatic」(adjective /ˌɔːtəˈmætɪk/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "順從、遵從、符合 — to behave according to the usual standards of behavior that are expected by a group or society"
+        },
+        {
+          "key": "b",
+          "text": "冠軍、優勝者 — someone or something that has won a competition"
+        },
+        {
+          "key": "c",
+          "text": "性別 — the condition of being male or female, especially when considered with reference to social and cultural differences"
+        },
+        {
+          "key": "d",
+          "text": "自動的、無意識反射的 — done as a natural reaction or without thinking"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【automatic】(adjective) /ˌɔːtəˈmætɪk/\n中文釋義：自動的、無意識反射的\n英英釋義：done as a natural reaction or without thinking\n課文例句：\"Weightlifters and gymnasts perfect their skills by repeating the same motions until they become automatic.\"",
+      "passage_ref": "Unit 1B 課文原句: Weightlifters and gymnasts perfect their skills by repeating the same motions until they become automatic."
+    },
+    {
+      "id": "mcq_red_u1b_w10",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u1b",
+      "chapter": "Chapter 1",
+      "unitTitle": "Unit 1B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「adjust」(verb /əˈdʒʌst/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "心理的、精神上的 — relating to the human mind and feelings"
+        },
+        {
+          "key": "b",
+          "text": "成熟、長成；發育成熟的 — to become more developed mentally and emotionally and behave like an adult"
+        },
+        {
+          "key": "c",
+          "text": "調整、適應、調節 — to change something slightly, especially to make it more correct, effective, or suitable"
+        },
+        {
+          "key": "d",
+          "text": "地位、身分、狀態 — an accepted or official position, especially in a social group"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【adjust】(verb) /əˈdʒʌst/\n中文釋義：調整、適應、調節\n英英釋義：to change something slightly, especially to make it more correct, effective, or suitable\n課文例句：\"How do athletes adjust to such intense pressure?\"",
+      "passage_ref": "Unit 1B 課文原句: How do athletes adjust to such intense pressure?"
+    },
+    {
+      "id": "mcq_red_u2a_w1",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「devote」(verb /dɪˈvoʊt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "勝利、獲勝 — success in winning a game, competition, election, or war"
+        },
+        {
+          "key": "b",
+          "text": "休閒、閒暇 — the time when you are not working or doing other duties"
+        },
+        {
+          "key": "c",
+          "text": "奉獻、投入（時間或精力） — to give all of something, especially your time, effort, or love, or yourself, to something you believe in"
+        },
+        {
+          "key": "d",
+          "text": "普遍的、全體的、全世界的 — existing everywhere or involving everyone in the world"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【devote】(verb) /dɪˈvoʊt/\n中文釋義：奉獻、投入（時間或精力）\n英英釋義：to give all of something, especially your time, effort, or love, or yourself, to something you believe in\n課文例句：\"Today, people continue to devote a lot of time and money to their appearance.\"",
+      "passage_ref": "Unit 2A 課文原句: Today, people continue to devote a lot of time and money to their appearance."
+    },
+    {
+      "id": "mcq_red_u2a_w2",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「consumer」(noun /kənˈsuːmər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "自動的、無意識反射的 — done as a natural reaction or without thinking"
+        },
+        {
+          "key": "b",
+          "text": "熱情、強烈熱愛 — a very powerful feeling, or strong enthusiasm for an activity"
+        },
+        {
+          "key": "c",
+          "text": "消費者、顧客 — a person who buys goods or services for their own use"
+        },
+        {
+          "key": "d",
+          "text": "罪犯；犯法的 — someone who commits a crime"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【consumer】(noun) /kənˈsuːmər/\n中文釋義：消費者、顧客\n英英釋義：a person who buys goods or services for their own use\n課文例句：\"One out of three consumers globally say they are spending more money on beauty products.\"",
+      "passage_ref": "Unit 2A 課文原句: One out of three consumers globally say they are spending more money on beauty products."
+    },
+    {
+      "id": "mcq_red_u2a_w3",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「desire」(noun / verb /dɪˈzaɪər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "一致的、標準劃一的 — the same; not changing or different in any way"
+        },
+        {
+          "key": "b",
+          "text": "區分、使不同、辨別 — to show or find the difference between things that are compared"
+        },
+        {
+          "key": "c",
+          "text": "失敗、戰敗；擊敗 — failure to win a competition; or to win against someone in a fight or game"
+        },
+        {
+          "key": "d",
+          "text": "渴望、慾望 — a strong feeling that you want something"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【desire】(noun / verb) /dɪˈzaɪər/\n中文釋義：渴望、慾望\n英英釋義：a strong feeling that you want something\n課文例句：\"And there is at least one good reason for the desire to be attractive: Beauty is power.\"",
+      "passage_ref": "Unit 2A 課文原句: And there is at least one good reason for the desire to be attractive: Beauty is power."
+    },
+    {
+      "id": "mcq_red_u2a_w4",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「feature」(noun /ˈfiːtʃər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "容貌特徵、特色 — a noticeable or important characteristic or part of someone’s face"
+        },
+        {
+          "key": "b",
+          "text": "永久的、持久的 — lasting for a long time or forever"
+        },
+        {
+          "key": "c",
+          "text": "熱情、強烈熱愛 — a very powerful feeling, or strong enthusiasm for an activity"
+        },
+        {
+          "key": "d",
+          "text": "至關重要的、關鍵性的 — extremely important or necessary"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【feature】(noun) /ˈfiːtʃər/\n中文釋義：容貌特徵、特色\n英英釋義：a noticeable or important characteristic or part of someone’s face\n課文例句：\"Men regularly showed a preference for women with certain features: larger eyes, clear skin, fuller lips...\"",
+      "passage_ref": "Unit 2A 課文原句: Men regularly showed a preference for women with certain features: larger eyes, clear skin, fuller lips..."
+    },
+    {
+      "id": "mcq_red_u2a_w5",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「notion」(noun /ˈnoʊʃn/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "招募、吸收（新成員） — to find new people to join a company, an organization, or a team"
+        },
+        {
+          "key": "b",
+          "text": "產生、生成、引起 — to cause something to exist or produce energy in a particular form"
+        },
+        {
+          "key": "c",
+          "text": "觀念、看法、信念 — a belief or idea"
+        },
+        {
+          "key": "d",
+          "text": "需要、要求 — to need something or make something necessary"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【notion】(noun) /ˈnoʊʃn/\n中文釋義：觀念、看法、信念\n英英釋義：a belief or idea\n課文例句：\"Not everyone agrees with this notion, however.\"",
+      "passage_ref": "Unit 2A 課文原句: Not everyone agrees with this notion, however."
+    },
+    {
+      "id": "mcq_red_u2a_w6",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「subjective」(adjective /səbˈdʒektɪv/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "主觀的 — influenced by personal opinions and feelings rather than facts"
+        },
+        {
+          "key": "b",
+          "text": "增強、提高、提升 — to improve the quality, amount, or strength of something"
+        },
+        {
+          "key": "c",
+          "text": "調整、適應、調節 — to change something slightly, especially to make it more correct, effective, or suitable"
+        },
+        {
+          "key": "d",
+          "text": "冠軍、優勝者 — someone or something that has won a competition"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【subjective】(adjective) /səbˈdʒektɪv/\n中文釋義：主觀的\n英英釋義：influenced by personal opinions and feelings rather than facts\n課文例句：\"For them, what is considered beautiful is subjective and varies around the world.\"",
+      "passage_ref": "Unit 2A 課文原句: For them, what is considered beautiful is subjective and varies around the world."
+    },
+    {
+      "id": "mcq_red_u2a_w7",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「associate with」(phrasal verb /əˈsoʊʃieɪt wɪð/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "褪色、逐漸消失 — to lose color, brightness, or strength gradually"
+        },
+        {
+          "key": "b",
+          "text": "與…產生聯想、聯繫 — to connect someone or something in your mind with someone or something else"
+        },
+        {
+          "key": "c",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "d",
+          "text": "罪犯；犯法的 — someone who commits a crime"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【associate with】(phrasal verb) /əˈsoʊʃieɪt wɪð/\n中文釋義：與…產生聯想、聯繫\n英英釋義：to connect someone or something in your mind with someone or something else\n課文例句：\"Teenage boys learn to decorate their hair—a behavior more commonly associated with the opposite gender.\"",
+      "passage_ref": "Unit 2A 課文原句: Teenage boys learn to decorate their hair—a behavior more commonly associated with the opposite gender."
+    },
+    {
+      "id": "mcq_red_u2a_w8",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「gender」(noun /ˈdʒendər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "永久的、持久的 — lasting for a long time or forever"
+        },
+        {
+          "key": "b",
+          "text": "休閒、閒暇 — the time when you are not working or doing other duties"
+        },
+        {
+          "key": "c",
+          "text": "保護性的、防護的 — giving protection or intended to protect someone or something"
+        },
+        {
+          "key": "d",
+          "text": "性別 — the condition of being male or female, especially when considered with reference to social and cultural differences"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【gender】(noun) /ˈdʒendər/\n中文釋義：性別\n英英釋義：the condition of being male or female, especially when considered with reference to social and cultural differences\n課文例句：\"A behavior more commonly associated with the opposite gender in many cultures.\"",
+      "passage_ref": "Unit 2A 課文原句: A behavior more commonly associated with the opposite gender in many cultures."
+    },
+    {
+      "id": "mcq_red_u2a_w9",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「conform」(verb /kənˈfɔːrm/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "順從、遵從、符合 — to behave according to the usual standards of behavior that are expected by a group or society"
+        },
+        {
+          "key": "b",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "c",
+          "text": "觀念、看法、信念 — a belief or idea"
+        },
+        {
+          "key": "d",
+          "text": "失敗、戰敗；擊敗 — failure to win a competition; or to win against someone in a fight or game"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【conform】(verb) /kənˈfɔːrm/\n中文釋義：順從、遵從、符合\n英英釋義：to behave according to the usual standards of behavior that are expected by a group or society\n課文例句：\"Beauty does not always conform to a single, uniform standard.\"",
+      "passage_ref": "Unit 2A 課文原句: Beauty does not always conform to a single, uniform standard."
+    },
+    {
+      "id": "mcq_red_u2a_w10",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2a",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2A: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「uniform」(adjective /ˈjuːnɪfɔːrm/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "基因的、遺傳的 — belonging or relating to genes (= parts of the DNA in cells) received from parents"
+        },
+        {
+          "key": "b",
+          "text": "普遍的、全體的、全世界的 — existing everywhere or involving everyone in the world"
+        },
+        {
+          "key": "c",
+          "text": "一致的、標準劃一的 — the same; not changing or different in any way"
+        },
+        {
+          "key": "d",
+          "text": "渴望、慾望 — a strong feeling that you want something"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【uniform】(adjective) /ˈjuːnɪfɔːrm/\n中文釋義：一致的、標準劃一的\n英英釋義：the same; not changing or different in any way\n課文例句：\"Beauty does not always conform to a single, uniform standard.\"",
+      "passage_ref": "Unit 2A 課文原句: Beauty does not always conform to a single, uniform standard."
+    },
+    {
+      "id": "mcq_red_u2b_w1",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「external」(adjective /ɪkˈstɜːrnl/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "招募、吸收（新成員） — to find new people to join a company, an organization, or a team"
+        },
+        {
+          "key": "b",
+          "text": "外部的、外在的 — of, on, for, or coming from the outside"
+        },
+        {
+          "key": "c",
+          "text": "建立、設立、制定 — to start or create an organization, system, or set of rules"
+        },
+        {
+          "key": "d",
+          "text": "競爭者、參賽選手 — a person, team, or company that is competing with others"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【external】(adjective) /ɪkˈstɜːrnl/\n中文釋義：外部的、外在的\n英英釋義：of, on, for, or coming from the outside\n課文例句：\"Covering almost the entire body, skin protects us from a variety of external forces.\"",
+      "passage_ref": "Unit 2B 課文原句: Covering almost the entire body, skin protects us from a variety of external forces."
+    },
+    {
+      "id": "mcq_red_u2b_w2",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「protective」(adjective /prəˈtektɪv/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "b",
+          "text": "競爭者、參賽選手 — a person, team, or company that is competing with others"
+        },
+        {
+          "key": "c",
+          "text": "保護性的、防護的 — giving protection or intended to protect someone or something"
+        },
+        {
+          "key": "d",
+          "text": "渴望、慾望 — a strong feeling that you want something"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【protective】(adjective) /prəˈtektɪv/\n中文釋義：保護性的、防護的\n英英釋義：giving protection or intended to protect someone or something\n課文例句：\"The health of our skin and its ability to perform its protective functions are crucial to our well-being.\"",
+      "passage_ref": "Unit 2B 課文原句: The health of our skin and its ability to perform its protective functions are crucial to our well-being."
+    },
+    {
+      "id": "mcq_red_u2b_w3",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「crucial」(adjective /ˈkruːʃl/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "勝利、獲勝 — success in winning a game, competition, election, or war"
+        },
+        {
+          "key": "b",
+          "text": "至關重要的、關鍵性的 — extremely important or necessary"
+        },
+        {
+          "key": "c",
+          "text": "與…產生聯想、聯繫 — to connect someone or something in your mind with someone or something else"
+        },
+        {
+          "key": "d",
+          "text": "競爭者、參賽選手 — a person, team, or company that is competing with others"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【crucial】(adjective) /ˈkruːʃl/\n中文釋義：至關重要的、關鍵性的\n英英釋義：extremely important or necessary\n課文例句：\"Its ability to perform its protective functions are crucial to our well-being.\"",
+      "passage_ref": "Unit 2B 課文原句: Its ability to perform its protective functions are crucial to our well-being."
+    },
+    {
+      "id": "mcq_red_u2b_w4",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「leisure」(noun /ˈliːʒər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "休閒、閒暇 — the time when you are not working or doing other duties"
+        },
+        {
+          "key": "b",
+          "text": "順從、遵從、符合 — to behave according to the usual standards of behavior that are expected by a group or society"
+        },
+        {
+          "key": "c",
+          "text": "失敗、戰敗；擊敗 — failure to win a competition; or to win against someone in a fight or game"
+        },
+        {
+          "key": "d",
+          "text": "性別 — the condition of being male or female, especially when considered with reference to social and cultural differences"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【leisure】(noun) /ˈliːʒər/\n中文釋義：休閒、閒暇\n英英釋義：the time when you are not working or doing other duties\n課文例句：\"Tanned skin began to indicate leisure time and health.\"",
+      "passage_ref": "Unit 2B 課文原句: Tanned skin began to indicate leisure time and health."
+    },
+    {
+      "id": "mcq_red_u2b_w5",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「status」(noun /ˈsteɪtəs/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "容貌特徵、特色 — a noticeable or important characteristic or part of someone’s face"
+        },
+        {
+          "key": "b",
+          "text": "地位、身分、狀態 — an accepted or official position, especially in a social group"
+        },
+        {
+          "key": "c",
+          "text": "渴望、慾望 — a strong feeling that you want something"
+        },
+        {
+          "key": "d",
+          "text": "勝利、獲勝 — success in winning a game, competition, election, or war"
+        }
+      ],
+      "answer": "b",
+      "explanation": "【status】(noun) /ˈsteɪtəs/\n中文釋義：地位、身分、狀態\n英英釋義：an accepted or official position, especially in a social group\n課文例句：\"Leaders wore tattoos to mark their status, or their bravery.\"",
+      "passage_ref": "Unit 2B 課文原句: Leaders wore tattoos to mark their status, or their bravery."
+    },
+    {
+      "id": "mcq_red_u2b_w6",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「criminal」(noun / adjective /ˈkrɪmɪnl/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "褪色、逐漸消失 — to lose color, brightness, or strength gradually"
+        },
+        {
+          "key": "b",
+          "text": "精英的、頂尖的 — the richest, most powerful, best-educated, or best-trained group in a society"
+        },
+        {
+          "key": "c",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "d",
+          "text": "罪犯；犯法的 — someone who commits a crime"
+        }
+      ],
+      "answer": "d",
+      "explanation": "【criminal】(noun / adjective) /ˈkrɪmɪnl/\n中文釋義：罪犯；犯法的\n英英釋義：someone who commits a crime\n課文例句：\"Tattoos are still strongly associated with criminals—particularly the yakuza.\"",
+      "passage_ref": "Unit 2B 課文原句: Tattoos are still strongly associated with criminals—particularly the yakuza."
+    },
+    {
+      "id": "mcq_red_u2b_w7",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「mature」(verb / adjective /məˈtʃʊr/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "增強、提高、提升 — to improve the quality, amount, or strength of something"
+        },
+        {
+          "key": "b",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        },
+        {
+          "key": "c",
+          "text": "成熟、長成；發育成熟的 — to become more developed mentally and emotionally and behave like an adult"
+        },
+        {
+          "key": "d",
+          "text": "部門、領域、某部分族群 — one of the areas into which the economic activity or population of a country is divided"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【mature】(verb / adjective) /məˈtʃʊr/\n中文釋義：成熟、長成；發育成熟的\n英英釋義：to become more developed mentally and emotionally and behave like an adult\n課文例句：\"An act that symbolizes that a male has matured from a child into an adult.\"",
+      "passage_ref": "Unit 2B 課文原句: An act that symbolizes that a male has matured from a child into an adult."
+    },
+    {
+      "id": "mcq_red_u2b_w8",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「permanent」(adjective /ˈpɜːrmənənt/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "成熟、長成；發育成熟的 — to become more developed mentally and emotionally and behave like an adult"
+        },
+        {
+          "key": "b",
+          "text": "觀念、看法、信念 — a belief or idea"
+        },
+        {
+          "key": "c",
+          "text": "永久的、持久的 — lasting for a long time or forever"
+        },
+        {
+          "key": "d",
+          "text": "地位、身分、狀態 — an accepted or official position, especially in a social group"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【permanent】(adjective) /ˈpɜːrmənənt/\n中文釋義：永久的、持久的\n英英釋義：lasting for a long time or forever\n課文例句：\"Not all skin markings are permanent, though.\"",
+      "passage_ref": "Unit 2B 課文原句: Not all skin markings are permanent, though."
+    },
+    {
+      "id": "mcq_red_u2b_w9",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「fade」(verb /feɪd/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "褪色、逐漸消失 — to lose color, brightness, or strength gradually"
+        },
+        {
+          "key": "b",
+          "text": "外部的、外在的 — of, on, for, or coming from the outside"
+        },
+        {
+          "key": "c",
+          "text": "主觀的 — influenced by personal opinions and feelings rather than facts"
+        },
+        {
+          "key": "d",
+          "text": "團結、一致 — the state of being joined together or in agreement"
+        }
+      ],
+      "answer": "a",
+      "explanation": "【fade】(verb) /feɪd/\n中文釋義：褪色、逐漸消失\n英英釋義：to lose color, brightness, or strength gradually\n課文例句：\"The henna coloring, which comes from a plant, fades and disappears over time.\"",
+      "passage_ref": "Unit 2B 課文原句: The henna coloring, which comes from a plant, fades and disappears over time."
+    },
+    {
+      "id": "mcq_red_u2b_w10",
+      "category": "vocab_red",
+      "category_zh": "紅色核心單字配對",
+      "unitId": "u2b",
+      "chapter": "Chapter 2",
+      "unitTitle": "Unit 2B: 紅色單字",
+      "type": "RED VOCAB MATCHING",
+      "question": "【單字釋義選擇】請選出紅色核心單字「sector」(noun /ˈsektər/) 的正確釋義：",
+      "options": [
+        {
+          "key": "a",
+          "text": "永久的、持久的 — lasting for a long time or forever"
+        },
+        {
+          "key": "b",
+          "text": "招募、吸收（新成員） — to find new people to join a company, an organization, or a team"
+        },
+        {
+          "key": "c",
+          "text": "部門、領域、某部分族群 — one of the areas into which the economic activity or population of a country is divided"
+        },
+        {
+          "key": "d",
+          "text": "負責任的、有擔當的 — having good judgment and the ability to act correctly and make decisions on your own"
+        }
+      ],
+      "answer": "c",
+      "explanation": "【sector】(noun) /ˈsektər/\n中文釋義：部門、領域、某部分族群\n英英釋義：one of the areas into which the economic activity or population of a country is divided\n課文例句：\"There is a whole sector of modern society—people in search of identity, people in search of meaning...\"",
+      "passage_ref": "Unit 2B 課文原句: There is a whole sector of modern society—people in search of identity, people in search of meaning..."
     }
   ]
 }

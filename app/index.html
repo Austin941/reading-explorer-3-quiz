@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reading Explorer 3 (3rd ed.) · Ch1 & Ch2 課文閱讀與紅色單字配對刷題系統</title>
+  <title>Reading Explorer 3 (3rd ed.) · Ch1 & Ch2 課本選擇題刷題系統</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -31,7 +31,7 @@
 
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
-  <!-- Canvas Confetti for Celebration -->
+  <!-- Canvas Confetti -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
   <!-- Firebase SDK Compat -->
@@ -51,32 +51,24 @@
       <!-- Brand & Title -->
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
-          <i data-lucide="book-marked" class="w-5 h-5"></i>
+          <i data-lucide="check-square" class="w-5 h-5"></i>
         </div>
         <div>
           <div class="flex items-center gap-2">
             <h1 class="font-bold text-base sm:text-lg tracking-tight text-primary">Reading Explorer 3</h1>
-            <span class="badge badge-red font-mono text-[10px] hidden sm:inline-flex">Ch1 + Ch2 考前衝刺</span>
+            <span class="badge badge-red font-mono text-[10px]">Ch1 + Ch2 選擇題專練</span>
           </div>
-          <p class="text-xs text-secondary hidden sm:block">課文閱讀測驗 · 紅色單字配對 · 錯題複習專區</p>
+          <p class="text-xs text-secondary hidden sm:block">課文閱讀理解 · 紅色核心單字配對 · 課本題庫刷題</p>
         </div>
       </div>
 
-      <!-- Center Desktop Navigation Tabs -->
-      <nav class="hidden md:flex items-center gap-1.5 p-1 rounded-full bg-elevated border border-subtle shadow-sm">
-        <button data-tab="matching" class="nav-tab text-xs">
-          <i data-lucide="zap" class="w-3.5 h-3.5"></i>
-          紅色單字配對
+      <!-- Center Navigation Tabs -->
+      <nav class="flex items-center gap-1.5 p-1 rounded-full bg-elevated border border-subtle shadow-sm">
+        <button data-view="quiz" class="nav-tab text-xs active">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+          選擇題刷題
         </button>
-        <button data-tab="quiz" class="nav-tab text-xs">
-          <i data-lucide="help-circle" class="w-3.5 h-3.5"></i>
-          課文閱讀測驗
-        </button>
-        <button data-tab="flashcards" class="nav-tab text-xs">
-          <i data-lucide="layers" class="w-3.5 h-3.5"></i>
-          核心單字卡
-        </button>
-        <button data-tab="review" class="nav-tab text-xs flex items-center gap-1">
+        <button data-view="review" class="nav-tab text-xs flex items-center gap-1">
           <i data-lucide="bookmark" class="w-3.5 h-3.5"></i>
           錯題筆記本
           <span id="nav-mistake-badge" class="badge badge-red font-mono hidden">0</span>
@@ -87,7 +79,7 @@
       <div class="flex items-center gap-2">
         <span id="header-accuracy-badge" class="badge badge-green hidden lg:inline-flex text-xs font-mono">100% 正確率</span>
 
-        <!-- Sound Toggle Button -->
+        <!-- Sound Toggle -->
         <button id="btn-toggle-sound" class="btn btn-ghost p-2 rounded-full" title="切換音效">
           <i data-lucide="volume-2" class="w-4 h-4"></i>
         </button>
@@ -97,7 +89,7 @@
           <i data-lucide="moon" class="w-4 h-4"></i>
         </button>
 
-        <!-- Firebase Cloud Config Button -->
+        <!-- Firebase Config Modal -->
         <button id="btn-open-firebase-cfg" class="btn btn-ghost p-2 rounded-full text-secondary" title="雲端 Firebase 設定">
           <i data-lucide="settings" class="w-4 h-4"></i>
         </button>
@@ -118,34 +110,12 @@
         </div>
       </div>
     </div>
-
-    <!-- Mobile Navigation Tab Bar -->
-    <div class="md:hidden flex items-center justify-around px-2 py-1.5 border-t border-subtle bg-elevated">
-      <button data-tab="matching" class="nav-tab text-xs py-1.5 px-2.5">
-        <i data-lucide="zap" class="w-3.5 h-3.5"></i>
-        單字配對
-      </button>
-      <button data-tab="quiz" class="nav-tab text-xs py-1.5 px-2.5">
-        <i data-lucide="help-circle" class="w-3.5 h-3.5"></i>
-        閱讀測驗
-      </button>
-      <button data-tab="flashcards" class="nav-tab text-xs py-1.5 px-2.5">
-        <i data-lucide="layers" class="w-3.5 h-3.5"></i>
-        單字卡
-      </button>
-      <button data-tab="review" class="nav-tab text-xs py-1.5 px-2.5">
-        <i data-lucide="bookmark" class="w-3.5 h-3.5"></i>
-        錯題本
-      </button>
-    </div>
   </header>
 
   <!-- Main Content Viewport -->
   <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
-    <div id="tab-matching"></div>
-    <div id="tab-quiz" class="hidden"></div>
-    <div id="tab-flashcards" class="hidden"></div>
-    <div id="tab-review" class="hidden"></div>
+    <div id="view-quiz"></div>
+    <div id="view-review" class="hidden"></div>
   </main>
 
   <!-- Firebase Configuration Modal -->
@@ -162,7 +132,7 @@
       </div>
 
       <p class="text-xs text-secondary leading-relaxed">
-        本系統具備離線優先功能，所有刷題進度與錯題本已自動保存在本機瀏覽器中。若希望透過 Google 帳號在跨裝置 (手機/平板/電腦) 即時同步，可於此貼上 Firebase Web Config：
+        本系統具備離線優先功能，所有選擇題刷題進度與錯題本已自動保存在本機瀏覽器中。若希望透過 Google 帳號在手機/平板/電腦跨裝置即時同步，可於此貼上 Firebase Web Config：
       </p>
 
       <textarea id="firebase-cfg-input" rows="7" class="w-full text-xs font-mono p-3 rounded-xl border border-subtle bg-elevated text-primary focus:outline-none focus:ring-2 focus:ring-accent" placeholder='{\n  "apiKey": "AIzaSy...",\n  "authDomain": "your-app.firebaseapp.com",\n  "projectId": "your-app"\n}'></textarea>
@@ -177,17 +147,15 @@
   <!-- Footer -->
   <footer class="border-t border-subtle py-6 mt-12 text-center text-xs text-secondary">
     <div class="max-w-7xl mx-auto px-4 space-y-1">
-      <p>Reading Explorer 3 [3rd ed.] · Unit 1 & Unit 2 考前專用互動刷題系統</p>
-      <p class="text-tertiary">包含完整 4 篇閱讀測驗題庫、40 個紅色核心單字配對挑戰與錯題本雲端同步</p>
+      <p>Reading Explorer 3 [3rd ed.] · Chapter 1 & Chapter 2 課本選擇題刷題系統</p>
+      <p class="text-tertiary">120 題課本選擇題真題庫 · 課文段落定位與中文詳解 · 錯題集中消滅</p>
     </div>
   </footer>
 
   <!-- Scripts -->
   <script src="data/quiz_data.js"></script>
   <script src="js/auth.js"></script>
-  <script src="js/matching.js"></script>
   <script src="js/quiz.js"></script>
-  <script src="js/flashcard.js"></script>
   <script src="js/review.js"></script>
   <script src="js/app.js"></script>
 </body>

@@ -1,17 +1,15 @@
 /**
- * Main Application Controller
- * - Navigation & Tab Switching
- * - Theme Switcher (Dark / Light)
- * - Sound Effects Toggle
- * - Google Sign-in / User Profile UI
- * - Firebase Config Modal
+ * Main Application Controller (課本選擇題刷題系統)
+ * - Focused on Multiple Choice Practice & Mistake Review
+ * - Theme Switcher & Sound Toggle
+ * - Google Sign-In & Firebase Config
  */
 
 (function (window) {
   window.SOUND_ENABLED = true;
 
   const App = {
-    currentTab: 'matching', // default to matching since it's the signature interactive feature!
+    currentView: 'quiz', // 'quiz' or 'review'
 
     init() {
       this.initTheme();
@@ -20,16 +18,14 @@
       this.setupNavigation();
       this.setupFirebaseModal();
 
-      // Initialize Sub-engines
-      if (window.MatchingGame) window.MatchingGame.init('tab-matching');
-      if (window.QuizEngine) window.QuizEngine.init('tab-quiz');
-      if (window.Flashcards) window.Flashcards.init('tab-flashcards');
-      if (window.ReviewSystem) window.ReviewSystem.init('tab-review');
+      // Initialize Engines
+      if (window.MCQQuiz) window.MCQQuiz.init('view-quiz');
+      if (window.ReviewSystem) window.ReviewSystem.init('view-review');
 
       // Initialize Auth
       if (window.Auth) window.Auth.init();
 
-      this.switchTab('matching');
+      this.switchView('quiz');
       this.updateStatsDisplay();
 
       window.addEventListener('progress-updated', () => this.updateStatsDisplay());
@@ -98,19 +94,20 @@
       window.addEventListener('auth-changed', (e) => {
         const user = e.detail;
         if (user) {
-          btnLogin.classList.add('hidden');
-          userBox.classList.remove('hidden');
-          document.getElementById('user-avatar').src = user.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=0071e3&color=fff`;
-          document.getElementById('user-name').textContent = user.name;
+          btnLogin?.classList.add('hidden');
+          userBox?.classList.remove('hidden');
+          const av = document.getElementById('user-avatar');
+          if (av) av.src = user.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=0071e3&color=fff`;
+          const nm = document.getElementById('user-name');
+          if (nm) nm.textContent = user.name;
         } else {
-          btnLogin.classList.remove('hidden');
-          userBox.classList.add('hidden');
+          btnLogin?.classList.remove('hidden');
+          userBox?.classList.add('hidden');
         }
       });
 
-      // User dropdown logout
       document.getElementById('btn-user-logout')?.addEventListener('click', () => {
-        if (confirm('確定要登出 Google 帳號嗎？')) {
+        if (confirm('確定要登出帳號嗎？')) {
           window.Auth.logout();
         }
       });
@@ -127,32 +124,32 @@
     },
 
     setupNavigation() {
-      document.querySelectorAll('[data-tab]').forEach(btn => {
+      document.querySelectorAll('[data-view]').forEach(btn => {
         btn.addEventListener('click', () => {
-          const tab = btn.getAttribute('data-tab');
-          this.switchTab(tab);
+          const v = btn.getAttribute('data-view');
+          this.switchView(v);
         });
       });
     },
 
-    switchTab(tabName) {
-      this.currentTab = tabName;
+    switchView(viewName) {
+      this.currentView = viewName;
 
       // Update Nav Buttons
-      document.querySelectorAll('[data-tab]').forEach(btn => {
-        if (btn.getAttribute('data-tab') === tabName) {
+      document.querySelectorAll('[data-view]').forEach(btn => {
+        if (btn.getAttribute('data-view') === viewName) {
           btn.classList.add('active');
         } else {
           btn.classList.remove('active');
         }
       });
 
-      // Toggle Containers
-      const tabs = ['matching', 'quiz', 'flashcards', 'review'];
-      tabs.forEach(t => {
-        const el = document.getElementById(`tab-${t}`);
+      // Toggle Views
+      const views = ['quiz', 'review'];
+      views.forEach(v => {
+        const el = document.getElementById(`view-${v}`);
         if (el) {
-          if (t === tabName) {
+          if (v === viewName) {
             el.classList.remove('hidden');
             el.classList.add('animate-fade-in');
           } else {
@@ -169,20 +166,20 @@
       const progress = window.Auth.getProgress();
       const mistakes = window.Auth.getMistakes();
 
-      const totalMistakes = Object.values(mistakes).filter(m => !m.mastered).length;
+      const unmastered = Object.values(mistakes).filter(m => !m.mastered).length;
       const accuracy = progress.totalAnswered > 0 
         ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) 
         : 100;
 
       const badgeMistakes = document.getElementById('nav-mistake-badge');
       if (badgeMistakes) {
-        badgeMistakes.textContent = totalMistakes;
-        badgeMistakes.className = totalMistakes > 0 ? 'badge badge-red font-mono' : 'hidden';
+        badgeMistakes.textContent = unmastered;
+        badgeMistakes.className = unmastered > 0 ? 'badge badge-red font-mono' : 'hidden';
       }
 
       const accBadge = document.getElementById('header-accuracy-badge');
       if (accBadge) {
-        accBadge.textContent = `${accuracy}% 正確率`;
+        accBadge.textContent = `${accuracy}% 正確率 (${progress.totalAnswered} 題)`;
       }
     },
 
