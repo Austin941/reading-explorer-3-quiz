@@ -1,0 +1,2725 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Chapter 1: Sports & Champions",
+      "units": [
+        "u1a",
+        "u1b"
+      ]
+    },
+    {
+      "id": "ch2",
+      "name": "Chapter 2: Beauty & Appearance",
+      "units": [
+        "u2a",
+        "u2b"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "u1a",
+      "unit": "Unit 1A",
+      "chapter": "Chapter 1",
+      "title": "A Love for Soccer",
+      "subtitle": "The World's Game",
+      "passage": [
+        {
+          "para": "A",
+          "text": "Throughout history, humans have played some kind of kicking game. What the world now calls football—or soccer in the United States—began as far back as 2500 b.c.e. with the Chinese game of cuju. However, the sport we know today originated in Britain. In the 1840s, England’s Football Association established a set of rules, and the modern game was born. Today, more than 200 million players all over the globe participate in the game, truly making soccer the world’s sport."
+        },
+        {
+          "para": "B",
+          "text": "So, why is soccer so popular? Maybe it’s the game’s camaraderie: the feeling that the team on the field is your team; their win is your victory, and their loss is your defeat. Or maybe it’s the game’s international quality. In countries like France, England, Spain, and Brazil, major teams have players from many different nations, and these clubs now have fans all over the world. Or perhaps it’s the promise of great wealth. A number of professional soccer players, including Brazil’s Neymar and Nigeria’s Victor Moses, come from poor families. Today, both of these players make millions of euros every year."
+        },
+        {
+          "para": "C",
+          "text": "Soccer is popular for all of these reasons, but ultimately, the main reason for its universal appeal may be this: It’s a simple game. It can be played anywhere with anything—a ball, a can, or even some bags tied together. And anyone can play it. “You don’t need to be rich . . . to play soccer,” says historian Peter Alegi. “You just need a flat space and a ball.”"
+        },
+        {
+          "para": "D",
+          "text": "It is this unique simplicity that makes soccer the most popular sport in Africa. Here, even in rural areas far from the bright lights and big stadiums, children and adults play the game, often with handmade balls."
+        },
+        {
+          "para": "E",
+          "text": "The story of soccer in Africa is a long one. In the 19th century, European colonists brought the game to Africa. Early matches were first played in the South African cities of Cape Town and Port Elizabeth in 1862. In time, the sport spread across the continent. Today, several of the game’s best players come from African nations, including Senegal, Ivory Coast, Ghana, and Nigeria. All over the continent, thousands of soccer academies now recruit boys from poorer cities and towns to play the game. Many learn to play in their bare feet, and they are tough, creative competitors. Their dream is to play for the national team or to join one of the big clubs in Europe someday. For some, the dream comes true."
+        },
+        {
+          "para": "F",
+          "text": "But the chance to make money with a professional team is probably not the main reason for soccer’s popularity in Africa. “Soccer is the passion of everyone here,” says Abubakari Abdul-Ganiyu, a teacher who works with youth clubs in Tamale, Ghana. “It unifies us.” In fact, more than once, the game has helped to bring people together. In Ivory Coast, for example, immigrants and Muslims faced discrimination for years. Yet many of the country’s best soccer players are from Muslim and immigrant families. As a result, the national team has become a symbol of unity and has helped to promote peace throughout the country."
+        },
+        {
+          "para": "G",
+          "text": "All over Africa, soccer is popular with parents and teachers for another reason: It keeps young people—especially boys—in school and out of trouble. “Most clubs in Tamale, Ghana, don’t allow boys to play if they don’t go to school,” explains Abubakari. “We’re trying our best to help young people and to make them responsible in society. Soccer helps us do this. For us, soccer is also a tool for hope.”"
+        }
+      ],
+      "reading_comprehension": [
+        {
+          "id": "u1a_rc_1",
+          "section": "A",
+          "num": 1,
+          "type": "GIST / 主旨題",
+          "question": "What is this passage mainly about?",
+          "options": [
+            {
+              "key": "a",
+              "text": "the history of soccer"
+            },
+            {
+              "key": "b",
+              "text": "the popularity of soccer"
+            },
+            {
+              "key": "c",
+              "text": "different soccer teams"
+            },
+            {
+              "key": "d",
+              "text": "how the World Cup began"
+            }
+          ],
+          "answer": "b",
+          "explanation": "全文核心探討足球為何能成為全世界最受歡迎的運動（Paragraph B-C 提到向心力、跨國球星、財富吸引力與規則裝備簡單），以及足球在非洲的狂熱受歡迎程度與正面社會影響（Paragraph D-G）。故答案選 (b)。",
+          "passage_ref": "Paragraph B-C & E-G"
+        },
+        {
+          "id": "u1a_rc_2",
+          "section": "A",
+          "num": 2,
+          "type": "DETAIL / 細節題",
+          "question": "In paragraph B, which of these is NOT given as a possible reason for soccer’s popularity?",
+          "options": [
+            {
+              "key": "a",
+              "text": "the team spirit among players and fans"
+            },
+            {
+              "key": "b",
+              "text": "famous players from different countries"
+            },
+            {
+              "key": "c",
+              "text": "the number of soccer games shown on TV"
+            },
+            {
+              "key": "d",
+              "text": "the possibility of making a lot of money"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Paragraph B 列舉了三個原因：(1) camaraderie (team spirit) 團隊情誼向心力、(2) international quality (players from many different nations) 跨國明星球員、(3) promise of great wealth (millions of euros) 賺取豐厚財富的機會。課文並未提及「電視轉播足球比賽的數量 (games shown on TV)」，故選 (c)。",
+          "passage_ref": "Paragraph B"
+        },
+        {
+          "id": "u1a_rc_3",
+          "section": "A",
+          "num": 3,
+          "type": "INFERENCE / 推論題",
+          "question": "What aspect of soccer is the author referring to by 'It’s a simple game' in paragraph C?",
+          "options": [
+            {
+              "key": "a",
+              "text": "The rules are easy for people to understand."
+            },
+            {
+              "key": "b",
+              "text": "You can play it anywhere with anything."
+            },
+            {
+              "key": "c",
+              "text": "You don’t need much talent to play soccer."
+            },
+            {
+              "key": "d",
+              "text": "There are only a few versions of soccer."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Paragraph C 接續作者所言：「It can be played anywhere with anything—a ball, a can, or even some bags tied together. And anyone can play it... You just need a flat space and a ball.」，說明只要有一塊空地和任何東西當球就能隨處踢球，對應選項 (b)。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u1a_rc_4",
+          "section": "A",
+          "num": 4,
+          "type": "REFERENCE / 代名詞指涉題",
+          "question": "What does 'some' refer to in the last line of paragraph E?",
+          "options": [
+            {
+              "key": "a",
+              "text": "poor boys"
+            },
+            {
+              "key": "b",
+              "text": "cities and towns"
+            },
+            {
+              "key": "c",
+              "text": "soccer academies"
+            },
+            {
+              "key": "d",
+              "text": "national teams"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph E 倒數幾句提到：「...thousands of soccer academies now recruit boys from poorer cities and towns to play the game... Their dream is to play for the national team or to join one of the big clubs in Europe someday. For some, the dream comes true.」「some」在此指代前面這些「來自貧困城鎮的男孩（poor boys）」。故選 (a)。",
+          "passage_ref": "Paragraph E"
+        },
+        {
+          "id": "u1a_rc_5",
+          "section": "A",
+          "num": 5,
+          "type": "MAIN IDEA / 段落主旨題",
+          "question": "What is the main idea of the last paragraph?",
+          "options": [
+            {
+              "key": "a",
+              "text": "More schools in Africa are opening soccer clubs."
+            },
+            {
+              "key": "b",
+              "text": "Soccer helps people get better grades in school."
+            },
+            {
+              "key": "c",
+              "text": "Older soccer players are passing on their skills to younger ones."
+            },
+            {
+              "key": "d",
+              "text": "Soccer helps develop young people as members of society."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Paragraph G 說明足球受到非洲家長與老師歡迎的原因：能讓年輕人遠離麻煩並留在學校。老師 Abubakari 指出：「We’re trying our best to help young people and to make them responsible in society. Soccer helps us do this.」，強調足球培養年輕人成為對社會負責的成員。故選 (d)。",
+          "passage_ref": "Paragraph G"
+        },
+        {
+          "id": "u1a_rc_b1",
+          "section": "B",
+          "num": 1,
+          "type": "MATCHING / 國家配對題",
+          "question": "This is where the first games of soccer were played in Africa.",
+          "options": [
+            {
+              "key": "a",
+              "text": "Britain"
+            },
+            {
+              "key": "b",
+              "text": "China"
+            },
+            {
+              "key": "c",
+              "text": "Ghana"
+            },
+            {
+              "key": "d",
+              "text": "Ivory Coast"
+            },
+            {
+              "key": "e",
+              "text": "South Africa"
+            }
+          ],
+          "answer": "e",
+          "explanation": "Paragraph E 明確寫道：「Early matches were first played in the South African cities of Cape Town and Port Elizabeth in 1862.」",
+          "passage_ref": "Paragraph E"
+        },
+        {
+          "id": "u1a_rc_b2",
+          "section": "B",
+          "num": 2,
+          "type": "MATCHING / 國家配對題",
+          "question": "A very early form of soccer was played here.",
+          "options": [
+            {
+              "key": "a",
+              "text": "Britain"
+            },
+            {
+              "key": "b",
+              "text": "China"
+            },
+            {
+              "key": "c",
+              "text": "Ghana"
+            },
+            {
+              "key": "d",
+              "text": "Ivory Coast"
+            },
+            {
+              "key": "e",
+              "text": "South Africa"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Paragraph A 提到：「...began as far back as 2500 b.c.e. with the Chinese game of cuju.」中國古代的蹴鞠是極早期的踢球形式。",
+          "passage_ref": "Paragraph A"
+        },
+        {
+          "id": "u1a_rc_b3",
+          "section": "B",
+          "num": 3,
+          "type": "MATCHING / 國家配對題",
+          "question": "This is where the soccer we know today originated.",
+          "options": [
+            {
+              "key": "a",
+              "text": "Britain"
+            },
+            {
+              "key": "b",
+              "text": "China"
+            },
+            {
+              "key": "c",
+              "text": "Ghana"
+            },
+            {
+              "key": "d",
+              "text": "Ivory Coast"
+            },
+            {
+              "key": "e",
+              "text": "South Africa"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph A 提到：「However, the sport we know today originated in Britain. In the 1840s, England’s Football Association established a set of rules...」",
+          "passage_ref": "Paragraph A"
+        },
+        {
+          "id": "u1a_rc_b4",
+          "section": "B",
+          "num": 4,
+          "type": "MATCHING / 國家配對題",
+          "question": "Some soccer clubs here allow boys to join only if they go to school.",
+          "options": [
+            {
+              "key": "a",
+              "text": "Britain"
+            },
+            {
+              "key": "b",
+              "text": "China"
+            },
+            {
+              "key": "c",
+              "text": "Ghana"
+            },
+            {
+              "key": "d",
+              "text": "Ivory Coast"
+            },
+            {
+              "key": "e",
+              "text": "South Africa"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Paragraph G 引述迦納青年俱樂部老師 Abubakari 的話：「Most clubs in Tamale, Ghana, don’t allow boys to play if they don’t go to school.」",
+          "passage_ref": "Paragraph G"
+        }
+      ],
+      "vocabulary_practice": [
+        {
+          "id": "u1a_vp_a1",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "In 1991, FIFA [recruited / established] the Women’s World Cup.",
+          "options": [
+            {
+              "key": "a",
+              "text": "recruited"
+            },
+            {
+              "key": "b",
+              "text": "established"
+            }
+          ],
+          "answer": "b",
+          "explanation": "establish 意為創立、創辦（國際賽事或組織）。",
+          "target_word": "establish"
+        },
+        {
+          "id": "u1a_vp_a2",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "In the final of that tournament, striker Michelle Anne Akers led the United States to [victory / unity] over Norway.",
+          "options": [
+            {
+              "key": "a",
+              "text": "victory"
+            },
+            {
+              "key": "b",
+              "text": "unity"
+            }
+          ],
+          "answer": "a",
+          "explanation": "lead someone to victory 代表「帶領…取得勝利」。",
+          "target_word": "victory"
+        },
+        {
+          "id": "u1a_vp_a3",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Four years later, Norway [defeated / established] Germany in the final.",
+          "options": [
+            {
+              "key": "a",
+              "text": "defeated"
+            },
+            {
+              "key": "b",
+              "text": "established"
+            }
+          ],
+          "answer": "a",
+          "explanation": "defeat 代表擊敗對手。",
+          "target_word": "defeat"
+        },
+        {
+          "id": "u1a_vp_a4",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Then, in 1996, [competitors / unity] from eight countries played in the first-ever women’s soccer event at the Olympics.",
+          "options": [
+            {
+              "key": "a",
+              "text": "competitors"
+            },
+            {
+              "key": "b",
+              "text": "unity"
+            }
+          ],
+          "answer": "a",
+          "explanation": "competitors 指參賽選手或球員。",
+          "target_word": "competitor"
+        },
+        {
+          "id": "u1a_vp_a5",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Top players with a [recruit / passion] for the sport are responsible for helping make women’s soccer hugely popular today.",
+          "options": [
+            {
+              "key": "a",
+              "text": "recruit"
+            },
+            {
+              "key": "b",
+              "text": "passion"
+            }
+          ],
+          "answer": "b",
+          "explanation": "passion for the sport 意為「對運動的熱情」。",
+          "target_word": "passion"
+        },
+        {
+          "id": "u1a_vp_a6",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Top players with a passion for the sport are [universal / responsible] for helping make women’s soccer hugely popular today.",
+          "options": [
+            {
+              "key": "a",
+              "text": "universal"
+            },
+            {
+              "key": "b",
+              "text": "responsible"
+            }
+          ],
+          "answer": "b",
+          "explanation": "be responsible for 代表「對…有功勞/負責」。",
+          "target_word": "responsible"
+        },
+        {
+          "id": "u1a_vp_b1",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "If you recruit someone to an organization, you want them to ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "join"
+            },
+            {
+              "key": "b",
+              "text": "organize"
+            }
+          ],
+          "answer": "a",
+          "explanation": "recruit 意思是招募新成員加入組織 (join)。",
+          "target_word": "recruit"
+        },
+        {
+          "id": "u1a_vp_b2",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "Something that is unique is ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "not as good as others"
+            },
+            {
+              "key": "b",
+              "text": "the only one of its kind"
+            }
+          ],
+          "answer": "b",
+          "explanation": "unique 意思是獨特的、獨一無二的 (the only one of its kind)。",
+          "target_word": "unique"
+        },
+        {
+          "id": "u1a_vp_b3",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "If something is universal, it relates to ______ in the world.",
+          "options": [
+            {
+              "key": "a",
+              "text": "few people"
+            },
+            {
+              "key": "b",
+              "text": "all people"
+            }
+          ],
+          "answer": "b",
+          "explanation": "universal 意為普遍的、全球性的，與全世界所有的人相關 (all people)。",
+          "target_word": "universal"
+        },
+        {
+          "id": "u1a_vp_b4",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "When there is unity, people ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "act together"
+            },
+            {
+              "key": "b",
+              "text": "go separate ways"
+            }
+          ],
+          "answer": "a",
+          "explanation": "unity 意為團結一致，眾人齊心採取行動 (act together)。",
+          "target_word": "unity"
+        }
+      ],
+      "red_words": [
+        {
+          "id": "u1a_w1",
+          "word": "establish",
+          "pos": "verb",
+          "ipa": "/ɪˈstæblɪʃ/",
+          "zh": "建立、設立、制定",
+          "en_def": "to start or create an organization, system, or set of rules",
+          "example": "In the 1840s, England’s Football Association established a set of rules, and the modern game was born.",
+          "collocations": [
+            "establish rules",
+            "establish a foundation",
+            "establish a relationship"
+          ]
+        },
+        {
+          "id": "u1a_w2",
+          "word": "victory",
+          "pos": "noun",
+          "ipa": "/ˈvɪktəri/",
+          "zh": "勝利、獲勝",
+          "en_def": "success in winning a game, competition, election, or war",
+          "example": "Their win is your victory, and their loss is your defeat.",
+          "collocations": [
+            "celebrate a victory",
+            "claim victory",
+            "led to victory"
+          ]
+        },
+        {
+          "id": "u1a_w3",
+          "word": "defeat",
+          "pos": "noun / verb",
+          "ipa": "/dɪˈfiːt/",
+          "zh": "失敗、戰敗；擊敗",
+          "en_def": "failure to win a competition; or to win against someone in a fight or game",
+          "example": "Their win is your victory, and their loss is your defeat.",
+          "collocations": [
+            "suffer defeat",
+            "admit defeat",
+            "defeat an opponent"
+          ]
+        },
+        {
+          "id": "u1a_w4",
+          "word": "universal",
+          "pos": "adjective",
+          "ipa": "/ˌjuːnɪˈvɜːrsl/",
+          "zh": "普遍的、全體的、全世界的",
+          "en_def": "existing everywhere or involving everyone in the world",
+          "example": "Ultimately, the main reason for its universal appeal may be this: It’s a simple game.",
+          "collocations": [
+            "universal appeal",
+            "universal language",
+            "universal agreement"
+          ]
+        },
+        {
+          "id": "u1a_w5",
+          "word": "unique",
+          "pos": "adjective",
+          "ipa": "/juˈniːk/",
+          "zh": "獨特的、獨一無二的",
+          "en_def": "being the only existing one of its type or special in some way",
+          "example": "It is this unique simplicity that makes soccer the most popular sport in Africa.",
+          "collocations": [
+            "unique opportunity",
+            "unique style",
+            "truly unique"
+          ]
+        },
+        {
+          "id": "u1a_w6",
+          "word": "recruit",
+          "pos": "verb",
+          "ipa": "/rɪˈkruːt/",
+          "zh": "招募、吸收（新成員）",
+          "en_def": "to find new people to join a company, an organization, or a team",
+          "example": "Thousands of soccer academies now recruit boys from poorer cities and towns to play the game.",
+          "collocations": [
+            "recruit members",
+            "recruit volunteers",
+            "actively recruit"
+          ]
+        },
+        {
+          "id": "u1a_w7",
+          "word": "competitor",
+          "pos": "noun",
+          "ipa": "/kəmˈpetɪtər/",
+          "zh": "競爭者、參賽選手",
+          "en_def": "a person, team, or company that is competing with others",
+          "example": "Many learn to play in their bare feet, and they are tough, creative competitors.",
+          "collocations": [
+            "fierce competitor",
+            "rival competitor",
+            "international competitors"
+          ]
+        },
+        {
+          "id": "u1a_w8",
+          "word": "passion",
+          "pos": "noun",
+          "ipa": "/ˈpæʃn/",
+          "zh": "熱情、強烈熱愛",
+          "en_def": "a very powerful feeling, or strong enthusiasm for an activity",
+          "example": "Soccer is the passion of everyone here.",
+          "collocations": [
+            "have a passion for",
+            "pursue a passion",
+            "lifelong passion"
+          ]
+        },
+        {
+          "id": "u1a_w9",
+          "word": "unity",
+          "pos": "noun",
+          "ipa": "/ˈjuːnəti/",
+          "zh": "團結、一致",
+          "en_def": "the state of being joined together or in agreement",
+          "example": "The national team has become a symbol of unity and has helped to promote peace throughout the country.",
+          "collocations": [
+            "symbol of unity",
+            "promote unity",
+            "national unity"
+          ]
+        },
+        {
+          "id": "u1a_w10",
+          "word": "responsible",
+          "pos": "adjective",
+          "ipa": "/rɪˈspɑːnsəbl/",
+          "zh": "負責任的、有擔當的",
+          "en_def": "having good judgment and the ability to act correctly and make decisions on your own",
+          "example": "We’re trying our best to help young people and to make them responsible in society.",
+          "collocations": [
+            "be responsible for",
+            "responsible citizen",
+            "act responsibly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u1b",
+      "unit": "Unit 1B",
+      "chapter": "Chapter 1",
+      "title": "What Makes an Olympic Champion?",
+      "subtitle": "Pushing the Limit",
+      "passage": [
+        {
+          "para": "A",
+          "text": "How does a person become an Olympic champion—someone capable of winning the gold? In reality, a combination of biological, environmental, and psychological factors, as well as training and practice, all go into making a super athlete."
+        },
+        {
+          "para": "B",
+          "text": "Perhaps the most important factor involved in becoming an elite athlete is genetic. Most Olympic competitors are equipped with certain physical characteristics that differentiate them from the average person. Take an elite athlete’s muscles, for example. In most human skeletal muscles (the ones that make your body move), there are fast-twitch fibers and slow-twitch fibers. Fast-twitch fibers help us move quickly. Olympic weightlifters, for example, have a large number of fast-twitch fibers in their muscles—many more than the average person. These allow them to lift hundreds of kilos from the ground and over their heads in seconds. Surprisingly, a large, muscular body is not the main requirement to do well in this sport. It is more important to have a large number of fast-twitch fibers in the muscles."
+        },
+        {
+          "para": "C",
+          "text": "The legs of an elite marathon runner, on the other hand, might contain up to 90 percent slow-twitch muscle fibers. These generate energy efficiently and enable an athlete to control fatigue and keep moving for a longer period of time. When we exercise long or hard, it’s common to experience tiredness, muscle pain, and difficulty breathing. These feelings are caused when the muscles produce high amounts of a substance called lactate and can’t remove it quickly enough. Athletes with many slow-twitch muscle fibers seem to be able to clear the lactate from their muscles faster as they move. Thus, the average runner might start to feel discomfort halfway into a race. A trained Olympic athlete, however, might not feel pain until much later in the competition."
+        },
+        {
+          "para": "D",
+          "text": "For some Olympic competitors, size is important. Most male champion swimmers are 180 cm or taller, allowing them to reach longer and swim faster. For both male and female gymnasts, though, a smaller size and body weight mean they can move with greater ease, and are less likely to suffer damage when landing on the floor from a height of up to 4.5 meters."
+        },
+        {
+          "para": "E",
+          "text": "Some athletes’ abilities are naturally enhanced by their environment. Those raised at high altitudes in countries such as Kenya, Ethiopia, and Morocco have blood that is rich in hemoglobin. Large amounts of hemoglobin carry oxygen around the body faster, enabling these athletes to run better. Cultural factors also help some athletes do well at certain sports. Tegla Loroupe, a young woman from northern Kenya, has won several marathons. She says some of her success is due to her country’s altitude (she trains at about 2,400 meters) and some to her cultural background. As a child, she had to run 10 kilometers to school every day. “I’d be punished if I was late,” she says."
+        },
+        {
+          "para": "F",
+          "text": "Although genes, environment, and even culture play a part in becoming an elite athlete, training and practice are needed to succeed. Marathon runners may be able to control fatigue and keep moving for long periods of time, but they must train to reach and maintain their goals. Weightlifters and gymnasts perfect their skills by repeating the same motions again and again until they become automatic. Greg Louganis, winner of four Olympic diving gold medals, says divers must train the same way to be successful: “You have less than three seconds from takeoff until you hit the water, so it has to be reflex. You have to repeat the dives hundreds, maybe thousands, of times.” Training this way requires an athlete to be not only physically fit but psychologically healthy as well. “They have to be,” says Sean McCann, a sports psychologist at the Olympic Training Center in the United States. “Otherwise, they couldn’t handle the training loads we put on them. [Athletes] have to be good at setting goals, generating energy when they need it, and managing anxiety.”"
+        },
+        {
+          "para": "G",
+          "text": "How do athletes adjust to such intense pressure? Louganis explains how he learned to control his anxiety during a competition: “Most divers think too much . . . ,” he says. “They’re too much in their heads. What worked for me was humor. I remember thinking about what my mother would say if she saw me do a bad dive. She’d probably just compliment me on the beautiful splash.”"
+        }
+      ],
+      "reading_comprehension": [
+        {
+          "id": "u1b_rc_1",
+          "section": "A",
+          "num": 1,
+          "type": "GIST / 主旨題",
+          "question": "What is this reading mainly about?",
+          "options": [
+            {
+              "key": "a",
+              "text": "how to qualify for the Olympics"
+            },
+            {
+              "key": "b",
+              "text": "factors that make someone a super athlete"
+            },
+            {
+              "key": "c",
+              "text": "the different muscle types of a super athlete"
+            },
+            {
+              "key": "d",
+              "text": "the size of a super athlete"
+            }
+          ],
+          "answer": "b",
+          "explanation": "第一段開門見山指出：「In reality, a combination of biological, environmental, and psychological factors, as well as training and practice, all go into making a super athlete.」，全文逐一解析生理基因、肌肉纖維、身型比例、高海拔環境、重複訓練與心理調適等全方位的要素。故選 (b)。",
+          "passage_ref": "Paragraph A"
+        },
+        {
+          "id": "u1b_rc_2",
+          "section": "A",
+          "num": 2,
+          "type": "INFERENCE / 推論題",
+          "question": "Having a lot of slow-twitch muscle fibers is particularly important for ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "long-distance cyclists"
+            },
+            {
+              "key": "b",
+              "text": "table-tennis players"
+            },
+            {
+              "key": "c",
+              "text": "divers"
+            },
+            {
+              "key": "d",
+              "text": "weightlifters"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph C 指出慢肌纖維（slow-twitch muscle fibers）能高效產生能量並抵抗長時間疲勞，是馬拉松跑者等耐力型選手的核心優勢；選項中只有「長距離自行車選手 (long-distance cyclists)」屬於同類的長途耐力運動。快肌則是舉重選手所需。故選 (a)。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u1b_rc_3",
+          "section": "A",
+          "num": 3,
+          "type": "DETAIL / 細節題",
+          "question": "When lactate builds up in their muscles, people feel ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "strength"
+            },
+            {
+              "key": "b",
+              "text": "energy"
+            },
+            {
+              "key": "c",
+              "text": "pain"
+            },
+            {
+              "key": "d",
+              "text": "dizziness"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Paragraph C 指出：「...it's common to experience tiredness, muscle pain, and difficulty breathing. These feelings are caused when the muscles produce high amounts of a substance called lactate and can’t remove it quickly enough.」，因此乳酸堆積會引發肌肉酸痛 (pain)。故選 (c)。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u1b_rc_4",
+          "section": "A",
+          "num": 4,
+          "type": "MAIN IDEA / 段落主旨題",
+          "question": "What is the main idea of paragraph F?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Genes are an important part of athletic success."
+            },
+            {
+              "key": "b",
+              "text": "Marathon runners must train hard to succeed."
+            },
+            {
+              "key": "c",
+              "text": "Divers must train to be successful."
+            },
+            {
+              "key": "d",
+              "text": "Success in sports comes from a lot of practice."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Paragraph F 的主題句為：「Although genes, environment, and even culture play a part in becoming an elite athlete, training and practice are needed to succeed.」，隨後舉馬拉松、舉重、體操及跳水為例，說明重複練習千百次以形成反射神經的重要性。故選 (d)。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u1b_rc_5",
+          "section": "A",
+          "num": 5,
+          "type": "INFERENCE / 觀點推論題",
+          "question": "What statement would diver Greg Louganis probably agree with?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Athletes cannot perform well unless they are under pressure."
+            },
+            {
+              "key": "b",
+              "text": "It’s important to practice and train hard, but not take things too seriously."
+            },
+            {
+              "key": "c",
+              "text": "A professional athlete should think carefully about each movement."
+            },
+            {
+              "key": "d",
+              "text": "It’s important to joke with your teammates before you perform any sport."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Paragraph G 中跳水傳奇 Greg Louganis 指出大多數選手腦中雜念太多（think too much / too much in their heads），他的調適之道是幽默感（humor），心想如果跳不好媽媽大概會稱讚激起的水花很美，代表他雖然刻苦訓練但不會把得失看得過度沉重嚴肅 (not take things too seriously)。故選 (b)。",
+          "passage_ref": "Paragraph G"
+        },
+        {
+          "id": "u1b_rc_b1",
+          "section": "B",
+          "num": 1,
+          "type": "CLASSIFYING / 韋氏圖分類題",
+          "question": "According to the passage, is 'training' especially important for marathon runners, gymnasts, or both?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Marathon runners"
+            },
+            {
+              "key": "b",
+              "text": "Gymnasts"
+            },
+            {
+              "key": "c",
+              "text": "Both"
+            }
+          ],
+          "answer": "c",
+          "explanation": "課文 Paragraph F 說明所有頂尖運動員（不論馬拉松、舉重或體操）都必須經歷極大負荷的刻苦訓練才能成功。故歸類為「Both」。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u1b_rc_b2",
+          "section": "B",
+          "num": 2,
+          "type": "CLASSIFYING / 韋氏圖分類題",
+          "question": "According to the passage, is 'slow-twitch muscles' especially important for marathon runners, gymnasts, or both?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Marathon runners"
+            },
+            {
+              "key": "b",
+              "text": "Gymnasts"
+            },
+            {
+              "key": "c",
+              "text": "Both"
+            }
+          ],
+          "answer": "a",
+          "explanation": "課文 Paragraph C 指出：「The legs of an elite marathon runner... might contain up to 90 percent slow-twitch muscle fibers.」，慢肌纖維能有效抗疲勞，專屬於馬拉松長跑選手。故選「Marathon runners」。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u1b_rc_b3",
+          "section": "B",
+          "num": 3,
+          "type": "CLASSIFYING / 韋氏圖分類題",
+          "question": "According to the passage, is 'practicing repeated motions' especially important for marathon runners, gymnasts, or both?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Marathon runners"
+            },
+            {
+              "key": "b",
+              "text": "Gymnasts"
+            },
+            {
+              "key": "c",
+              "text": "Both"
+            }
+          ],
+          "answer": "b",
+          "explanation": "課文 Paragraph F 指出：「Weightlifters and gymnasts perfect their skills by repeating the same motions again and again until they become automatic.」，體操選手靠重複相同動作直至自動化。故選「Gymnasts」。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u1b_rc_b4",
+          "section": "B",
+          "num": 4,
+          "type": "CLASSIFYING / 韋氏圖分類題",
+          "question": "According to the passage, is 'small body size' especially important for marathon runners, gymnasts, or both?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Marathon runners"
+            },
+            {
+              "key": "b",
+              "text": "Gymnasts"
+            },
+            {
+              "key": "c",
+              "text": "Both"
+            }
+          ],
+          "answer": "b",
+          "explanation": "課文 Paragraph D 指出：「For both male and female gymnasts, though, a smaller size and body weight mean they can move with greater ease, and are less likely to suffer damage...」。故選「Gymnasts」。",
+          "passage_ref": "Paragraph D"
+        },
+        {
+          "id": "u1b_rc_b5",
+          "section": "B",
+          "num": 5,
+          "type": "CLASSIFYING / 韋氏圖分類題",
+          "question": "According to the passage, is 'psychological health' especially important for marathon runners, gymnasts, or both?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Marathon runners"
+            },
+            {
+              "key": "b",
+              "text": "Gymnasts"
+            },
+            {
+              "key": "c",
+              "text": "Both"
+            }
+          ],
+          "answer": "c",
+          "explanation": "課文 Paragraph F 心理學家 Sean McCann 指出運動員必須承擔繁重訓練負荷、管理焦慮與調整目標，心理健康對所有頂尖選手都是必須的。故歸類為「Both」。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u1b_rc_b6",
+          "section": "B",
+          "num": 6,
+          "type": "CLASSIFYING / 韋氏圖分類題",
+          "question": "According to the passage, is 'ability to control fatigue and keep moving for a long time' especially important for marathon runners, gymnasts, or both?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Marathon runners"
+            },
+            {
+              "key": "b",
+              "text": "Gymnasts"
+            },
+            {
+              "key": "c",
+              "text": "Both"
+            }
+          ],
+          "answer": "a",
+          "explanation": "課文 Paragraph C 及 F 皆強調馬拉松選手的核心能力在於「control fatigue and keep moving for long periods of time」。故選「Marathon runners」。",
+          "passage_ref": "Paragraph C & F"
+        }
+      ],
+      "vocabulary_practice": [
+        {
+          "id": "u1b_vp_a1",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "In 2013, an [elite / automatic] swimmer named Diana Nyad became the first person to swim from Cuba to Florida without using a shark cage.",
+          "options": [
+            {
+              "key": "a",
+              "text": "elite"
+            },
+            {
+              "key": "b",
+              "text": "automatic"
+            }
+          ],
+          "answer": "a",
+          "explanation": "elite swimmer 代表頂尖、傑出的游泳健將。",
+          "target_word": "elite"
+        },
+        {
+          "id": "u1b_vp_a2",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "The swim [required / enhanced] Nyad to be in the water for nearly 53 hours.",
+          "options": [
+            {
+              "key": "a",
+              "text": "required"
+            },
+            {
+              "key": "b",
+              "text": "enhanced"
+            }
+          ],
+          "answer": "a",
+          "explanation": "require someone to do something 代表「需要/要求某人做出…」。",
+          "target_word": "require"
+        },
+        {
+          "id": "u1b_vp_a3",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Some suggested this equipment [enhanced / differentiated] her performance, though Nyad claimed it actually slowed her down.",
+          "options": [
+            {
+              "key": "a",
+              "text": "enhanced"
+            },
+            {
+              "key": "b",
+              "text": "differentiated"
+            }
+          ],
+          "answer": "a",
+          "explanation": "enhance performance 代表「提升表現/戰力」。",
+          "target_word": "enhance"
+        },
+        {
+          "id": "u1b_vp_a4",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "What [differentiated / adjusted] this successful attempt from Nyad’s four previous attempts?",
+          "options": [
+            {
+              "key": "a",
+              "text": "differentiated"
+            },
+            {
+              "key": "b",
+              "text": "adjusted"
+            }
+          ],
+          "answer": "a",
+          "explanation": "differentiate A from B 意為「將 A 與 B 區分開來/使 A 與 B 有所不同」。",
+          "target_word": "differentiate"
+        },
+        {
+          "id": "u1b_vp_a5",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Importantly, the [adjustments / champions] she made to her equipment helped.",
+          "options": [
+            {
+              "key": "a",
+              "text": "adjustments"
+            },
+            {
+              "key": "b",
+              "text": "champions"
+            }
+          ],
+          "answer": "a",
+          "explanation": "make adjustments to... 意為「對…進行微調改善」。",
+          "target_word": "adjust"
+        },
+        {
+          "id": "u1b_vp_a6",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Nyad’s mental determination, since her struggle was just as much [psychological / genetic] as physical.",
+          "options": [
+            {
+              "key": "a",
+              "text": "psychological"
+            },
+            {
+              "key": "b",
+              "text": "genetic"
+            }
+          ],
+          "answer": "a",
+          "explanation": "psychological 與 physical (肉體生理) 相對，指心理精神上的挑戰。",
+          "target_word": "psychological"
+        },
+        {
+          "id": "u1b_vp_b1",
+          "section": "B",
+          "type": "MATCHING",
+          "question": "Match the definition to the word: 'the winner of a competition'",
+          "options": [
+            {
+              "key": "a",
+              "text": "champion"
+            },
+            {
+              "key": "b",
+              "text": "generate"
+            },
+            {
+              "key": "c",
+              "text": "genetic"
+            },
+            {
+              "key": "d",
+              "text": "adjust"
+            },
+            {
+              "key": "e",
+              "text": "automatic"
+            }
+          ],
+          "answer": "a",
+          "explanation": "champion 意為冠軍、比賽勝利者。",
+          "target_word": "champion"
+        },
+        {
+          "id": "u1b_vp_b2",
+          "section": "B",
+          "type": "MATCHING",
+          "question": "Match the definition to the word: 'to produce or cause something to begin'",
+          "options": [
+            {
+              "key": "a",
+              "text": "champion"
+            },
+            {
+              "key": "b",
+              "text": "generate"
+            },
+            {
+              "key": "c",
+              "text": "genetic"
+            },
+            {
+              "key": "d",
+              "text": "adjust"
+            },
+            {
+              "key": "e",
+              "text": "automatic"
+            }
+          ],
+          "answer": "b",
+          "explanation": "generate 意為產生、生成、引發。",
+          "target_word": "generate"
+        },
+        {
+          "id": "u1b_vp_b3",
+          "section": "B",
+          "type": "MATCHING",
+          "question": "Match the definition to the word: 'relating to your DNA'",
+          "options": [
+            {
+              "key": "a",
+              "text": "champion"
+            },
+            {
+              "key": "b",
+              "text": "generate"
+            },
+            {
+              "key": "c",
+              "text": "genetic"
+            },
+            {
+              "key": "d",
+              "text": "adjust"
+            },
+            {
+              "key": "e",
+              "text": "automatic"
+            }
+          ],
+          "answer": "c",
+          "explanation": "genetic 意為基因的、遺傳學的。",
+          "target_word": "genetic"
+        },
+        {
+          "id": "u1b_vp_b4",
+          "section": "B",
+          "type": "MATCHING",
+          "question": "Match the definition to the word: 'to move or change something slightly'",
+          "options": [
+            {
+              "key": "a",
+              "text": "champion"
+            },
+            {
+              "key": "b",
+              "text": "generate"
+            },
+            {
+              "key": "c",
+              "text": "genetic"
+            },
+            {
+              "key": "d",
+              "text": "adjust"
+            },
+            {
+              "key": "e",
+              "text": "automatic"
+            }
+          ],
+          "answer": "d",
+          "explanation": "adjust 意為調節、微調改變。",
+          "target_word": "adjust"
+        },
+        {
+          "id": "u1b_vp_b5",
+          "section": "B",
+          "type": "MATCHING",
+          "question": "Match the definition to the word: 'happening without thought'",
+          "options": [
+            {
+              "key": "a",
+              "text": "champion"
+            },
+            {
+              "key": "b",
+              "text": "generate"
+            },
+            {
+              "key": "c",
+              "text": "genetic"
+            },
+            {
+              "key": "d",
+              "text": "adjust"
+            },
+            {
+              "key": "e",
+              "text": "automatic"
+            }
+          ],
+          "answer": "e",
+          "explanation": "automatic 意為自動發生的、未經大腦有意識思考的反射動作。",
+          "target_word": "automatic"
+        }
+      ],
+      "red_words": [
+        {
+          "id": "u1b_w1",
+          "word": "champion",
+          "pos": "noun",
+          "ipa": "/ˈtʃæmpiən/",
+          "zh": "冠軍、優勝者",
+          "en_def": "someone or something that has won a competition",
+          "example": "How does a person become an Olympic champion—someone capable of winning the gold?",
+          "collocations": [
+            "Olympic champion",
+            "defending champion",
+            "world champion"
+          ]
+        },
+        {
+          "id": "u1b_w2",
+          "word": "psychological",
+          "pos": "adjective",
+          "ipa": "/ˌsaɪkəˈlɑːdʒɪkl/",
+          "zh": "心理的、精神上的",
+          "en_def": "relating to the human mind and feelings",
+          "example": "A combination of biological, environmental, and psychological factors go into making a super athlete.",
+          "collocations": [
+            "psychological health",
+            "psychological effect",
+            "psychological factor"
+          ]
+        },
+        {
+          "id": "u1b_w3",
+          "word": "elite",
+          "pos": "adjective / noun",
+          "ipa": "/eɪˈliːt/",
+          "zh": "精英的、頂尖的",
+          "en_def": "the richest, most powerful, best-educated, or best-trained group in a society",
+          "example": "Perhaps the most important factor involved in becoming an elite athlete is genetic.",
+          "collocations": [
+            "elite athlete",
+            "elite group",
+            "elite university"
+          ]
+        },
+        {
+          "id": "u1b_w4",
+          "word": "genetic",
+          "pos": "adjective",
+          "ipa": "/dʒəˈnetɪk/",
+          "zh": "基因的、遺傳的",
+          "en_def": "belonging or relating to genes (= parts of the DNA in cells) received from parents",
+          "example": "Perhaps the most important factor involved in becoming an elite athlete is genetic.",
+          "collocations": [
+            "genetic code",
+            "genetic defect",
+            "genetic factors"
+          ]
+        },
+        {
+          "id": "u1b_w5",
+          "word": "differentiate",
+          "pos": "verb",
+          "ipa": "/ˌdɪfəˈrenʃieɪt/",
+          "zh": "區分、使不同、辨別",
+          "en_def": "to show or find the difference between things that are compared",
+          "example": "Most Olympic competitors are equipped with physical characteristics that differentiate them from the average person.",
+          "collocations": [
+            "differentiate between",
+            "differentiate A from B",
+            "clearly differentiate"
+          ]
+        },
+        {
+          "id": "u1b_w6",
+          "word": "require",
+          "pos": "verb",
+          "ipa": "/rɪˈkwaɪər/",
+          "zh": "需要、要求",
+          "en_def": "to need something or make something necessary",
+          "example": "Training this way requires an athlete to be not only physically fit but psychologically healthy as well.",
+          "collocations": [
+            "require effort",
+            "require attention",
+            "legally require"
+          ]
+        },
+        {
+          "id": "u1b_w7",
+          "word": "generate",
+          "pos": "verb",
+          "ipa": "/ˈdʒenəreɪt/",
+          "zh": "產生、生成、引起",
+          "en_def": "to cause something to exist or produce energy in a particular form",
+          "example": "These generate energy efficiently and enable an athlete to control fatigue.",
+          "collocations": [
+            "generate energy",
+            "generate ideas",
+            "generate revenue"
+          ]
+        },
+        {
+          "id": "u1b_w8",
+          "word": "enhance",
+          "pos": "verb",
+          "ipa": "/ɪnˈhæns/",
+          "zh": "增強、提高、提升",
+          "en_def": "to improve the quality, amount, or strength of something",
+          "example": "Some athletes’ abilities are naturally enhanced by their environment.",
+          "collocations": [
+            "enhance performance",
+            "enhance quality",
+            "greatly enhance"
+          ]
+        },
+        {
+          "id": "u1b_w9",
+          "word": "automatic",
+          "pos": "adjective",
+          "ipa": "/ˌɔːtəˈmætɪk/",
+          "zh": "自動的、無意識反射的",
+          "en_def": "done as a natural reaction or without thinking",
+          "example": "Weightlifters and gymnasts perfect their skills by repeating the same motions until they become automatic.",
+          "collocations": [
+            "automatic reaction",
+            "automatic response",
+            "become automatic"
+          ]
+        },
+        {
+          "id": "u1b_w10",
+          "word": "adjust",
+          "pos": "verb",
+          "ipa": "/əˈdʒʌst/",
+          "zh": "調整、適應、調節",
+          "en_def": "to change something slightly, especially to make it more correct, effective, or suitable",
+          "example": "How do athletes adjust to such intense pressure?",
+          "collocations": [
+            "adjust to pressure",
+            "adjust settings",
+            "make adjustments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2a",
+      "unit": "Unit 2A",
+      "chapter": "Chapter 2",
+      "title": "What is Beauty?",
+      "subtitle": "The Enigma of Beauty",
+      "passage": [
+        {
+          "para": "A",
+          "text": "The search for beauty spans centuries and continents. Paintings of Egyptians dating back over 4,000 years show both men and women painting their nails and wearing makeup. On the other side of the globe, the ancient Maya of Central America considered crossed eyes beautiful, and hung little balls between children’s eyes to develop this look. In 18th-century France, wealthy noblemen wore large wigs of long white hair to make themselves attractive. In cultures throughout the world, people have gone to extreme lengths to achieve beauty."
+        },
+        {
+          "para": "B",
+          "text": "Today, people continue to devote a lot of time and money to their appearance. According to a recent report, one out of three consumers globally say they are spending more money on beauty and health-care products than ever before. Worldwide, sales of makeup, dieting, hair- and skin-care products—as well as gym memberships and cosmetic surgery—generate billions of dollars every year. And there is at least one good reason for the desire to be attractive: Beauty is power. Studies suggest that good-looking people make more money, get called on more often in class, and are perceived as friendlier."
+        },
+        {
+          "para": "C",
+          "text": "But what exactly is beauty? Trying to define it is difficult, and yet we know it when we see it—or so we think. “Beauty is health,” says one psychologist. “It’s a billboard saying, ‘I’m healthy. I can pass on your genes.’” And our awareness of it may start at a very early age. In one set of studies, six-month-old babies were shown a series of photographs. The faces in the pictures had been rated for attractiveness by a group of college students. In the studies, the babies spent more time looking at the attractive faces than the unattractive ones."
+        },
+        {
+          "para": "D",
+          "text": "The idea that even babies judge appearance makes perfect sense to many researchers. In studies done by psychologists such as Victor Johnston at New Mexico State University and David Perrett at the University of St. Andrews in Scotland, men regularly showed a preference for women with certain features: larger eyes, clear skin, fuller lips, and a smaller nose and chin. Another study suggests that women prefer men with large shoulders and a narrow waist. According to scientists, the mind unconsciously tells men and women that these traits—the full lips, clear skin, strong shoulders—equal health and genetic well-being. In other words, it’s a fundamental part of human nature to look for these qualities in a mate."
+        },
+        {
+          "para": "E",
+          "text": "Not everyone agrees with this notion, however. “Our hardwiredness can be altered by all sorts of expectations—predominantly cultural,” says C. Loring Brace, an anthropologist at the University of Michigan. What is considered attractive in one culture might not be in another. Look in most Western fashion magazines, for example, and the women on the pages are thin. But is this the “perfect” body type for women worldwide? Douglas Yu, a biologist from Great Britain, and Glenn Shepard, an anthropologist at the University of California at Berkeley, say no. For them, what is considered beautiful is subjective and varies around the world. Yu and Shepard found in one study, for example, that native peoples in southeast Peru preferred shapes regarded as overweight in Western cultures."
+        },
+        {
+          "para": "F",
+          "text": "Take another example: In every culture, one’s hairstyle sends a clear message. In the Huli culture of Papua New Guinea, men grow their hair long as a symbol of health and strength. Teenage boys in this culture learn from a young age to style and decorate their hair—a behavior more commonly associated with the opposite gender in many cultures. It is also the men in this culture who are the objects of beauty. For certain festivals and celebrations, men dress up and paint their faces. The more colorful a man is, the more masculine—and attractive—he is considered."
+        },
+        {
+          "para": "G",
+          "text": "For better or worse, beauty plays a role in our lives. But it is extremely difficult to define exactly what makes one person attractive to another. Although there do seem to be certain physical traits that are considered universally appealing, it is also true that beauty does not always conform to a single, uniform standard. In the end, beauty really is, as the saying goes, in the eye of the beholder."
+        }
+      ],
+      "reading_comprehension": [
+        {
+          "id": "u2a_rc_1",
+          "section": "A",
+          "num": 1,
+          "type": "GIST / 主旨題",
+          "question": "What is this reading mainly about?",
+          "options": [
+            {
+              "key": "a",
+              "text": "different ideas about beauty"
+            },
+            {
+              "key": "b",
+              "text": "the history of beauty"
+            },
+            {
+              "key": "c",
+              "text": "the world’s most beautiful people"
+            },
+            {
+              "key": "d",
+              "text": "how beauty is power"
+            }
+          ],
+          "answer": "a",
+          "explanation": "文章從埃及、馬雅、法國的審美歷史，探討生物演化論所認為的對稱健康標準，以及文化人類學揭示的跨文化審美主觀差異，核心主題在於「對美的不同觀點與定義（different ideas about beauty）」。故選 (a)。",
+          "passage_ref": "Whole Passage"
+        },
+        {
+          "id": "u2a_rc_2",
+          "section": "A",
+          "num": 2,
+          "type": "DETAIL / 細節題",
+          "question": "The ancient Maya hung balls between children’s eyes ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "as a form of jewelry"
+            },
+            {
+              "key": "b",
+              "text": "to differentiate boys from girls"
+            },
+            {
+              "key": "c",
+              "text": "because they thought crossed eyes were beautiful"
+            },
+            {
+              "key": "d",
+              "text": "to add an attractive “third” eye"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Paragraph A 明確指出：「the ancient Maya of Central America considered crossed eyes beautiful, and hung little balls between children’s eyes to develop this look.」，因為馬雅人認為鬥雞眼是美的象徵。故選 (c)。",
+          "passage_ref": "Paragraph A"
+        },
+        {
+          "id": "u2a_rc_3",
+          "section": "A",
+          "num": 3,
+          "type": "DETAIL / 細節題",
+          "question": "In paragraph C, the babies in the study ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "were shown photos of attractive students"
+            },
+            {
+              "key": "b",
+              "text": "were entered into a beauty contest"
+            },
+            {
+              "key": "c",
+              "text": "were rated for their beauty"
+            },
+            {
+              "key": "d",
+              "text": "were able to tell attractive from unattractive faces"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Paragraph C 描述研究指出六個月大的嬰兒看漂亮面孔的時間長於不吸引人的面孔（spent more time looking at the attractive faces than the unattractive ones），顯示小嬰兒已經具備分辨吸引人與不吸引人面貌的能力。故選 (d)。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u2a_rc_4",
+          "section": "A",
+          "num": 4,
+          "type": "VOCABULARY / 字彙替換題",
+          "question": "In the second sentence of paragraph E, 'predominantly' can be replaced with ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "hardly"
+            },
+            {
+              "key": "b",
+              "text": "mainly"
+            },
+            {
+              "key": "c",
+              "text": "exactly"
+            },
+            {
+              "key": "d",
+              "text": "probably"
+            }
+          ],
+          "answer": "b",
+          "explanation": "predominantly 意為「主要地、佔優勢地」，同義詞為 mainly 或 mostly。故選 (b)。",
+          "passage_ref": "Paragraph E"
+        },
+        {
+          "id": "u2a_rc_5",
+          "section": "A",
+          "num": 5,
+          "type": "DETAIL / 細節題",
+          "question": "What determines the beauty of a Huli man in Papua New Guinea?",
+          "options": [
+            {
+              "key": "a",
+              "text": "how young he is"
+            },
+            {
+              "key": "b",
+              "text": "his colorful makeup"
+            },
+            {
+              "key": "c",
+              "text": "his strength"
+            },
+            {
+              "key": "d",
+              "text": "the size of his mask"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Paragraph F 指出巴布亞紐幾內亞的 Huli 男性盛裝並彩繪面部：「The more colorful a man is, the more masculine—and attractive—he is considered.」，顏色越鮮艷的彩繪越有吸引力。故選 (b)。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u2a_rc_b1",
+          "section": "B",
+          "num": 1,
+          "type": "SCANNING / 段落資訊配對題",
+          "question": "Which paragraph contains 'an argument that culture plays a part in perceptions of beauty'?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Paragraph A"
+            },
+            {
+              "key": "b",
+              "text": "Paragraph B"
+            },
+            {
+              "key": "c",
+              "text": "Paragraph C"
+            },
+            {
+              "key": "d",
+              "text": "Paragraph D"
+            },
+            {
+              "key": "e",
+              "text": "Paragraph E"
+            },
+            {
+              "key": "f",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "e",
+          "explanation": "Paragraph E 引述人類學家 Brace 的論述，指出文化期待改變人類偏好，秘魯原住民審美與西方雜誌的標準大不相同。故對應 Paragraph E。",
+          "passage_ref": "Paragraph E"
+        },
+        {
+          "id": "u2a_rc_b2",
+          "section": "B",
+          "num": 2,
+          "type": "SCANNING / 段落資訊配對題",
+          "question": "Which paragraph contains 'an explanation of how some standards of beauty might be universal'?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Paragraph A"
+            },
+            {
+              "key": "b",
+              "text": "Paragraph B"
+            },
+            {
+              "key": "c",
+              "text": "Paragraph C"
+            },
+            {
+              "key": "d",
+              "text": "Paragraph D"
+            },
+            {
+              "key": "e",
+              "text": "Paragraph E"
+            },
+            {
+              "key": "f",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Paragraph D 解釋大眼、光潔皮膚、飽滿嘴唇與寬肩是普世視為健康與基因優良的指標，是人類天性的一部分。故對應 Paragraph D。",
+          "passage_ref": "Paragraph D"
+        },
+        {
+          "id": "u2a_rc_b3",
+          "section": "B",
+          "num": 3,
+          "type": "SCANNING / 段落資訊配對題",
+          "question": "Which paragraph contains 'a definition of beauty'?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Paragraph A"
+            },
+            {
+              "key": "b",
+              "text": "Paragraph B"
+            },
+            {
+              "key": "c",
+              "text": "Paragraph C"
+            },
+            {
+              "key": "d",
+              "text": "Paragraph D"
+            },
+            {
+              "key": "e",
+              "text": "Paragraph E"
+            },
+            {
+              "key": "f",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Paragraph C 引述心理學家給予的美的定義：「Beauty is health. It’s a billboard saying, I’m healthy...」。故對應 Paragraph C。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u2a_rc_b4",
+          "section": "B",
+          "num": 4,
+          "type": "SCANNING / 段落資訊配對題",
+          "question": "Which paragraph contains 'a reference to the beauty-care industry'?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Paragraph A"
+            },
+            {
+              "key": "b",
+              "text": "Paragraph B"
+            },
+            {
+              "key": "c",
+              "text": "Paragraph C"
+            },
+            {
+              "key": "d",
+              "text": "Paragraph D"
+            },
+            {
+              "key": "e",
+              "text": "Paragraph E"
+            },
+            {
+              "key": "f",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Paragraph B 提及每年創造數十億美元產值的美妝、減肥、護膚護髮、健身俱樂部與整型產業。故對應 Paragraph B。",
+          "passage_ref": "Paragraph B"
+        },
+        {
+          "id": "u2a_rc_b5",
+          "section": "B",
+          "num": 5,
+          "type": "SCANNING / 段落資訊配對題",
+          "question": "Which paragraph contains 'an example of a culture where men wear makeup'?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Paragraph A"
+            },
+            {
+              "key": "b",
+              "text": "Paragraph B"
+            },
+            {
+              "key": "c",
+              "text": "Paragraph C"
+            },
+            {
+              "key": "d",
+              "text": "Paragraph D"
+            },
+            {
+              "key": "e",
+              "text": "Paragraph E"
+            },
+            {
+              "key": "f",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "f",
+          "explanation": "Paragraph F 詳細舉出巴布亞紐幾內亞的 Huli 部落男性梳理長髮並塗抹彩繪面容作為美的展示。故對應 Paragraph F。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u2a_rc_b6",
+          "section": "B",
+          "num": 6,
+          "type": "SCANNING / 段落資訊配對題",
+          "question": "Which paragraph contains 'a time frame'?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Paragraph A"
+            },
+            {
+              "key": "b",
+              "text": "Paragraph B"
+            },
+            {
+              "key": "c",
+              "text": "Paragraph C"
+            },
+            {
+              "key": "d",
+              "text": "Paragraph D"
+            },
+            {
+              "key": "e",
+              "text": "Paragraph E"
+            },
+            {
+              "key": "f",
+              "text": "Paragraph F"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph A 明確列出了歷史時間跨度：「dating back over 4,000 years」、「In 18th-century France」。故對應 Paragraph A。",
+          "passage_ref": "Paragraph A"
+        }
+      ],
+      "vocabulary_practice": [
+        {
+          "id": "u2a_vp_a1",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Throughout her career she refused to [conform / devote] to business practices that she saw as destructive to the environment.",
+          "options": [
+            {
+              "key": "a",
+              "text": "conform"
+            },
+            {
+              "key": "b",
+              "text": "devote"
+            }
+          ],
+          "answer": "a",
+          "explanation": "conform to 意為「遵從、隨波逐流符合常規」。",
+          "target_word": "conform"
+        },
+        {
+          "id": "u2a_vp_a2",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Roddick believed in the [notion / feature] that “business can and must be a force for positive social change.”",
+          "options": [
+            {
+              "key": "a",
+              "text": "notion"
+            },
+            {
+              "key": "b",
+              "text": "feature"
+            }
+          ],
+          "answer": "a",
+          "explanation": "notion 意為「概念、觀念」。",
+          "target_word": "notion"
+        },
+        {
+          "id": "u2a_vp_a3",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "These beliefs meant her company [devoted / subjective] time and money to raising awareness of the need to protect the environment.",
+          "options": [
+            {
+              "key": "a",
+              "text": "devoted"
+            },
+            {
+              "key": "b",
+              "text": "subjective"
+            }
+          ],
+          "answer": "a",
+          "explanation": "devote time and money 代表「投入、奉獻時間與金錢」。",
+          "target_word": "devote"
+        },
+        {
+          "id": "u2a_vp_a4",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "She supported developing countries, and created more environmentally friendly beauty products for [consumers / gender] to buy.",
+          "options": [
+            {
+              "key": "a",
+              "text": "consumers"
+            },
+            {
+              "key": "b",
+              "text": "gender"
+            }
+          ],
+          "answer": "a",
+          "explanation": "consumers 指購買產品的「消費者」。",
+          "target_word": "consumer"
+        },
+        {
+          "id": "u2a_vp_a5",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "While Roddick is most closely [associated with / uniform] The Body Shop, she also started a charity.",
+          "options": [
+            {
+              "key": "a",
+              "text": "associated with"
+            },
+            {
+              "key": "b",
+              "text": "uniform"
+            }
+          ],
+          "answer": "a",
+          "explanation": "be associated with 代表「與…產生聯想/緊密相連」。",
+          "target_word": "associate with"
+        },
+        {
+          "id": "u2a_vp_b1",
+          "section": "B",
+          "type": "CLOZE",
+          "question": "People don’t have [uniform / desire] ideas on what beauty is; opinions vary greatly.",
+          "options": [
+            {
+              "key": "a",
+              "text": "uniform"
+            },
+            {
+              "key": "b",
+              "text": "desire"
+            }
+          ],
+          "answer": "a",
+          "explanation": "uniform ideas 意為「一致的、標準劃一的想法」。",
+          "target_word": "uniform"
+        },
+        {
+          "id": "u2a_vp_b2",
+          "section": "B",
+          "type": "CLOZE",
+          "question": "Nowadays, many people of both [genders / notions] buy and use cosmetics.",
+          "options": [
+            {
+              "key": "a",
+              "text": "genders"
+            },
+            {
+              "key": "b",
+              "text": "notions"
+            }
+          ],
+          "answer": "a",
+          "explanation": "both genders 指「兩種性別（男女雙方）」。",
+          "target_word": "gender"
+        },
+        {
+          "id": "u2a_vp_b3",
+          "section": "B",
+          "type": "CLOZE",
+          "question": "People use makeup to enhance their [features / desires]—for example, by using blush to make their cheeks look pinker.",
+          "options": [
+            {
+              "key": "a",
+              "text": "features"
+            },
+            {
+              "key": "b",
+              "text": "desires"
+            }
+          ],
+          "answer": "a",
+          "explanation": "facial features 指「面部特徵/五官容貌」。",
+          "target_word": "feature"
+        },
+        {
+          "id": "u2a_vp_b4",
+          "section": "B",
+          "type": "CLOZE",
+          "question": "Our ideas about beauty are highly [subjective / uniform]; what one person finds attractive may be unattractive to another.",
+          "options": [
+            {
+              "key": "a",
+              "text": "subjective"
+            },
+            {
+              "key": "b",
+              "text": "uniform"
+            }
+          ],
+          "answer": "a",
+          "explanation": "subjective 意為「主觀的」，見仁見智。後面說明一人視為美、他人未必贊同。",
+          "target_word": "subjective"
+        },
+        {
+          "id": "u2a_vp_b5",
+          "section": "B",
+          "type": "CLOZE",
+          "question": "The [desire / notion] to look young has led to a boom in sales of anti-aging products.",
+          "options": [
+            {
+              "key": "a",
+              "text": "desire"
+            },
+            {
+              "key": "b",
+              "text": "notion"
+            }
+          ],
+          "answer": "a",
+          "explanation": "the desire to look young 意為「想要保持年輕的渴望」。",
+          "target_word": "desire"
+        }
+      ],
+      "red_words": [
+        {
+          "id": "u2a_w1",
+          "word": "devote",
+          "pos": "verb",
+          "ipa": "/dɪˈvoʊt/",
+          "zh": "奉獻、投入（時間或精力）",
+          "en_def": "to give all of something, especially your time, effort, or love, or yourself, to something you believe in",
+          "example": "Today, people continue to devote a lot of time and money to their appearance.",
+          "collocations": [
+            "devote time to",
+            "devote money to",
+            "devote one's life"
+          ]
+        },
+        {
+          "id": "u2a_w2",
+          "word": "consumer",
+          "pos": "noun",
+          "ipa": "/kənˈsuːmər/",
+          "zh": "消費者、顧客",
+          "en_def": "a person who buys goods or services for their own use",
+          "example": "One out of three consumers globally say they are spending more money on beauty products.",
+          "collocations": [
+            "consumer demand",
+            "consumer goods",
+            "protect consumers"
+          ]
+        },
+        {
+          "id": "u2a_w3",
+          "word": "desire",
+          "pos": "noun / verb",
+          "ipa": "/dɪˈzaɪər/",
+          "zh": "渴望、慾望",
+          "en_def": "a strong feeling that you want something",
+          "example": "And there is at least one good reason for the desire to be attractive: Beauty is power.",
+          "collocations": [
+            "strong desire",
+            "express a desire",
+            "satisfy a desire"
+          ]
+        },
+        {
+          "id": "u2a_w4",
+          "word": "feature",
+          "pos": "noun",
+          "ipa": "/ˈfiːtʃər/",
+          "zh": "容貌特徵、特色",
+          "en_def": "a noticeable or important characteristic or part of someone’s face",
+          "example": "Men regularly showed a preference for women with certain features: larger eyes, clear skin, fuller lips...",
+          "collocations": [
+            "facial features",
+            "key feature",
+            "distinguishing feature"
+          ]
+        },
+        {
+          "id": "u2a_w5",
+          "word": "notion",
+          "pos": "noun",
+          "ipa": "/ˈnoʊʃn/",
+          "zh": "觀念、看法、信念",
+          "en_def": "a belief or idea",
+          "example": "Not everyone agrees with this notion, however.",
+          "collocations": [
+            "popular notion",
+            "challenge a notion",
+            "reject the notion"
+          ]
+        },
+        {
+          "id": "u2a_w6",
+          "word": "subjective",
+          "pos": "adjective",
+          "ipa": "/səbˈdʒektɪv/",
+          "zh": "主觀的",
+          "en_def": "influenced by personal opinions and feelings rather than facts",
+          "example": "For them, what is considered beautiful is subjective and varies around the world.",
+          "collocations": [
+            "highly subjective",
+            "purely subjective",
+            "subjective view"
+          ]
+        },
+        {
+          "id": "u2a_w7",
+          "word": "associate with",
+          "pos": "phrasal verb",
+          "ipa": "/əˈsoʊʃieɪt wɪð/",
+          "zh": "與…產生聯想、聯繫",
+          "en_def": "to connect someone or something in your mind with someone or something else",
+          "example": "Teenage boys learn to decorate their hair—a behavior more commonly associated with the opposite gender.",
+          "collocations": [
+            "closely associated with",
+            "commonly associated with",
+            "be associated with risk"
+          ]
+        },
+        {
+          "id": "u2a_w8",
+          "word": "gender",
+          "pos": "noun",
+          "ipa": "/ˈdʒendər/",
+          "zh": "性別",
+          "en_def": "the condition of being male or female, especially when considered with reference to social and cultural differences",
+          "example": "A behavior more commonly associated with the opposite gender in many cultures.",
+          "collocations": [
+            "gender equality",
+            "opposite gender",
+            "gender role"
+          ]
+        },
+        {
+          "id": "u2a_w9",
+          "word": "conform",
+          "pos": "verb",
+          "ipa": "/kənˈfɔːrm/",
+          "zh": "順從、遵從、符合",
+          "en_def": "to behave according to the usual standards of behavior that are expected by a group or society",
+          "example": "Beauty does not always conform to a single, uniform standard.",
+          "collocations": [
+            "conform to rules",
+            "conform to standards",
+            "pressure to conform"
+          ]
+        },
+        {
+          "id": "u2a_w10",
+          "word": "uniform",
+          "pos": "adjective",
+          "ipa": "/ˈjuːnɪfɔːrm/",
+          "zh": "一致的、標準劃一的",
+          "en_def": "the same; not changing or different in any way",
+          "example": "Beauty does not always conform to a single, uniform standard.",
+          "collocations": [
+            "uniform standard",
+            "uniform style",
+            "apply a uniform rule"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2b",
+      "unit": "Unit 2B",
+      "chapter": "Chapter 2",
+      "title": "Skin: The Body's Canvas",
+      "subtitle": "Unmasking Skin",
+      "passage": [
+        {
+          "para": "A",
+          "text": "If you could take off your skin and lay it flat, it would cover an area of about 1.9 square meters. Skin is, by far, the body’s largest organ. Covering almost the entire body, skin protects us from a variety of external forces. For example, it protects us from extremes of temperature, damaging sunlight, harmful chemicals, and dangerous infections. Skin is also packed with nerves, which keeps the brain in touch with the outside world. The health of our skin and its ability to perform its protective functions are crucial to our well-being. However, the appearance of our skin is equally—if not more—important to many people on this planet."
+        },
+        {
+          "para": "B",
+          "text": "Take skin color, for example. Your genes determine your skin’s color, but for centuries, humans have tried to lighten or darken their skin in an attempt to be more attractive. In the 1800s, white skin was desirable for many Europeans. Skin this color meant that its owner was a member of the upper class and did not have to work in the sun. Among darker-skinned people in some parts of the world, products used to lighten skin are still popular today. During the 20th century, attitudes toward light skin shifted in the opposite direction in other cultures, as cities grew and work moved indoors. Tanned skin began to indicate leisure time and health. In many places today, tanning on the beach or in a salon remains popular, even though people are more aware of the dangers of UV rays."
+        },
+        {
+          "para": "C",
+          "text": "Just as people have altered their skin’s color to denote wealth and beauty, so too have cultures around the globe marked their skin to indicate cultural identity or community status. Tattooing, for example, has been carried out for thousands of years. Leaders in places including ancient Egypt, Britain, and Peru wore tattoos to mark their status, or their bravery. Today, among the Maori people of New Zealand as well as in cultures in Samoa, Tahiti, and Borneo, full-facial tattoos are still used to identify the wearer as a member of a certain family. These tattoos can also symbolize the person’s achievements in life."
+        },
+        {
+          "para": "D",
+          "text": "In Japan, tattooing has been practiced for thousands of years, but was outlawed in the 19th century. Although there are no laws against it today, tattoos are still strongly associated with criminals—particularly the yakuza, or the Japanese mafia, who are known for their full-body tattoos. The complex design of a yakuza member’s tattoo usually includes symbols of character traits that the wearer wants to have. The process of getting a full-body tattoo is both slow and painful and can take two years or more to complete."
+        },
+        {
+          "para": "E",
+          "text": "In some cultures, scarring—a marking caused by cutting or burning the skin—is practiced, usually among people who have darker skin on which a tattoo would be difficult to see. For many men in West Africa, for instance, scarring is a rite of passage—an act that symbolizes that a male has matured from a child into an adult. In Australia, among some native peoples, cuts are made on the skin of both men and women when they reach age 16 or 17. Without these, they were traditionally not permitted to trade, sing ceremonial songs, or participate in other activities."
+        },
+        {
+          "para": "F",
+          "text": "Not all skin markings are permanent, though. In countries such as Morocco and India, women decorate their skin with colorful henna designs for celebrations such as weddings and important religious holidays. The henna coloring, which comes from a plant, fades and disappears over time."
+        },
+        {
+          "para": "G",
+          "text": "In recent years in many industrialized nations, tattooing, henna body art, and, to a lesser degree, scarring have been gaining in popularity. What makes these practices appealing to those living in modern cities? According to photographer Chris Rainier, whose book Ancient Marks examines body markings around the globe, people are looking for a connection with the traditional world. “There is a whole sector of modern society—people in search of identity, people in search of meaning . . .,” says Rainier. “Hence, [there has been] a huge explosion of tattooing and body marking.” Rainier reasons that it’s “mankind wanting identity, wanting a sense of place . . . and a sense of culture within their community.”"
+        }
+      ],
+      "reading_comprehension": [
+        {
+          "id": "u2b_rc_1",
+          "section": "A",
+          "num": 1,
+          "type": "GIST / 主旨題",
+          "question": "What is this reading mainly about?",
+          "options": [
+            {
+              "key": "a",
+              "text": "the skin’s role in our overall health"
+            },
+            {
+              "key": "b",
+              "text": "the ways people change the appearance of their skin"
+            },
+            {
+              "key": "c",
+              "text": "the different reasons people get tattoos"
+            },
+            {
+              "key": "d",
+              "text": "cultural ceremonies that involve skin tattooing"
+            }
+          ],
+          "answer": "b",
+          "explanation": "全文探討人類跨越歷史與文化，透過各種方式改變皮膚的外觀（包括膚色美白與助曬、刺青紋身、劃痕疤痕印記以及指甲花彩繪），以展現階級、身分認同與美感。故選 (b)。",
+          "passage_ref": "Whole Passage"
+        },
+        {
+          "id": "u2b_rc_2",
+          "section": "A",
+          "num": 2,
+          "type": "INFERENCE / 推論題",
+          "question": "What can we infer about the tattoos of the Maori?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Only men get facial tattoos."
+            },
+            {
+              "key": "b",
+              "text": "Members of the same family have similar facial tattoos."
+            },
+            {
+              "key": "c",
+              "text": "No one gets their entire face tattooed anymore."
+            },
+            {
+              "key": "d",
+              "text": "Both men and women get facial tattoos but never body tattoos."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Paragraph C 提到紐西蘭毛利人的全臉刺青仍然被用來辨識佩戴者屬於哪一個特定家族（used to identify the wearer as a member of a certain family），由此可推論同家族成員具有相同或相似的圖騰特徵。故選 (b)。",
+          "passage_ref": "Paragraph C"
+        },
+        {
+          "id": "u2b_rc_3",
+          "section": "A",
+          "num": 3,
+          "type": "DETAIL / 細節題",
+          "question": "Why are tattoos disapproved of in Japanese society?",
+          "options": [
+            {
+              "key": "a",
+              "text": "They are often associated with crime."
+            },
+            {
+              "key": "b",
+              "text": "They often have political messages."
+            },
+            {
+              "key": "c",
+              "text": "They look unattractive."
+            },
+            {
+              "key": "d",
+              "text": "They can only be made illegally."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph D 指出刺青在19世紀曾遭日本官方禁止，至今日本社會仍將刺青與罪犯及黑道黑手黨（yakuza / Japanese mafia）強烈聯想在一起。故選 (a)。",
+          "passage_ref": "Paragraph D"
+        },
+        {
+          "id": "u2b_rc_4",
+          "section": "A",
+          "num": 4,
+          "type": "REFERENCE / 代名詞指涉題",
+          "question": "In the last sentence of paragraph E, what does 'these' refer to?",
+          "options": [
+            {
+              "key": "a",
+              "text": "cuts"
+            },
+            {
+              "key": "b",
+              "text": "customs"
+            },
+            {
+              "key": "c",
+              "text": "males"
+            },
+            {
+              "key": "d",
+              "text": "celebrations"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph E 前一句提到：「In Australia, among some native peoples, cuts are made on the skin of both men and women when they reach age 16 or 17. Without these...」，「these」指的就是這些割在皮膚上的刀痕（cuts）。故選 (a)。",
+          "passage_ref": "Paragraph E"
+        },
+        {
+          "id": "u2b_rc_5",
+          "section": "A",
+          "num": 5,
+          "type": "DETAIL / 細節反向題",
+          "question": "What is NOT true about henna designs?",
+          "options": [
+            {
+              "key": "a",
+              "text": "They are used to celebrate religious holidays."
+            },
+            {
+              "key": "b",
+              "text": "Women decorate their skin with them."
+            },
+            {
+              "key": "c",
+              "text": "They are permanent."
+            },
+            {
+              "key": "d",
+              "text": "They are made with plants."
+            }
+          ],
+          "answer": "c",
+          "explanation": "Paragraph F 明確指出並非所有皮膚印記都是永久的：「Not all skin markings are permanent, though... The henna coloring, which comes from a plant, fades and disappears over time.」指甲花彩繪會隨時間褪色消逝，並非永久性的。故選 (c)。",
+          "passage_ref": "Paragraph F"
+        },
+        {
+          "id": "u2b_rc_b1",
+          "section": "B",
+          "num": 1,
+          "type": "SHORT ANSWER / 簡答題",
+          "question": "Skin is '… by far the body’s largest organ.' How big is it, exactly?",
+          "options": [
+            {
+              "key": "a",
+              "text": "about 1.9 square meters"
+            },
+            {
+              "key": "b",
+              "text": "about 19 square meters"
+            },
+            {
+              "key": "c",
+              "text": "about 0.9 square meters"
+            },
+            {
+              "key": "d",
+              "text": "about 9.1 square meters"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph A 第一句指明：「...it would cover an area of about 1.9 square meters.」",
+          "passage_ref": "Paragraph A"
+        },
+        {
+          "id": "u2b_rc_b2",
+          "section": "B",
+          "num": 2,
+          "type": "SHORT ANSWER / 簡答題",
+          "question": "Skin 'protects us from a variety of external forces.' What is ONE example of an external force mentioned in the passage?",
+          "options": [
+            {
+              "key": "a",
+              "text": "extremes of temperature"
+            },
+            {
+              "key": "b",
+              "text": "high blood pressure"
+            },
+            {
+              "key": "c",
+              "text": "lack of sleep"
+            },
+            {
+              "key": "d",
+              "text": "loud noise"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph A 提到皮膚防禦的外力包含：extremes of temperature（極端氣溫）、damaging sunlight（有害陽光）、harmful chemicals（有害化學物質）與 dangerous infections（危險感染）。故選 (a)。",
+          "passage_ref": "Paragraph A"
+        },
+        {
+          "id": "u2b_rc_b3",
+          "section": "B",
+          "num": 3,
+          "type": "SHORT ANSWER / 簡答題",
+          "question": "“In recent years in many industrialized nations, tattooing … [has] been gaining in popularity.” What is the name of the expert who gives an opinion about this?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Chris Rainier"
+            },
+            {
+              "key": "b",
+              "text": "Peter Alegi"
+            },
+            {
+              "key": "c",
+              "text": "Sean McCann"
+            },
+            {
+              "key": "d",
+              "text": "Greg Louganis"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Paragraph G 指出攝影師與民俗研究專家 Chris Rainier 在其著作《Ancient Marks》中探討了現代人追求身體印記以尋求與傳統文化根源連結的觀點。故選 (a)。",
+          "passage_ref": "Paragraph G"
+        }
+      ],
+      "vocabulary_practice": [
+        {
+          "id": "u2b_vp_a1",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Tattooing was traditionally a(n) [crucial / external] part of life for members of the Iban tribe.",
+          "options": [
+            {
+              "key": "a",
+              "text": "crucial"
+            },
+            {
+              "key": "b",
+              "text": "external"
+            }
+          ],
+          "answer": "a",
+          "explanation": "a crucial part 意為「至關重要的部分」。",
+          "target_word": "crucial"
+        },
+        {
+          "id": "u2b_vp_a2",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "It was believed to have [protective / permanent] powers—defending the Iban people from harm and disease.",
+          "options": [
+            {
+              "key": "a",
+              "text": "protective"
+            },
+            {
+              "key": "b",
+              "text": "permanent"
+            }
+          ],
+          "answer": "a",
+          "explanation": "protective powers 意為「防禦、保護性的力量」。",
+          "target_word": "protective"
+        },
+        {
+          "id": "u2b_vp_a3",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "The dyes were [permanent / mature] and could not be removed.",
+          "options": [
+            {
+              "key": "a",
+              "text": "permanent"
+            },
+            {
+              "key": "b",
+              "text": "mature"
+            }
+          ],
+          "answer": "a",
+          "explanation": "permanent 意為永久的，無法洗除。",
+          "target_word": "permanent"
+        },
+        {
+          "id": "u2b_vp_a4",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Newly done Iban tattoos look dark, but they gradually [fade / sector] somewhat from sunlight.",
+          "options": [
+            {
+              "key": "a",
+              "text": "fade"
+            },
+            {
+              "key": "b",
+              "text": "sector"
+            }
+          ],
+          "answer": "a",
+          "explanation": "fade 意為褪色、顏色淡化。",
+          "target_word": "fade"
+        },
+        {
+          "id": "u2b_vp_a5",
+          "section": "A",
+          "type": "CLOZE",
+          "question": "Today, for a growing [sector / criminal] of Iban society, Western tattoos are more popular than traditional designs.",
+          "options": [
+            {
+              "key": "a",
+              "text": "sector"
+            },
+            {
+              "key": "b",
+              "text": "criminal"
+            }
+          ],
+          "answer": "a",
+          "explanation": "a growing sector of society 代表「社會中越來越大的某一部分族群」。",
+          "target_word": "sector"
+        },
+        {
+          "id": "u2b_vp_b1",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "A criminal is a person who ______ the law.",
+          "options": [
+            {
+              "key": "a",
+              "text": "follows"
+            },
+            {
+              "key": "b",
+              "text": "breaks"
+            }
+          ],
+          "answer": "b",
+          "explanation": "criminal 意為罪犯，指違犯法律的人 (breaks the law)。",
+          "target_word": "criminal"
+        },
+        {
+          "id": "u2b_vp_b2",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "A leisure activity is one you enjoy doing when you ______ working.",
+          "options": [
+            {
+              "key": "a",
+              "text": "are"
+            },
+            {
+              "key": "b",
+              "text": "are not"
+            }
+          ],
+          "answer": "b",
+          "explanation": "leisure 意為休閒閒暇，即不在工作時 (are not working)。",
+          "target_word": "leisure"
+        },
+        {
+          "id": "u2b_vp_b3",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "Something external is on the ______.",
+          "options": [
+            {
+              "key": "a",
+              "text": "inside, not the outside"
+            },
+            {
+              "key": "b",
+              "text": "outside, not the inside"
+            }
+          ],
+          "answer": "b",
+          "explanation": "external 意為外在的、外部的 (on the outside)。",
+          "target_word": "external"
+        },
+        {
+          "id": "u2b_vp_b4",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "You are more likely to describe a ______ as mature.",
+          "options": [
+            {
+              "key": "a",
+              "text": "two-year-old"
+            },
+            {
+              "key": "b",
+              "text": "30-year-old"
+            }
+          ],
+          "answer": "b",
+          "explanation": "mature 意為心智或生理發育成熟的，指30歲成年人而非2歲幼童。",
+          "target_word": "mature"
+        },
+        {
+          "id": "u2b_vp_b5",
+          "section": "B",
+          "type": "DEFINITION",
+          "question": "A person’s status relates to their ______ in society.",
+          "options": [
+            {
+              "key": "a",
+              "text": "rank or position"
+            },
+            {
+              "key": "b",
+              "text": "health and diet"
+            }
+          ],
+          "answer": "a",
+          "explanation": "status 意為社會地位、身分階級 (rank or position)。",
+          "target_word": "status"
+        }
+      ],
+      "red_words": [
+        {
+          "id": "u2b_w1",
+          "word": "external",
+          "pos": "adjective",
+          "ipa": "/ɪkˈstɜːrnl/",
+          "zh": "外部的、外在的",
+          "en_def": "of, on, for, or coming from the outside",
+          "example": "Covering almost the entire body, skin protects us from a variety of external forces.",
+          "collocations": [
+            "external force",
+            "external pressure",
+            "external factor"
+          ]
+        },
+        {
+          "id": "u2b_w2",
+          "word": "protective",
+          "pos": "adjective",
+          "ipa": "/prəˈtektɪv/",
+          "zh": "保護性的、防護的",
+          "en_def": "giving protection or intended to protect someone or something",
+          "example": "The health of our skin and its ability to perform its protective functions are crucial to our well-being.",
+          "collocations": [
+            "protective function",
+            "protective layer",
+            "protective clothing"
+          ]
+        },
+        {
+          "id": "u2b_w3",
+          "word": "crucial",
+          "pos": "adjective",
+          "ipa": "/ˈkruːʃl/",
+          "zh": "至關重要的、關鍵性的",
+          "en_def": "extremely important or necessary",
+          "example": "Its ability to perform its protective functions are crucial to our well-being.",
+          "collocations": [
+            "crucial role",
+            "crucial factor",
+            "crucial decision"
+          ]
+        },
+        {
+          "id": "u2b_w4",
+          "word": "leisure",
+          "pos": "noun",
+          "ipa": "/ˈliːʒər/",
+          "zh": "休閒、閒暇",
+          "en_def": "the time when you are not working or doing other duties",
+          "example": "Tanned skin began to indicate leisure time and health.",
+          "collocations": [
+            "leisure time",
+            "leisure activity",
+            "at one's leisure"
+          ]
+        },
+        {
+          "id": "u2b_w5",
+          "word": "status",
+          "pos": "noun",
+          "ipa": "/ˈsteɪtəs/",
+          "zh": "地位、身分、狀態",
+          "en_def": "an accepted or official position, especially in a social group",
+          "example": "Leaders wore tattoos to mark their status, or their bravery.",
+          "collocations": [
+            "social status",
+            "community status",
+            "high status"
+          ]
+        },
+        {
+          "id": "u2b_w6",
+          "word": "criminal",
+          "pos": "noun / adjective",
+          "ipa": "/ˈkrɪmɪnl/",
+          "zh": "罪犯；犯法的",
+          "en_def": "someone who commits a crime",
+          "example": "Tattoos are still strongly associated with criminals—particularly the yakuza.",
+          "collocations": [
+            "criminal organization",
+            "criminal record",
+            "convicted criminal"
+          ]
+        },
+        {
+          "id": "u2b_w7",
+          "word": "mature",
+          "pos": "verb / adjective",
+          "ipa": "/məˈtʃʊr/",
+          "zh": "成熟、長成；發育成熟的",
+          "en_def": "to become more developed mentally and emotionally and behave like an adult",
+          "example": "An act that symbolizes that a male has matured from a child into an adult.",
+          "collocations": [
+            "mature adult",
+            "mature attitude",
+            "mature with age"
+          ]
+        },
+        {
+          "id": "u2b_w8",
+          "word": "permanent",
+          "pos": "adjective",
+          "ipa": "/ˈpɜːrmənənt/",
+          "zh": "永久的、持久的",
+          "en_def": "lasting for a long time or forever",
+          "example": "Not all skin markings are permanent, though.",
+          "collocations": [
+            "permanent marker",
+            "permanent damage",
+            "permanent address"
+          ]
+        },
+        {
+          "id": "u2b_w9",
+          "word": "fade",
+          "pos": "verb",
+          "ipa": "/feɪd/",
+          "zh": "褪色、逐漸消失",
+          "en_def": "to lose color, brightness, or strength gradually",
+          "example": "The henna coloring, which comes from a plant, fades and disappears over time.",
+          "collocations": [
+            "fade away",
+            "fade over time",
+            "colors fade"
+          ]
+        },
+        {
+          "id": "u2b_w10",
+          "word": "sector",
+          "pos": "noun",
+          "ipa": "/ˈsektər/",
+          "zh": "部門、領域、某部分族群",
+          "en_def": "one of the areas into which the economic activity or population of a country is divided",
+          "example": "There is a whole sector of modern society—people in search of identity, people in search of meaning...",
+          "collocations": [
+            "sector of society",
+            "private sector",
+            "public sector"
+          ]
+        }
+      ]
+    }
+  ]
+}

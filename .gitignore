@@ -1,0 +1,6 @@
+# Ignore massive PDF files and local scratch scripts
+*.pdf
+.system_generated/
+scratch/
+.DS_Store
+Thumbs.db
